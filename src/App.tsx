@@ -12,25 +12,15 @@ const App = () => {
 
   const data = giftcardsByCountry[selectedCountry] || [];
 
-  // Extraer categorías únicas
-  const categories = Array.from(
-    new Set(data.map((entry) => entry.category))
-  );
+  const categories = data.map((entry) => entry.category);
 
-  // Agrupar por categoría
-  const groupedByCategory = categories.map((cat) => ({
-    id: cat.toLowerCase().replace(/\s+/g, "-"),
-    name: cat,
-    cards: data.filter((entry) => entry.category === cat),
-  }));
-
-  // Si hay categoría seleccionada, filtrar
-  const visibleCategories = selectedCategory
-    ? groupedByCategory.filter((c) => c.name === selectedCategory)
-    : groupedByCategory;
+  const filteredData = selectedCategory
+    ? data.filter((entry) => entry.category === selectedCategory)
+    : data;
 
   return (
     <div className="p-4 font-montserrat bg-white">
+      {/* Country Buttons */}
       <div className="flex gap-2 flex-wrap mb-4">
         {Object.keys(giftcardsByCountry).map((country) => (
           <CountryButton
@@ -45,16 +35,22 @@ const App = () => {
         ))}
       </div>
 
+      {/* Category Selector */}
       <CategorySelector
         categories={categories}
         activeCategory={selectedCategory}
         setActiveCategory={setSelectedCategory}
       />
 
-      {visibleCategories.map((category, index) => (
+      {/* Category Sections */}
+      {filteredData.map((categoryData, index) => (
         <CategorySection
-          key={category.id}
-          category={category}
+          key={`${selectedCountry}-${categoryData.category}`}
+          category={{
+            id: `${selectedCountry}-${categoryData.category}`,
+            name: categoryData.category,
+            cards: categoryData.cards,
+          }}
           searchTerm=""
           delay={index * 100}
         />
