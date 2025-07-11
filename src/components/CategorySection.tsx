@@ -13,7 +13,7 @@ interface Category {
   id: string;
   icon?: React.ComponentType<{ className?: string }>;
   name: string;
-  cards: GiftCardData[];
+  giftcards: GiftCardData[]; // ✅ Corregido de 'cards' a 'giftcards'
 }
 
 interface CategorySectionProps {
@@ -22,21 +22,21 @@ interface CategorySectionProps {
   delay: number;
 }
 
-export const CategorySection = ({ category, searchTerm, delay }: CategorySectionProps) => {
-  const filteredCards = category.cards.filter(card =>
+export const CategorySection = ({
+  category,
+  searchTerm,
+  delay,
+}: CategorySectionProps) => {
+  const filteredCards = category.giftcards.filter((card) =>
     card.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   if (filteredCards.length === 0) return null;
 
-  // Fallback: si no hay icono, no renderizar el div del icono
   const IconComponent = category.icon;
 
   return (
-    <div 
-      className="animate-fade-in"
-      style={{ animationDelay: `${delay}ms` }}
-    >
+    <div className="animate-fade-in" style={{ animationDelay: `${delay}ms` }}>
       {/* Category Header */}
       <div className="flex items-center gap-4 mb-6">
         {IconComponent ? (
@@ -49,7 +49,8 @@ export const CategorySection = ({ category, searchTerm, delay }: CategorySection
             {category.name}
           </h2>
           <Badge variant="secondary" className="text-sm">
-            {filteredCards.length} {filteredCards.length === 1 ? 'opción' : 'opciones'}
+            {filteredCards.length}{" "}
+            {filteredCards.length === 1 ? "opción" : "opciones"}
           </Badge>
         </div>
       </div>
@@ -58,9 +59,9 @@ export const CategorySection = ({ category, searchTerm, delay }: CategorySection
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-6">
         {filteredCards.map((card, index) => (
           <GiftCard
-            key={category.id + '-' + card.id + '-' + index}
+            key={`${category.id}-${card.id}-${index}`}
             card={card}
-            delay={delay + (index * 50)}
+            delay={delay + index * 50}
           />
         ))}
       </div>
