@@ -67,3 +67,5 @@ export const CategorySection = ({ category, searchTerm, delay }: CategorySection
     </div>
   );
 };
+
+export default CategorySection;
