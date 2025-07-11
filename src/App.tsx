@@ -1,27 +1,53 @@
-import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./pages/Index";
-import NotFound from "./pages/NotFound";
+import React, { useState } from "react";
+import "./index.css";
+import CountryButton from "./components/CountryButton";
+import CategorySection from "./components/CategorySection";
+import CategorySelector from "./CategorySelector";
+import data from "./data/giftcards.json";
 
-const queryClient = new QueryClient();
+const App = () => {
+  const [selectedCountry, setSelectedCountry] = useState("México");
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
-const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
-    </TooltipProvider>
-  </QueryClientProvider>
-);
+  const countryList = Object.keys(data);
+  const allCategories = Array.from(
+    new Set(
+      countryList.flatMap((country) =>
+        data[country].map((card) => card.category)
+      )
+    )
+  );
+
+  const filteredGiftCards = data[selectedCountry].filter((card) =>
+    selectedCategory ? card.category === selectedCategory : true
+  );
+
+  return (
+    <div className="p-4 font-montserrat bg-white">
+      <div className="flex gap-2 flex-wrap mb-4">
+        {countryList.map((country) => (
+          <CountryButton
+            key={country}
+            country={country}
+            selected={country === selectedCountry}
+            onClick={() => setSelectedCountry(country)}
+          />
+        ))}
+      </div>
+
+      <CategorySelector
+        categories={allCategories}
+        activeCategory={selectedCategory}
+        setActiveCategory={setSelectedCategory}
+      />
+
+      <CategorySection
+        country={selectedCountry}
+        giftCards={filteredGiftCards}
+      />
+    </div>
+  );
+};
 
 export default App;
+
