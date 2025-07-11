@@ -5,7 +5,7 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-// Agrupa giftcards planas por categoría
+// Utilidad para transformar el JSON de giftcards al formato de categorías y tarjetas esperado por los componentes
 export function mapGiftCardsJsonToCategories(
   json: any[]
 ): Array<{
@@ -18,24 +18,22 @@ export function mapGiftCardsJsonToCategories(
     alt: string;
   }>;
 }> {
-  const categoriesMap: Record<string, any[]> = {};
+  return json.map((cat) => {
+    // Compatibilidad: acepta claves en español o inglés
+    const catName = cat.Categoria || cat.category || "Sin categoría";
+    const cardsArr = cat["Gift Cards"] || cat.giftcards || [];
 
-  json.forEach((card) => {
-    const categoryName = card.Categoria || card.category || "Sin categoría";
-    if (!categoriesMap[categoryName]) {
-      categoriesMap[categoryName] = [];
-    }
-    categoriesMap[categoryName].push({
-      id: card["posición"] || card["position"] || card["nombre"] || card["name"] || "",
-      name: card["nombre"] || card["name"] || "",
-      image: card["Fuente imagen"] || card["image_url"] || "",
-      alt: card["nombre"] || card["name"] || "Gift Card",
-    });
+    return {
+      id: catName.toLowerCase().replace(/\s+/g, "-"),
+      name: catName,
+      cards: Array.isArray(cardsArr)
+        ? cardsArr.map((card: any) => ({
+            id: card["posición"] || card["position"] || card["nombre"] || card["name"] || "",
+            name: card["nombre"] || card["name"] || "",
+            image: card["Fuente imagen"] || card["image_url"] || "",
+            alt: card["nombre"] || card["name"] || "Gift Card",
+          }))
+        : [], // fallback en caso de que giftcards no sea array
+    };
   });
-
-  return Object.entries(categoriesMap).map(([name, cards]) => ({
-    id: name.toLowerCase().replace(/\s+/g, "-"),
-    name,
-    cards,
-  }));
 }
