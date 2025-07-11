@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./index.css";
 import CountryButton from "./components/CountryButton";
 import CategorySection from "./components/CategorySection";
-import CategorySelector from "./CategorySelector";
+import CategorySelector from "./components/CategorySelector";
 import data from "./data/giftcards.json";
 
 const App = () => {
