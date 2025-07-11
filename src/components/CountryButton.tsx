@@ -19,3 +19,6 @@ export const CountryButton: React.FC<CountryButtonProps> = ({ code, name, image,
     <span className="text-xs font-semibold">{name}</span>
   </button>
 );
+
+
+export default CountryButton;
