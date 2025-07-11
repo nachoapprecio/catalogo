@@ -1,0 +1,247 @@
+[
+  {
+    "category": "GRANDES TIENDAS",
+    "giftcards": [
+      {
+        "position": "1",
+        "name": "Gift Card Hipermercados Coral",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/17.jpg"
+      },
+      {
+        "position": "2",
+        "name": "Gift Card Electro y hogar Coral",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/18.jpg"
+      },
+      {
+        "position": "3",
+        "name": "Gift Card La Favorita",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/27.jpg"
+      },
+      {
+        "position": "4",
+        "name": "Gift Card Super Saldos",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/30.jpg"
+      },
+      {
+        "position": "5",
+        "name": "Gift Card Mi Comisariato",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/54.jpg"
+      },
+      {
+        "position": "6",
+        "name": "Gift Card Ferrisariato",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/55.jpg"
+      },
+      {
+        "position": "7",
+        "name": "Gift Card Mi Jugueteria",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/56.jpg"
+      },
+      {
+        "position": "8",
+        "name": "Gift Card Rio Store",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/57.jpg"
+      },
+      {
+        "position": "9",
+        "name": "Gift Card Baby Center",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/58.jpg"
+      },
+      {
+        "position": "10",
+        "name": "Gift Card Mini",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/60.jpg"
+      },
+      {
+        "position": "11",
+        "name": "Gift Card Metropolis",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/61.jpg"
+      },
+      {
+        "position": "12",
+        "name": "Gift Card Hiper Market",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/62.jpg"
+      }
+    ]
+  },
+  {
+    "category": "SUPERMERCADOS Y MINIMARKET",
+    "giftcards": [
+      {
+        "position": "1",
+        "name": "Gift Card Supermercado Coral",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/21.jpg"
+      },
+      {
+        "position": "2",
+        "name": "Gift Card Super Maxi",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/29.jpg"
+      },
+      {
+        "position": "3",
+        "name": "Gift Card Super AKI",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/31.jpg"
+      },
+      {
+        "position": "4",
+        "name": "Gift Card MEGAMAXI",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/33.jpg"
+      },
+      {
+        "position": "5",
+        "name": "Gift Card Gran_Aki",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/35.jpg"
+      },
+      {
+        "position": "6",
+        "name": "Gift Card Aki_Vecino",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/36.jpg"
+      },
+      {
+        "position": "7",
+        "name": "Gift Card Supermercados_AKI",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/37.jpg"
+      },
+      {
+        "position": "8",
+        "name": "Gift Card TIA",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/53.jpg"
+      }
+    ]
+  },
+  {
+    "category": "VUELOS Y EXPERIENCIAS",
+    "giftcards": [
+      {
+        "position": "1",
+        "name": "Gift Card BM Tours Vuelos",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/48.jpg"
+      },
+      {
+        "position": "2",
+        "name": "Gift Card BM Tours Hoteles",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/49.jpg"
+      },
+      {
+        "position": "3",
+        "name": "Gift Card BM Tours",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/50.jpg"
+      },
+      {
+        "position": "4",
+        "name": "Gift Card BM Tours Actividades",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/51.jpg"
+      }
+    ]
+  },
+  {
+    "category": "GASTRONOMIA",
+    "giftcards": [
+      {
+        "position": "1",
+        "name": "Gift Card SUBWAY",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/24.jpg"
+      },
+      {
+        "position": "2",
+        "name": "Gift Card Sweet and coffee",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/38.jpg"
+      },
+      {
+        "position": "3",
+        "name": "Gift Card El Corral",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/45.jpg"
+      },
+      {
+        "position": "4",
+        "name": "Gift Card Ihop",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/64.jpg"
+      },
+      {
+        "position": "5",
+        "name": "Gift Card Carls Jr.",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/65.jpg"
+      },
+      {
+        "position": "6",
+        "name": "Gift Card Chili's",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/66.jpg"
+      },
+      {
+        "position": "7",
+        "name": "Gift Card Red Lobster",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/67.jpg"
+      }
+    ]
+  },
+  {
+    "category": "SERVICIOS",
+    "giftcards": [
+      {
+        "position": "1",
+        "name": "Gift Card Dcanje",
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/30.jpg"
+      }
+    ]
+  },
+  {
+    "category": "VESTUARIO, CALZADO Y ACCESORIOS",
+    "giftcards": [
+      {
+        "position": "1",
+        "name": "Gift Card Vestuario y Calzado Coral",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/22.jpg"
+      }
+    ]
+  },
+  {
+    "category": "TIENDAS ESPECIALIZADAS",
+    "giftcards": [
+      {
+        "position": "1",
+        "name": "Gift Card Homecenter Coral",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/19.jpg"
+      },
+      {
+        "position": "2",
+        "name": "Gift Card MINISO",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/25.jpg"
+      },
+      {
+        "position": "3",
+        "name": "Gift Card Moblart",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/32.jpg"
+      }
+    ]
+  },
+  {
+    "category": "ENTRETENCIÓN Y TIEMPO LIBRE",
+    "giftcards": [
+      {
+        "position": "1",
+        "name": "Gift Card Juguetería Coral",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/20.jpg"
+      },
+      {
+        "position": "2",
+        "name": "Gift Card Jugueton",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/34.jpg"
+      },
+      {
+        "position": "3",
+        "name": "Gift Card Super Cines",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/63.jpg"
+      }
+    ]
+  },
+  {
+    "category": "EDUCACION",
+    "giftcards": [
+      {
+        "position": "1",
+        "name": "Gift Card Letz Curso Inglés",
+        "image_url": "https://cdn.dcanje.com/ec.dcanje.com/giftcards/46.jpg"
+      }
+    ]
+  }
+]
