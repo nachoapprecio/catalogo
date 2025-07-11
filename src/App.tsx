@@ -22,6 +22,7 @@ const App = () => {
 
   return (
     <div className="p-4 font-montserrat bg-white">
+      {/* Países */}
       <div className="flex gap-2 flex-wrap mb-4">
         {Object.keys(giftcardsByCountry).map((country) => (
           <CountryButton
@@ -36,16 +37,26 @@ const App = () => {
         ))}
       </div>
 
+      {/* Categorías */}
       <CategorySelector
         categories={categories}
         activeCategory={selectedCategory}
         setActiveCategory={setSelectedCategory}
       />
 
-      <CategorySection
-        country={selectedCountry}
-        giftCards={filteredData}
-      />
+      {/* Gift Cards por Categoría */}
+      {filteredData.map((catEntry, index) => (
+        <CategorySection
+          key={catEntry.category}
+          category={{
+            id: catEntry.category,
+            name: catEntry.category,
+            cards: catEntry.cards,
+          }}
+          searchTerm=""
+          delay={index * 100}
+        />
+      ))}
     </div>
   );
 };
