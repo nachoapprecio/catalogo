@@ -1,4 +1,3 @@
-
 import React from "react";
 
 type Props = {
@@ -35,12 +34,12 @@ const CategorySelector: React.FC<Props> = ({ categories, activeCategory, setActi
             <button
               key={cat}
               onClick={() => setActiveCategory(cat === activeCategory ? null : cat)}
-              className={\`
+              className={`
                 font-montserrat px-4 py-2 border 
-                \${activeCategory === null || activeCategory === cat
+                ${activeCategory === null || activeCategory === cat
                   ? "border-[#fa345e] text-[#fa345e] font-bold active"
                   : "border-black text-black inactive"}
-              \`}
+              `}
             >
               {cat}
             </button>
