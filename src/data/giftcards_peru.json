@@ -1,0 +1,398 @@
+[
+  {
+    "id": "supermercados-y-minimarket",
+    "name": "SUPERMERCADOS Y MINIMARKET",
+    "cards": [
+      {
+        "id": "1",
+        "name": "Gift Card Metro",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/3.jpg",
+        "alt": "Gift Card Metro"
+      },
+      {
+        "id": "2",
+        "name": "Gift Card Wong",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/4.jpg",
+        "alt": "Gift Card Wong"
+      }
+    ]
+  },
+  {
+    "id": "e-commerce",
+    "name": "E-COMMERCE",
+    "cards": [
+      {
+        "id": "1",
+        "name": "Gift Card BESTWAY",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/85.jpg",
+        "alt": "Gift Card BESTWAY"
+      },
+      {
+        "id": "2",
+        "name": "Gift Card TIENDA DEL HINCHA",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/86.jpg",
+        "alt": "Gift Card TIENDA DEL HINCHA"
+      },
+      {
+        "id": "3",
+        "name": "Gift Card NATIONAL GEOGRAPHIC",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/87.jpg",
+        "alt": "Gift Card NATIONAL GEOGRAPHIC"
+      },
+      {
+        "id": "4",
+        "name": "Gift Card PedidosYA",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/95.jpg",
+        "alt": "Gift Card PedidosYA"
+      },
+      {
+        "id": "5",
+        "name": "Gift Card TAI LOY INTERNET",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/162.jpg",
+        "alt": "Gift Card TAI LOY INTERNET"
+      }
+    ]
+  },
+  {
+    "id": "grandes-tiendas",
+    "name": "GRANDES TIENDAS",
+    "cards": [
+      {
+        "id": "1",
+        "name": "Gift Card SAGA FALABELLA",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/6.jpg",
+        "alt": "Gift Card SAGA FALABELLA"
+      },
+      {
+        "id": "2",
+        "name": "Gift Card SAGA FALABELLA",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/7.jpg",
+        "alt": "Gift Card SAGA FALABELLA"
+      },
+      {
+        "id": "3",
+        "name": "Gift Card Tai Loy",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/33.jpg",
+        "alt": "Gift Card Tai Loy"
+      },
+      {
+        "id": "4",
+        "name": "Gift Card RIPLEY",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/106.jpg",
+        "alt": "Gift Card RIPLEY"
+      },
+      {
+        "id": "5",
+        "name": "Gift Card EFE",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/120.jpg",
+        "alt": "Gift Card EFE"
+      },
+      {
+        "id": "6",
+        "name": "Gift Card La Curacao",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/121.jpg",
+        "alt": "Gift Card La Curacao"
+      }
+    ]
+  },
+  {
+    "id": "vuelos-y-experiencias",
+    "name": "VUELOS Y EXPERIENCIAS",
+    "cards": [
+      {
+        "id": "1",
+        "name": "Gift Card BIGBOX AVENTURA",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/174.jpg",
+        "alt": "Gift Card BIGBOX AVENTURA"
+      },
+      {
+        "id": "2",
+        "name": "Gift Card BIGBOX ESTAR BIEN",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/176.jpg",
+        "alt": "Gift Card BIGBOX ESTAR BIEN"
+      },
+      {
+        "id": "3",
+        "name": "Gift Card BIGBOX GASTRONOMIA",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/177.jpg",
+        "alt": "Gift Card BIGBOX GASTRONOMIA"
+      },
+      {
+        "id": "4",
+        "name": "Gift Card BIGBOX CURSOS TALLERES",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/178.jpg",
+        "alt": "Gift Card BIGBOX CURSOS TALLERES"
+      },
+      {
+        "id": "5",
+        "name": "Gift Card BIGBOX ESTADIAS",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/179.jpg",
+        "alt": "Gift Card BIGBOX ESTADIAS"
+      },
+      {
+        "id": "6",
+        "name": "Gift Card BIGBOX EN CASA",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/180.jpg",
+        "alt": "Gift Card BIGBOX EN CASA"
+      }
+    ]
+  },
+  {
+    "id": "gastronomia",
+    "name": "GASTRONOMIA",
+    "cards": [
+      {
+        "id": "1",
+        "name": "Gift Card Tortas Gaby",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/35.jpg",
+        "alt": "Gift Card Tortas Gaby"
+      },
+      {
+        "id": "2",
+        "name": "Gift Card La Iberica",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/76.jpg",
+        "alt": "Gift Card La Iberica"
+      },
+      {
+        "id": "3",
+        "name": "Gift Card Popeyes",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/96.jpg",
+        "alt": "Gift Card Popeyes"
+      },
+      {
+        "id": "4",
+        "name": "Gift Card Burger King",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/105.jpg",
+        "alt": "Gift Card Burger King"
+      },
+      {
+        "id": "5",
+        "name": "Gift Card K.F.C",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/107.jpg",
+        "alt": "Gift Card K.F.C"
+      },
+      {
+        "id": "6",
+        "name": "Gift Card K.F.C",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/108.jpg",
+        "alt": "Gift Card K.F.C"
+      },
+      {
+        "id": "7",
+        "name": "Gift Card K.F.C",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/109.jpg",
+        "alt": "Gift Card K.F.C"
+      },
+      {
+        "id": "8",
+        "name": "Gift Card Pinkberry",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/110.jpg",
+        "alt": "Gift Card Pinkberry"
+      },
+      {
+        "id": "9",
+        "name": "Gift Card Pizza Hut",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/112.jpg",
+        "alt": "Gift Card Pizza Hut"
+      },
+      {
+        "id": "10",
+        "name": "Gift Card Starbucks",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/113.jpg",
+        "alt": "Gift Card Starbucks"
+      },
+      {
+        "id": "11",
+        "name": "Gift Card Rokys",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/117.jpg",
+        "alt": "Gift Card Rokys"
+      },
+      {
+        "id": "12",
+        "name": "Gift Card Rokys",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/118.jpg",
+        "alt": "Gift Card Rokys"
+      },
+      {
+        "id": "13",
+        "name": "Gift Card K.F.C",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/122.jpg",
+        "alt": "Gift Card K.F.C"
+      },
+      {
+        "id": "14",
+        "name": "Gift Card K.F.C",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/123.jpg",
+        "alt": "Gift Card K.F.C"
+      },
+      {
+        "id": "15",
+        "name": "Gift Card K.F.C",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/128.jpg",
+        "alt": "Gift Card K.F.C"
+      },
+      {
+        "id": "16",
+        "name": "Gift Card Fridays",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/129.jpg",
+        "alt": "Gift Card Fridays"
+      },
+      {
+        "id": "17",
+        "name": "Gift Card Papa Johns",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/141.jpg",
+        "alt": "Gift Card Papa Johns"
+      },
+      {
+        "id": "18",
+        "name": "Gift Card Don Belisario",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/154.jpg",
+        "alt": "Gift Card Don Belisario"
+      },
+      {
+        "id": "19",
+        "name": "Gift Card Bembos",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/164.jpg",
+        "alt": "Gift Card Bembos"
+      },
+      {
+        "id": "20",
+        "name": "Gift Card Chilis",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/165.jpg",
+        "alt": "Gift Card Chilis"
+      },
+      {
+        "id": "21",
+        "name": "Gift Card Chilis",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/166.jpg",
+        "alt": "Gift Card Chilis"
+      },
+      {
+        "id": "22",
+        "name": "Gift Card Popeyes",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/182.jpg",
+        "alt": "Gift Card Popeyes"
+      },
+      {
+        "id": "23",
+        "name": "Gift Card Bembos",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/183.jpg",
+        "alt": "Gift Card Bembos"
+      },
+      {
+        "id": "24",
+        "name": "Gift Card China Wok",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/184.jpg",
+        "alt": "Gift Card China Wok"
+      },
+      {
+        "id": "25",
+        "name": "Gift Card Papa Johns Pizza Grande",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/188.jpg",
+        "alt": "Gift Card Papa Johns Pizza Grande"
+      },
+      {
+        "id": "26",
+        "name": "Gift Card Pizza Hut Personal",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/189.jpg",
+        "alt": "Gift Card Pizza Hut Personal"
+      },
+      {
+        "id": "27",
+        "name": "Gift Card Pinkberry 2 medianos + toppings",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/192.jpg",
+        "alt": "Gift Card Pinkberry 2 medianos + toppings"
+      },
+      {
+        "id": "28",
+        "name": "Gift Card Starbucks bebida tamaño alto + postre",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/193.jpg",
+        "alt": "Gift Card Starbucks bebida tamaño alto + postre"
+      },
+      {
+        "id": "29",
+        "name": "Gift Card Starbucks bebida grande + chicken ciabat",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/194.jpg",
+        "alt": "Gift Card Starbucks bebida grande + chicken ciabat"
+      },
+      {
+        "id": "30",
+        "name": "Gift Card Dunkin Donut VC55",
+        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/198.jpg",
+        "alt": "Gift Card Dunkin Donut VC55"
+      },
+      {
+        "id": "31",
+        "name": "Gift Card Madam Tusan",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/199.jpg",
+        "alt": "Gift Card Madam Tusan"
+      }
+    ]
+  },
+  {
+    "id": "servicios",
+    "name": "SERVICIOS",
+    "cards": [
+      {
+        "id": "1",
+        "name": "Gift Card Cineplanet",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/Cine_CP_104.jpg",
+        "alt": "Gift Card Cineplanet"
+      },
+      {
+        "id": "2",
+        "name": "Gift Card Alerta Médica",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/116.jpg",
+        "alt": "Gift Card Alerta Médica"
+      },
+      {
+        "id": "3",
+        "name": "Gift Card Cineplanet",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/Cine_CP_119.jpg",
+        "alt": "Gift Card Cineplanet"
+      }
+    ]
+  },
+  {
+    "id": "entretención-y-tiempo-libre",
+    "name": "ENTRETENCIÓN Y TIEMPO LIBRE",
+    "cards": [
+      {
+        "id": "1",
+        "name": "Gift Card DCANJE",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/30.jpg",
+        "alt": "Gift Card DCANJE"
+      },
+      {
+        "id": "2",
+        "name": "Gift Card Play Station",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/144.jpg",
+        "alt": "Gift Card Play Station"
+      },
+      {
+        "id": "3",
+        "name": "Gift Card Coney Park 60",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/167.jpg",
+        "alt": "Gift Card Coney Park 60"
+      },
+      {
+        "id": "4",
+        "name": "Gift Card Coney Active 60",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/168.jpg",
+        "alt": "Gift Card Coney Active 60"
+      },
+      {
+        "id": "5",
+        "name": "Gift Card Coney Park 90",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/169.jpg",
+        "alt": "Gift Card Coney Park 90"
+      },
+      {
+        "id": "6",
+        "name": "Gift Card Coney Active 90",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/170.jpg",
+        "alt": "Gift Card Coney Active 90"
+      }
+    ]
+  }
+]
