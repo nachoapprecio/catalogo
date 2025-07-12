@@ -1,3 +1,5 @@
+import { Card, CardContent } from "@/components/ui/card";
+
 export const GiftCard = ({ card, delay }: GiftCardProps) => {
   return (
     <div
