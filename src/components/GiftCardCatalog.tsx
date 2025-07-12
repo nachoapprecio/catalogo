@@ -5,7 +5,18 @@ import { CategorySection } from "./CategorySection";
 import { CountryButton } from "./CountryButton";
 import { giftcardsByCountry, countryList } from "@/data/giftcardsByCountry";
 import { mapGiftCardsJsonToCategories } from "@/lib/utils";
-import { ShoppingCart, Utensils, Plane, Dumbbell, Shirt, Heart, Gamepad2, Wrench, Globe, Smartphone } from "lucide-react";
+import {
+  ShoppingCart,
+  Utensils,
+  Plane,
+  Dumbbell,
+  Shirt,
+  Heart,
+  Gamepad2,
+  Wrench,
+  Globe,
+  Smartphone,
+} from "lucide-react";
 
 // Mapeo de iconos por nombre de categoría
 const iconMap: Record<string, any> = {
@@ -30,7 +41,6 @@ export const GiftCardCatalog = () => {
   const [selectedCountry, setSelectedCountry] = useState<string>("all");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
-  // Agrupa todas las categorías de todos los países (sin duplicados por nombre)
   const allCategories = useMemo(() => {
     const all = Object.values(giftcardsByCountry).flatMap(mapGiftCardsJsonToCategories);
     const unique: Record<string, any> = {};
@@ -38,14 +48,12 @@ export const GiftCardCatalog = () => {
       if (!unique[cat.name]) unique[cat.name] = { ...cat, cards: [...cat.cards] };
       else unique[cat.name].cards.push(...cat.cards);
     });
-    // Asigna icono si existe
     return Object.values(unique).map((cat: any) => ({
       ...cat,
       icon: iconMap[cat.name] || undefined,
     }));
   }, []);
 
-  // Categorías del país seleccionado
   const countryCategories = useMemo(() => {
     if (selectedCountry === "all") return allCategories;
     const json = giftcardsByCountry[selectedCountry as keyof typeof giftcardsByCountry];
@@ -56,27 +64,25 @@ export const GiftCardCatalog = () => {
     }));
   }, [selectedCountry, allCategories]);
 
-  // Categorías a mostrar según filtro
   const categories = countryCategories.filter((cat) =>
     !selectedCategory || cat.id === selectedCategory
   );
 
-  // Gift cards filtradas por búsqueda
   const filteredCategories = categories
     .map((cat) => ({
       ...cat,
-      cards: cat.cards.filter((card) =>
-        card.name.toLowerCase().includes(searchTerm.toLowerCase())
-      ),
+      cards: Array.isArray(cat.cards)
+        ? cat.cards.filter((card) =>
+            card.name.toLowerCase().includes(searchTerm.toLowerCase())
+          )
+        : [],
     }))
     .filter((cat) => cat.cards.length > 0);
 
-  // Todas las categorías únicas para los botones de filtro
   const allCategoryList = useMemo(() => {
     return allCategories.map((cat) => ({ id: cat.id, name: cat.name }));
   }, [allCategories]);
 
-  // Mensaje si no hay resultados
   const showEmpty =
     selectedCategory &&
     (!countryCategories.find((cat) => cat.id === selectedCategory) || filteredCategories.length === 0);
@@ -105,6 +111,7 @@ export const GiftCardCatalog = () => {
           </div>
         </div>
       </div>
+
       {/* Country Filters */}
       <div className="container mx-auto px-4 pt-8">
         <div className="flex flex-wrap gap-3 justify-center mb-8">
@@ -122,6 +129,7 @@ export const GiftCardCatalog = () => {
             />
           ))}
         </div>
+
         {/* Category Filters */}
         <div className="flex flex-wrap gap-2 justify-center mb-8">
           <Badge
@@ -142,12 +150,23 @@ export const GiftCardCatalog = () => {
             </Badge>
           ))}
         </div>
+
         {/* Categories */}
         <div className="space-y-12">
           {showEmpty ? (
             <div className="text-center py-24 text-xl text-muted-foreground animate-fade-in">
-              <img src="/empty-state.svg" alt="No hay resultados" className="mx-auto mb-6 w-24 h-24 opacity-70" />
-              <p>¡Ups! Parece que aquí no hay nada...<br />No te preocupes.<br />¡Cada mes nuevas Gift Cards para ti!</p>
+              <img
+                src="/empty-state.svg"
+                alt="No hay resultados"
+                className="mx-auto mb-6 w-24 h-24 opacity-70"
+              />
+              <p>
+                ¡Ups! Parece que aquí no hay nada...
+                <br />
+                No te preocupes.
+                <br />
+                ¡Cada mes nuevas Gift Cards para ti!
+              </p>
             </div>
           ) : (
             filteredCategories.map((category, index) => (
