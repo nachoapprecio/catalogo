@@ -22,9 +22,11 @@ interface CategorySectionProps {
 }
 
 export const CategorySection = ({ category, searchTerm, delay }: CategorySectionProps) => {
-  const filteredCards = category.cards.filter(card =>
-    card.name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredCards = Array.isArray(category.cards)
+    ? category.cards.filter(card =>
+        card.name.toLowerCase().includes(searchTerm.toLowerCase())
+      )
+    : [];
 
   if (filteredCards.length === 0) return null;
 
