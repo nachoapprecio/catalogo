@@ -3,60 +3,51 @@ import "./index.css";
 import CountryButton from "./components/CountryButton";
 import CategorySection from "./components/CategorySection";
 import CategorySelector from "./components/CategorySelector";
-import { giftcardsByCountry } from "./data";
+import data from "./data/giftcards.json";
 
 const App = () => {
-  const defaultCountry = "Chile";
-  const [selectedCountry, setSelectedCountry] = useState(defaultCountry);
+  const [selectedCountry, setSelectedCountry] = useState("México");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
-  const data = giftcardsByCountry[selectedCountry] || [];
+  const countryList = Object.keys(data);
+  const allCategories = Array.from(
+    new Set(
+      countryList.flatMap((country) =>
+        data[country].map((card) => card.category)
+      )
+    )
+  );
 
-  const categories = data.map((entry) => entry.category);
-
-  const filteredData = selectedCategory
-    ? data.filter((entry) => entry.category === selectedCategory)
-    : data;
+  const filteredGiftCards = data[selectedCountry].filter((card) =>
+    selectedCategory ? card.category === selectedCategory : true
+  );
 
   return (
     <div className="p-4 font-montserrat bg-white">
-      {/* Country Buttons */}
       <div className="flex gap-2 flex-wrap mb-4">
-        {Object.keys(giftcardsByCountry).map((country) => (
+        {countryList.map((country) => (
           <CountryButton
             key={country}
             country={country}
             selected={country === selectedCountry}
-            onClick={() => {
-              setSelectedCountry(country);
-              setSelectedCategory(null);
-            }}
+            onClick={() => setSelectedCountry(country)}
           />
         ))}
       </div>
 
-      {/* Category Selector */}
       <CategorySelector
-        categories={categories}
+        categories={allCategories}
         activeCategory={selectedCategory}
         setActiveCategory={setSelectedCategory}
       />
 
-      {/* Category Sections */}
-      {filteredData.map((categoryData, index) => (
-        <CategorySection
-          key={`${selectedCountry}-${categoryData.category}`}
-          category={{
-            id: `${selectedCountry}-${categoryData.category}`,
-            name: categoryData.category,
-            cards: categoryData.cards,
-          }}
-          searchTerm=""
-          delay={index * 100}
-        />
-      ))}
+      <CategorySection
+        country={selectedCountry}
+        giftCards={filteredGiftCards}
+      />
     </div>
   );
 };
 
 export default App;
+

@@ -5,7 +5,7 @@ import ecuador from './giftcards_ecuador.json';
 import mexico from './giftcards_mexico.json';
 import planet from '../assets/planet.svg';
 
-export const giftcardsByCountry: Record<string, any[]> = {
+export const giftcardsByCountry = {
   chile,
   peru,
   colombia,

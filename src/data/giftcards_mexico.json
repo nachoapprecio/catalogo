@@ -1,391 +1,326 @@
 [
   {
-    "id": "supermercados-y-minimarket",
-    "name": "SUPERMERCADOS Y MINIMARKET",
-    "cards": [
+    "category": "SUPERMERCADOS Y MINIMARKET",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card Tiendas Soriana",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/2.jpg",
-        "alt": "Gift Card Tiendas Soriana"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/2.jpg"
       },
       {
-        "id": "2",
+        "position": "2",
         "name": "Gift Card Justo",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/36.jpg",
-        "alt": "Gift Card Justo"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/36.jpg"
       },
       {
-        "id": "3",
+        "position": "3",
         "name": "Gift Card Chedraui",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/37.jpg",
-        "alt": "Gift Card Chedraui"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/37.jpg"
       }
     ]
   },
   {
-    "id": "grandes-tiendas",
-    "name": "GRANDES TIENDAS",
-    "cards": [
+    "category": "GRANDES TIENDAS",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card Liverpool",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/9.jpg",
-        "alt": "Gift Card Liverpool"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/9.jpg"
       }
     ]
   },
   {
-    "id": "gastronomia",
-    "name": "GASTRONOMIA",
-    "cards": [
+    "category": "GASTRONOMIA",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card Krispy Kreme",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/32.jpg",
-        "alt": "Gift Card Krispy Kreme"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/32.jpg"
       },
       {
-        "id": "2",
+        "position": "2",
         "name": "Gift Card Krispy Kreme",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/33.jpg",
-        "alt": "Gift Card Krispy Kreme"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/33.jpg"
       },
       {
-        "id": "3",
+        "position": "3",
         "name": "Gift Card Krispy Kreme",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/34.jpg",
-        "alt": "Gift Card Krispy Kreme"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/34.jpg"
       },
       {
-        "id": "4",
+        "position": "4",
         "name": "Gift Card Krispy Kreme",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/35.jpg",
-        "alt": "Gift Card Krispy Kreme"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/35.jpg"
       },
       {
-        "id": "5",
+        "position": "5",
         "name": "Gift Card Starbucks",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/48.jpg",
-        "alt": "Gift Card Starbucks"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/48.jpg"
       },
       {
-        "id": "6",
+        "position": "6",
         "name": "Gift Card Uber Eats",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/60.jpg",
-        "alt": "Gift Card Uber Eats"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/60.jpg"
       },
       {
-        "id": "7",
+        "position": "7",
         "name": "Gift Card Moyo",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/72.jpg",
-        "alt": "Gift Card Moyo"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/72.jpg"
       },
       {
-        "id": "8",
+        "position": "8",
         "name": "Gift Card Wing Stop",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/73.jpg",
-        "alt": "Gift Card Wing Stop"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/73.jpg"
       },
       {
-        "id": "9",
+        "position": "9",
         "name": "Gift Card Chilimbalam",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/75.jpg",
-        "alt": "Gift Card Chilimbalam"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/75.jpg"
       }
     ]
   },
   {
-    "id": "vuelos-y-experiencias",
-    "name": "VUELOS Y EXPERIENCIAS",
-    "cards": [
+    "category": "VUELOS Y EXPERIENCIAS",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card RCI Viajes",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/47.jpg",
-        "alt": "Gift Card RCI Viajes"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/47.jpg"
       },
       {
-        "id": "2",
+        "position": "2",
         "name": "Gift Card Big Box Momentos",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/52.jpg",
-        "alt": "Gift Card Big Box Momentos"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/52.jpg"
       },
       {
-        "id": "3",
+        "position": "3",
         "name": "Gift Card Big Box Blend",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/53.jpg",
-        "alt": "Gift Card Big Box Blend"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/53.jpg"
       },
       {
-        "id": "4",
+        "position": "4",
         "name": "Gift Card Big Box Fusion",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/54.jpg",
-        "alt": "Gift Card Big Box Fusion"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/54.jpg"
       }
     ]
   },
   {
-    "id": "deportes",
-    "name": "DEPORTES",
-    "cards": [
+    "category": "DEPORTES",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card Innovasport",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/16.jpg",
-        "alt": "Gift Card Innovasport"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/16.jpg"
       },
       {
-        "id": "2",
+        "position": "2",
         "name": "Gift Card Innvictus",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/17.jpg",
-        "alt": "Gift Card Innvictus"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/17.jpg"
       },
       {
-        "id": "3",
+        "position": "3",
         "name": "Gift Card Culto",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/18.jpg",
-        "alt": "Gift Card Culto"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/18.jpg"
       }
     ]
   },
   {
-    "id": "moda-y-accesorios",
-    "name": "MODA Y ACCESORIOS",
-    "cards": [
+    "category": "MODA Y ACCESORIOS",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card H&M",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/19.jpg",
-        "alt": "Gift Card H&M"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/19.jpg"
       }
     ]
   },
   {
-    "id": "salud-y-belleza",
-    "name": "SALUD Y BELLEZA",
-    "cards": [
+    "category": "SALUD Y BELLEZA",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card Scape",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/8.jpg",
-        "alt": "Gift Card Scape"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/8.jpg"
       },
       {
-        "id": "2",
+        "position": "2",
         "name": "Gift Card Mina 1 Mes",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/55.jpg",
-        "alt": "Gift Card Mina 1 Mes"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/55.jpg"
       },
       {
-        "id": "3",
+        "position": "3",
         "name": "Gift Card Mina 3 Meses",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/56.jpg",
-        "alt": "Gift Card Mina 3 Meses"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/56.jpg"
       },
       {
-        "id": "4",
+        "position": "4",
         "name": "Gift Card Mina 12 Meses",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/57.jpg",
-        "alt": "Gift Card Mina 12 Meses"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/57.jpg"
       }
     ]
   },
   {
-    "id": "entretenimiento-y-tiempo-libre",
-    "name": "ENTRETENIMIENTO Y TIEMPO LIBRE",
-    "cards": [
+    "category": "ENTRETENIMIENTO Y TIEMPO LIBRE",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card Spotify Premiun",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/22.jpg",
-        "alt": "Gift Card Spotify Premiun"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/22.jpg"
       },
       {
-        "id": "2",
+        "position": "2",
         "name": "Gift Card Spotify Premiun",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/23.jpg",
-        "alt": "Gift Card Spotify Premiun"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/23.jpg"
       },
       {
-        "id": "3",
+        "position": "3",
         "name": "Gift Card Spotify Premiun",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/24.jpg",
-        "alt": "Gift Card Spotify Premiun"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/24.jpg"
       },
       {
-        "id": "4",
+        "position": "4",
         "name": "Gift Card Spotify Premiun",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/25.jpg",
-        "alt": "Gift Card Spotify Premiun"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/25.jpg"
       },
       {
-        "id": "5",
+        "position": "5",
         "name": "Gift Card Xbox Live Gold",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/26.jpg",
-        "alt": "Gift Card Xbox Live Gold"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/26.jpg"
       },
       {
-        "id": "6",
+        "position": "6",
         "name": "Gift Card Xbox Live Gold",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/27.jpg",
-        "alt": "Gift Card Xbox Live Gold"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/27.jpg"
       },
       {
-        "id": "7",
+        "position": "7",
         "name": "Gift Card Xbox Live Gold",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/28.jpg",
-        "alt": "Gift Card Xbox Live Gold"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/28.jpg"
       },
       {
-        "id": "8",
+        "position": "8",
         "name": "Gift Card Xbox Live Gold",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/29.jpg",
-        "alt": "Gift Card Xbox Live Gold"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/29.jpg"
       },
       {
-        "id": "9",
+        "position": "9",
         "name": "Gift Card Voucher Cinépolis",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/39.jpg",
-        "alt": "Gift Card Voucher Cinépolis"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/39.jpg"
       },
       {
-        "id": "10",
+        "position": "10",
         "name": "Gift Card Play Station",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/40.jpg",
-        "alt": "Gift Card Play Station"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/40.jpg"
       },
       {
-        "id": "11",
+        "position": "11",
         "name": "Gift Card Apple",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/42.jpg",
-        "alt": "Gift Card Apple"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/42.jpg"
       },
       {
-        "id": "12",
+        "position": "12",
         "name": "Gift Card Vix Premium",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/43.jpg",
-        "alt": "Gift Card Vix Premium"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/43.jpg"
       },
       {
-        "id": "13",
+        "position": "13",
         "name": "Gift Card Nintendo",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/44.jpg",
-        "alt": "Gift Card Nintendo"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/44.jpg"
       },
       {
-        "id": "14",
+        "position": "14",
         "name": "Gift Card Google Play",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/45.jpg",
-        "alt": "Gift Card Google Play"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/45.jpg"
       },
       {
-        "id": "15",
+        "position": "15",
         "name": "Gift Card Roblox",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/49.jpg",
-        "alt": "Gift Card Roblox"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/49.jpg"
       },
       {
-        "id": "16",
+        "position": "16",
         "name": "Gift Card Minecraf Coins 1720",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/50.jpg",
-        "alt": "Gift Card Minecraf Coins 1720"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/50.jpg"
       },
       {
-        "id": "17",
+        "position": "17",
         "name": "Gift Card Minecraf Coins 3500",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/51.jpg",
-        "alt": "Gift Card Minecraf Coins 3500"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/51.jpg"
       }
     ]
   },
   {
-    "id": "servicios",
-    "name": "SERVICIOS",
-    "cards": [
+    "category": "SERVICIOS",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card Uber",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/59.jpg",
-        "alt": "Gift Card Uber"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/59.jpg"
       }
     ]
   },
   {
-    "id": "e-commerce",
-    "name": "E-COMMERCE",
-    "cards": [
+    "category": "E-COMMERCE",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card Amazon",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/10.jpg",
-        "alt": "Gift Card Amazon"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/10.jpg"
       },
       {
-        "id": "2",
+        "position": "2",
         "name": "Gift Card Dcanje",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/30.jpg",
-        "alt": "Gift Card Dcanje"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/30.jpg"
       },
       {
-        "id": "3",
+        "position": "3",
         "name": "Gift Card Amazon Prime",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/38.jpg",
-        "alt": "Gift Card Amazon Prime"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/38.jpg"
       },
       {
-        "id": "4",
+        "position": "4",
         "name": "Gift Card Somnistore",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/46.jpg",
-        "alt": "Gift Card Somnistore"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/46.jpg"
       },
       {
-        "id": "5",
+        "position": "5",
         "name": "Gift Card Librerias Gandhi",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/58.jpg",
-        "alt": "Gift Card Librerias Gandhi"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/58.jpg"
       },
       {
-        "id": "6",
+        "position": "6",
         "name": "Gift Card Enviaflores",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/61.jpg",
-        "alt": "Gift Card Enviaflores"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/61.jpg"
       }
     ]
   },
   {
-    "id": "recargas-celulares",
-    "name": "Recargas Celulares",
-    "cards": [
+    "category": "Recargas Celulares",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card AT&T",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/67.jpg",
-        "alt": "Gift Card AT&T"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/67.jpg"
       },
       {
-        "id": "2",
+        "position": "2",
         "name": "Gift Card BAIT",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/68.jpg",
-        "alt": "Gift Card BAIT"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/68.jpg"
       },
       {
-        "id": "3",
+        "position": "3",
         "name": "Gift Card MOVISTAR",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/69.jpg",
-        "alt": "Gift Card MOVISTAR"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/69.jpg"
       },
       {
-        "id": "4",
+        "position": "4",
         "name": "Gift Card TELCEL",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/70.jpg",
-        "alt": "Gift Card TELCEL"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/70.jpg"
       },
       {
-        "id": "5",
+        "position": "5",
         "name": "Gift Card VIRGIN MOBILE",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/71.jpg",
-        "alt": "Gift Card VIRGIN MOBILE"
+        "image_url": "https://cdn.dcanje.com/dcanje.mx/giftcards/71.jpg"
       }
     ]
   }

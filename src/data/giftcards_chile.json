@@ -1,595 +1,496 @@
 [
   {
-    "id": "supermercados-y-minimarket",
-    "name": "SUPERMERCADOS Y MINIMARKET",
-    "cards": [
+    "category": "SUPERMERCADOS Y MINIMARKET",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card Jumbo",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/7.jpg",
-        "alt": "Gift Card Jumbo"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/7.jpg"
       },
       {
-        "id": "2",
+        "position": "2",
         "name": "Gift Card Mayorista10",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/_29.jpg",
-        "alt": "Gift Card Mayorista10"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/_29.jpg"
       },
       {
-        "id": "3",
+        "position": "3",
         "name": "Gift Card Unimarc",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/_31.jpg",
-        "alt": "Gift Card Unimarc"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/_31.jpg"
       },
       {
-        "id": "4",
+        "position": "4",
         "name": "Gift Card Santa Isabel",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/35.jpg",
-        "alt": "Gift Card Santa Isabel"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/35.jpg"
       },
       {
-        "id": "5",
+        "position": "5",
         "name": "Gift Card Tottus",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/appDcanje2/home/banner/CL_TOTTUS_151.jpg",
-        "alt": "Gift Card Tottus"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/appDcanje2/home/banner/CL_TOTTUS_151.jpg"
       },
       {
-        "id": "6",
+        "position": "6",
         "name": "Gift Card Alvi",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/_230.jpg",
-        "alt": "Gift Card Alvi"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/_230.jpg"
       },
       {
-        "id": "7",
+        "position": "7",
         "name": "Gift Card La Barra",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/256.jpg",
-        "alt": "Gift Card La Barra"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/256.jpg"
       },
       {
-        "id": "8",
+        "position": "8",
         "name": "Gift Card Super 10",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/_269.jpg",
-        "alt": "Gift Card Super 10"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/_269.jpg"
       },
       {
-        "id": "9",
+        "position": "9",
         "name": "Gift Card Mi Club Lider",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/Lider_Diciembre31.jpg",
-        "alt": "Gift Card Mi Club Lider"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/Lider_Diciembre31.jpg"
       },
       {
-        "id": "10",
+        "position": "10",
         "name": "Gift Card Pronto y Punto Copec",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/348.jpg",
-        "alt": "Gift Card Pronto y Punto Copec"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/348.jpg"
       },
       {
-        "id": "11",
+        "position": "11",
         "name": "Gift Card Ewine.cl",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/349.jpg",
-        "alt": "Gift Card Ewine.cl"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/349.jpg"
       }
     ]
   },
   {
-    "id": "grandes-tiendas",
-    "name": "GRANDES TIENDAS",
-    "cards": [
+    "category": "GRANDES TIENDAS",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card Falabella",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/1.jpg",
-        "alt": "Gift Card Falabella"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/1.jpg"
       },
       {
-        "id": "2",
+        "position": "2",
         "name": "Gift Card Paris",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/6.jpg",
-        "alt": "Gift Card Paris"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/6.jpg"
       },
       {
-        "id": "3",
+        "position": "3",
         "name": "Gift Card Easy",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/8.jpg",
-        "alt": "Gift Card Easy"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/8.jpg"
       },
       {
-        "id": "4",
+        "position": "4",
         "name": "Gift Card Ripley",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/aprecio.cl/giftcards/ripley2_ID-354_0210.jpg",
-        "alt": "Gift Card Ripley"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/aprecio.cl/giftcards/ripley2_ID-354_0210.jpg"
       },
       {
-        "id": "5",
+        "position": "5",
         "name": "Gift Card CASA IDEAS",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/246.jpg",
-        "alt": "Gift Card CASA IDEAS"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/246.jpg"
       },
       {
-        "id": "6",
+        "position": "6",
         "name": "Gift Card Ripley Cashback",
-        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/354.jpg",
-        "alt": "Gift Card Ripley Cashback"
+        "image_url": "https://cdn.dcanje.com/dcanje.com/giftcards/354.jpg"
       }
     ]
   },
   {
-    "id": "ecommerce",
-    "name": "ECOMMERCE",
-    "cards": [
+    "category": "ECOMMERCE",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card Importclick",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/392.jpg",
-        "alt": "Gift Card Importclick"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/392.jpg"
       }
     ]
   },
   {
-    "id": "gastronomía",
-    "name": "GASTRONOMÍA",
-    "cards": [
+    "category": "GASTRONOMÍA",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card Juan Valdez",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/156.jpg",
-        "alt": "Gift Card Juan Valdez"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/156.jpg"
       },
       {
-        "id": "2",
+        "position": "2",
         "name": "Gift Card Varsovienne",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/320.jpg",
-        "alt": "Gift Card Varsovienne"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/320.jpg"
       },
       {
-        "id": "3",
+        "position": "3",
         "name": "Gift Card UBER EATS",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/346.jpg",
-        "alt": "Gift Card UBER EATS"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/346.jpg"
       },
       {
-        "id": "4",
+        "position": "4",
         "name": "Gift Card CafeterIa Le Blanc",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/368.jpg",
-        "alt": "Gift Card CafeterIa Le Blanc"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/368.jpg"
       },
       {
-        "id": "5",
+        "position": "5",
         "name": "Gift Card Getawaybox",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/379.jpg",
-        "alt": "Gift Card Getawaybox"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/379.jpg"
       },
       {
-        "id": "6",
+        "position": "6",
         "name": "Gift Card Getawaybox",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/380.jpg",
-        "alt": "Gift Card Getawaybox"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/380.jpg"
       },
       {
-        "id": "7",
+        "position": "7",
         "name": "Gift Card Dama Blanca Restaurant",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/391.jpg",
-        "alt": "Gift Card Dama Blanca Restaurant"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/391.jpg"
       }
     ]
   },
   {
-    "id": "salud-belleza-y-bienestar",
-    "name": "SALUD BELLEZA Y BIENESTAR",
-    "cards": [
+    "category": "SALUD BELLEZA Y BIENESTAR",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card Club de la Barba",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/145.jpg",
-        "alt": "Gift Card Club de la Barba"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/145.jpg"
       },
       {
-        "id": "2",
+        "position": "2",
         "name": "Gift Card Vive Sermecoop",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/288.jpg",
-        "alt": "Gift Card Vive Sermecoop"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/288.jpg"
       },
       {
-        "id": "3",
+        "position": "3",
         "name": "Gift Card BIFROST",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/317.jpg",
-        "alt": "Gift Card BIFROST"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/317.jpg"
       },
       {
-        "id": "4",
+        "position": "4",
         "name": "Gift Card Scape",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/344.jpg",
-        "alt": "Gift Card Scape"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/344.jpg"
       },
       {
-        "id": "5",
+        "position": "5",
         "name": "Gift Card ENERGY",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/389.jpg",
-        "alt": "Gift Card ENERGY"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/389.jpg"
       },
       {
-        "id": "6",
+        "position": "6",
         "name": "Gift Card BIUTT",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/396.jpg",
-        "alt": "Gift Card BIUTT"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/396.jpg"
       },
       {
-        "id": "7",
+        "position": "7",
         "name": "Gift Card Clínica Raton Perez",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/397.jpg",
-        "alt": "Gift Card Clínica Raton Perez"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/397.jpg"
       },
       {
-        "id": "8",
+        "position": "8",
         "name": "Gift Card Clínica Santa Blanca",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/398.jpg",
-        "alt": "Gift Card Clínica Santa Blanca"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/398.jpg"
       }
     ]
   },
   {
-    "id": "vinos",
-    "name": "VINOS",
-    "cards": [
+    "category": "VINOS",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card E wine 1 Mes",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/350.jpg",
-        "alt": "Gift Card E wine 1 Mes"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/350.jpg"
       },
       {
-        "id": "2",
+        "position": "2",
         "name": "Gift Card E wine 3 Meses",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/351.jpg",
-        "alt": "Gift Card E wine 3 Meses"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/351.jpg"
       },
       {
-        "id": "3",
+        "position": "3",
         "name": "Gift Card E wine 6 Meses",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/352.jpg",
-        "alt": "Gift Card E wine 6 Meses"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/352.jpg"
       }
     ]
   },
   {
-    "id": "vestuario,-calzado-y-accesorios",
-    "name": "VESTUARIO, CALZADO Y ACCESORIOS",
-    "cards": [
+    "category": "VESTUARIO, CALZADO Y ACCESORIOS",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card Aldo",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/15.jpg",
-        "alt": "Gift Card Aldo"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/15.jpg"
       },
       {
-        "id": "2",
+        "position": "2",
         "name": "Gift Card Americanino",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/19.jpg",
-        "alt": "Gift Card Americanino"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/19.jpg"
       },
       {
-        "id": "3",
+        "position": "3",
         "name": "Gift Card La Martina",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/22.jpg",
-        "alt": "Gift Card La Martina"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/22.jpg"
       },
       {
-        "id": "4",
+        "position": "4",
         "name": "Gift Card Mossimo",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/23.jpg",
-        "alt": "Gift Card Mossimo"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/23.jpg"
       },
       {
-        "id": "5",
+        "position": "5",
         "name": "Gift Card Oneill",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/banner/home/Oneill_26Marzo.jpg",
-        "alt": "Gift Card Oneill"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/banner/home/Oneill_26Marzo.jpg"
       },
       {
-        "id": "6",
+        "position": "6",
         "name": "Gift Card Legacy",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/appDcanje2/wallet/logos/CL_155_Legacy.jpg",
-        "alt": "Gift Card Legacy"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/appDcanje2/wallet/logos/CL_155_Legacy.jpg"
       },
       {
-        "id": "7",
+        "position": "7",
         "name": "Gift Card Umbrale",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/160.jpg",
-        "alt": "Gift Card Umbrale"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/160.jpg"
       },
       {
-        "id": "8",
+        "position": "8",
         "name": "Gift Card Women’Secret",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/162.jpg",
-        "alt": "Gift Card Women’Secret"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/162.jpg"
       },
       {
-        "id": "9",
+        "position": "9",
         "name": "Gift Card JJO",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/163.jpg",
-        "alt": "Gift Card JJO"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/163.jpg"
       },
       {
-        "id": "10",
+        "position": "10",
         "name": "Gift Card Etam",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/165.jpg",
-        "alt": "Gift Card Etam"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/165.jpg"
       },
       {
-        "id": "11",
+        "position": "11",
         "name": "Gift Card Calzedonia",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/166.jpg",
-        "alt": "Gift Card Calzedonia"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/166.jpg"
       },
       {
-        "id": "12",
+        "position": "12",
         "name": "Gift Card Mango",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/167.jpg",
-        "alt": "Gift Card Mango"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/167.jpg"
       },
       {
-        "id": "13",
+        "position": "13",
         "name": "Gift Card Sybilla",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/170.jpg",
-        "alt": "Gift Card Sybilla"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/170.jpg"
       },
       {
-        "id": "14",
+        "position": "14",
         "name": "Gift Card Clarks",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/172.jpg",
-        "alt": "Gift Card Clarks"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/172.jpg"
       },
       {
-        "id": "15",
+        "position": "15",
         "name": "Gift Card Vandine",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/aprecio.cl/giftcards/Vandine_ID-279_2305.jpg",
-        "alt": "Gift Card Vandine"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/aprecio.cl/giftcards/Vandine_ID-279_2305.jpg"
       },
       {
-        "id": "16",
+        "position": "16",
         "name": "Gift Card TRIAL",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/370.jpg",
-        "alt": "Gift Card TRIAL"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/370.jpg"
       },
       {
-        "id": "17",
+        "position": "17",
         "name": "Gift Card BOSS",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/371.jpg",
-        "alt": "Gift Card BOSS"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/371.jpg"
       },
       {
-        "id": "18",
+        "position": "18",
         "name": "Gift Card CANADIENNE",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/372.jpg",
-        "alt": "Gift Card CANADIENNE"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/372.jpg"
       },
       {
-        "id": "19",
+        "position": "19",
         "name": "Gift Card PERRY ELLIS",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/373.jpg",
-        "alt": "Gift Card PERRY ELLIS"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/373.jpg"
       },
       {
-        "id": "20",
+        "position": "20",
         "name": "Gift Card FLORSHEIM",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/374.jpg",
-        "alt": "Gift Card FLORSHEIM"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/374.jpg"
       },
       {
-        "id": "21",
+        "position": "21",
         "name": "Gift Card ORIGINAL PENGUIN",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/375.jpg",
-        "alt": "Gift Card ORIGINAL PENGUIN"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/375.jpg"
       }
     ]
   },
   {
-    "id": "entretención-y-tiempo-libre",
-    "name": "ENTRETENCIÓN Y TIEMPO LIBRE",
-    "cards": [
+    "category": "ENTRETENCIÓN Y TIEMPO LIBRE",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card Kidzania",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/228.jpg",
-        "alt": "Gift Card Kidzania"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/228.jpg"
       },
       {
-        "id": "2",
+        "position": "2",
         "name": "Gift Card CINEMARK",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/270.jpg",
-        "alt": "Gift Card CINEMARK"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/270.jpg"
       },
       {
-        "id": "3",
+        "position": "3",
         "name": "Gift Card Atrápalo Entradas",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/280.jpg",
-        "alt": "Gift Card Atrápalo Entradas"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/280.jpg"
       },
       {
-        "id": "4",
+        "position": "4",
         "name": "Gift Card Combo Cinemark",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/291.jpg",
-        "alt": "Gift Card Combo Cinemark"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/291.jpg"
       },
       {
-        "id": "5",
+        "position": "5",
         "name": "Gift Card Casanova",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/326.jpg",
-        "alt": "Gift Card Casanova"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/326.jpg"
       },
       {
-        "id": "6",
+        "position": "6",
         "name": "Gift Card FC24 520 Points Mobile",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/362.jpg",
-        "alt": "Gift Card FC24 520 Points Mobile"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/362.jpg"
       },
       {
-        "id": "7",
+        "position": "7",
         "name": "Gift Card FC24 1.070 Points Mobile",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/363.jpg",
-        "alt": "Gift Card FC24 1.070 Points Mobile"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/363.jpg"
       },
       {
-        "id": "8",
+        "position": "8",
         "name": "Gift Card FC24 2.200 Points Mobile",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/364.jpg",
-        "alt": "Gift Card FC24 2.200 Points Mobile"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/364.jpg"
       },
       {
-        "id": "9",
+        "position": "9",
         "name": "Gift Card FC24 5.750 Points Mobile",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/365.jpg",
-        "alt": "Gift Card FC24 5.750 Points Mobile"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/365.jpg"
       },
       {
-        "id": "10",
+        "position": "10",
         "name": "Gift Card HAPPYLAND",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/369.jpg",
-        "alt": "Gift Card HAPPYLAND"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/369.jpg"
       },
       {
-        "id": "11",
+        "position": "11",
         "name": "Gift Card Getawaybox",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/381.jpg",
-        "alt": "Gift Card Getawaybox"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/381.jpg"
       }
     ]
   },
   {
-    "id": "automotriz",
-    "name": "AUTOMOTRIZ",
-    "cards": [
+    "category": "AUTOMOTRIZ",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card Protemax",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/10.jpg",
-        "alt": "Gift Card Protemax"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/10.jpg"
       },
       {
-        "id": "2",
+        "position": "2",
         "name": "Gift Card Apprecio",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/30.jpg",
-        "alt": "Gift Card Apprecio"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/30.jpg"
       },
       {
-        "id": "3",
+        "position": "3",
         "name": "Gift Card Airlife",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/105.jpg",
-        "alt": "Gift Card Airlife"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/105.jpg"
       },
       {
-        "id": "4",
+        "position": "4",
         "name": "Gift Card Grabados Vidrios",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/343.jpg",
-        "alt": "Gift Card Grabados Vidrios"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/343.jpg"
       }
     ]
   },
   {
-    "id": "servicios",
-    "name": "SERVICIOS",
-    "cards": [
+    "category": "SERVICIOS",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card Recarga en linea",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/83.jpg",
-        "alt": "Gift Card Recarga en linea"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/83.jpg"
       },
       {
-        "id": "2",
+        "position": "2",
         "name": "Gift Card UBER",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/345.jpg",
-        "alt": "Gift Card UBER"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/345.jpg"
       },
       {
-        "id": "3",
+        "position": "3",
         "name": "Gift Card Microsoft 365 Personal",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/378.jpg",
-        "alt": "Gift Card Microsoft 365 Personal"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/378.jpg"
       },
       {
-        "id": "4",
+        "position": "4",
         "name": "Gift Card Mawdy 35",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/384.jpg",
-        "alt": "Gift Card Mawdy 35"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/384.jpg"
       },
       {
-        "id": "5",
+        "position": "5",
         "name": "Gift Card Mawdy 60",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/387.jpg",
-        "alt": "Gift Card Mawdy 60"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/387.jpg"
       },
       {
-        "id": "6",
+        "position": "6",
         "name": "Gift Card Mawdy 100",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/388.jpg",
-        "alt": "Gift Card Mawdy 100"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/388.jpg"
       }
     ]
   },
   {
-    "id": "vuelos-y-experiencias",
-    "name": "VUELOS Y EXPERIENCIAS",
-    "cards": [
+    "category": "VUELOS Y EXPERIENCIAS",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card Atrápalo Actividades",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/271.jpg",
-        "alt": "Gift Card Atrápalo Actividades"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/271.jpg"
       },
       {
-        "id": "2",
+        "position": "2",
         "name": "Gift Card Atrápalo Cruceros",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/272.jpg",
-        "alt": "Gift Card Atrápalo Cruceros"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/272.jpg"
       },
       {
-        "id": "3",
+        "position": "3",
         "name": "Gift Card Atrápalo Entradas",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/273.jpg",
-        "alt": "Gift Card Atrápalo Entradas"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/273.jpg"
       },
       {
-        "id": "4",
+        "position": "4",
         "name": "Gift Card Atrápalo Hoteles",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/274.jpg",
-        "alt": "Gift Card Atrápalo Hoteles"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/274.jpg"
       },
       {
-        "id": "5",
+        "position": "5",
         "name": "Gift Card Atrápalo Grandes Viajes",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/275.jpg",
-        "alt": "Gift Card Atrápalo Grandes Viajes"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/275.jpg"
       },
       {
-        "id": "6",
+        "position": "6",
         "name": "Gift Card Atrápalo Vuelos",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/276.jpg",
-        "alt": "Gift Card Atrápalo Vuelos"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/276.jpg"
       }
     ]
   },
   {
-    "id": "jugueteria",
-    "name": "JUGUETERIA",
-    "cards": [
+    "category": "JUGUETERIA",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card HASBRO",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/aprecio.cl/giftcards/Hasbro_ID-361_1212.jpg",
-        "alt": "Gift Card HASBRO"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/aprecio.cl/giftcards/Hasbro_ID-361_1212.jpg"
       }
     ]
   },
   {
-    "id": "ferreteria",
-    "name": "FERRETERIA",
-    "cards": [
+    "category": "FERRETERIA",
+    "giftcards": [
       {
-        "id": "1",
+        "position": "1",
         "name": "Gift Card Club Ferretero",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/aprecio.cl/giftcards/CL_Ferretero_20Mayo-jpg.jpg",
-        "alt": "Gift Card Club Ferretero"
+        "image_url": "https://storage.googleapis.com/cdnbw/cdn/aprecio.cl/giftcards/CL_Ferretero_20Mayo-jpg.jpg"
       }
     ]
   }
