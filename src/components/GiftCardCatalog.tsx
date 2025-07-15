@@ -1,27 +1,38 @@
 import { useState, useMemo } from "react";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { CategorySection } from "./CategorySection";
 import { CountryButton } from "./CountryButton";
+import { useIsMobile } from "@/hooks/use-mobile";
 import { giftcardsByCountry, countryList } from "@/data/giftcardsByCountry";
 import { mapGiftCardsJsonToCategories } from "@/lib/utils";
-import { ShoppingCart, Utensils, Plane, Dumbbell, Shirt, Heart, Gamepad2, Wrench, Globe, Smartphone } from "lucide-react";
+import { ShoppingCart, Utensils, Plane, Dumbbell, Shirt, Heart, Gamepad2, Wrench, Globe, Smartphone, Store, LucideIcon } from "lucide-react";
+
+interface Category {
+  id: string;
+  name: string;
+  cards: Array<{
+    id: string;
+    name: string;
+    image: string;
+    alt: string;
+  }>;
+  icon?: LucideIcon;
+}
 
 // Mapeo de iconos por nombre de categoría
-const iconMap: Record<string, any> = {
-  "SUPERMERCADOS Y MINIMARKET": ShoppingCart,
-  "GRANDES TIENDAS": ShoppingCart,
-  "GASTRONOMIA": Utensils,
-  "GASTRONOMÍA": Utensils,
-  "VUELOS Y EXPERIENCIAS": Plane,
-  "DEPORTES": Dumbbell,
-  "MODA Y ACCESORIOS": Shirt,
-  "SALUD Y BELLEZA": Heart,
-  "ENTRETENIMIENTO Y TIEMPO LIBRE": Gamepad2,
-  "ENTRETENCIÓN Y TIEMPO LIBRE": Gamepad2,
-  "SERVICIOS": Wrench,
-  "E-COMMERCE": Globe,
-  "ECOMMERCE": Globe,
+const iconMap: Record<string, LucideIcon> = {
+  "Supermercados y Minimarket": ShoppingCart,
+  "Grandes Tiendas": Store,
+  "Gastronomía": Utensils,
+  "Vuelos y Experiencias": Plane,
+  "Deportes": Dumbbell,
+  "Moda y Accesorios": Shirt,
+  "Salud y Belleza": Heart,
+  "Entretenimiento y Tiempo Libre": Gamepad2,
+  "Servicios": Wrench,
+  "E-commerce": Globe,
   "Recargas Celulares": Smartphone,
 };
 
@@ -29,17 +40,18 @@ export const GiftCardCatalog = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCountry, setSelectedCountry] = useState<string>("all");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const isMobile = useIsMobile();
 
   // Agrupa todas las categorías de todos los países (sin duplicados por nombre)
   const allCategories = useMemo(() => {
     const all = Object.values(giftcardsByCountry).flatMap(mapGiftCardsJsonToCategories);
-    const unique: Record<string, any> = {};
+    const unique: Record<string, Category> = {};
     all.forEach((cat) => {
       if (!unique[cat.name]) unique[cat.name] = { ...cat, cards: [...cat.cards] };
       else unique[cat.name].cards.push(...cat.cards);
     });
     // Asigna icono si existe
-    return Object.values(unique).map((cat: any) => ({
+    return Object.values(unique).map((cat: Category) => ({
       ...cat,
       icon: iconMap[cat.name] || undefined,
     }));
@@ -50,7 +62,7 @@ export const GiftCardCatalog = () => {
     if (selectedCountry === "all") return allCategories;
     const json = giftcardsByCountry[selectedCountry as keyof typeof giftcardsByCountry];
     const mapped = json ? mapGiftCardsJsonToCategories(json) : [];
-    return mapped.map((cat: any) => ({
+    return mapped.map((cat) => ({
       ...cat,
       icon: iconMap[cat.name] || undefined,
     }));
@@ -123,25 +135,48 @@ export const GiftCardCatalog = () => {
           ))}
         </div>
         {/* Category Filters */}
-        <div className="flex flex-wrap gap-2 justify-center mb-8">
-          <Badge
-            variant={selectedCategory === null ? "default" : "secondary"}
-            className="cursor-pointer px-4 py-2 transition-smooth hover:scale-105"
-            onClick={() => setSelectedCategory(null)}
-          >
-            Todas las categorías
-          </Badge>
-          {allCategoryList.map((category) => (
-            <Badge
-              key={category.id}
-              variant={selectedCategory === category.id ? "default" : "secondary"}
-              className="cursor-pointer px-4 py-2 transition-smooth hover:scale-105"
-              onClick={() => setSelectedCategory(category.id)}
+        {isMobile ? (
+          // Vista móvil - Select dropdown
+          <div className="mb-8 max-w-xs mx-auto">
+            <Select
+              value={selectedCategory || "all"}
+              onValueChange={(value) => setSelectedCategory(value === "all" ? null : value)}
             >
-              {category.name}
+              <SelectTrigger className="w-full">
+                <SelectValue placeholder="Selecciona una categoría" />
+              </SelectTrigger>
+              <SelectContent className="bg-white border shadow-lg">
+                <SelectItem value="all">Todas las categorías</SelectItem>
+                {allCategoryList.map((category) => (
+                  <SelectItem key={category.id} value={category.id}>
+                    {category.name}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
+        ) : (
+          // Vista desktop - Badges
+          <div className="flex flex-wrap gap-2 justify-center mb-8">
+            <Badge
+              variant={selectedCategory === null ? "default" : "secondary"}
+              className="cursor-pointer px-4 py-2 transition-smooth hover:scale-105"
+              onClick={() => setSelectedCategory(null)}
+            >
+              Todas las categorías
             </Badge>
-          ))}
-        </div>
+            {allCategoryList.map((category) => (
+              <Badge
+                key={category.id}
+                variant={selectedCategory === category.id ? "default" : "secondary"}
+                className="cursor-pointer px-4 py-2 transition-smooth hover:scale-105"
+                onClick={() => setSelectedCategory(category.id)}
+              >
+                {category.name}
+              </Badge>
+            ))}
+          </div>
+        )}
         {/* Categories */}
         <div className="space-y-12">
           {showEmpty ? (

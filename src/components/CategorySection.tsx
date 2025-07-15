@@ -1,5 +1,4 @@
 import React from "react";
-import { Badge } from "@/components/ui/badge";
 import { GiftCard } from "./GiftCard";
 
 interface GiftCardData {
@@ -40,17 +39,17 @@ export const CategorySection = ({ category, searchTerm, delay }: CategorySection
       {/* Category Header */}
       <div className="flex items-center gap-4 mb-6">
         {IconComponent ? (
-          <div className="flex items-center justify-center w-16 h-16 bg-gradient-primary rounded-2xl shadow-lg">
-            <IconComponent className="w-8 h-8 text-primary-foreground" />
+          <div 
+            className="flex items-center justify-center w-16 h-16 rounded-2xl shadow-lg"
+            style={{ backgroundColor: '#FA345E' }}
+          >
+            <IconComponent className="w-8 h-8 text-white" />
           </div>
         ) : null}
         <div>
           <h2 className="text-3xl font-bold text-foreground mb-2">
             {category.name}
           </h2>
-          <Badge variant="secondary" className="text-sm">
-            {filteredCards.length} {filteredCards.length === 1 ? 'opción' : 'opciones'}
-          </Badge>
         </div>
       </div>
 

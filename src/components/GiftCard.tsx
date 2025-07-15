@@ -1,6 +1,4 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { ShoppingCart } from "lucide-react";
 
 interface GiftCardData {
   id: string;
@@ -36,13 +34,6 @@ export const GiftCard = ({ card, delay }: GiftCardProps) => {
             
             {/* Overlay */}
             <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
-            
-            {/* Action Button */}
-            <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <div className="w-10 h-10 bg-primary text-primary-foreground rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform duration-200">
-                <ShoppingCart className="w-5 h-5" />
-              </div>
-            </div>
           </div>
           
           {/* Content */}
@@ -50,9 +41,6 @@ export const GiftCard = ({ card, delay }: GiftCardProps) => {
             <h3 className="font-semibold text-foreground text-sm leading-tight mb-2 line-clamp-2">
               {card.name}
             </h3>
-            <Badge variant="outline" className="text-xs">
-              Gift Card
-            </Badge>
           </div>
         </CardContent>
       </Card>
