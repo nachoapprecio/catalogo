@@ -1,11 +1,11 @@
 {
   "name": "catalogo-gift-cards",
   "srcDir": "src",
-  "platformVersion": "@latest",
+  "platformVersion": "2025.1",
   "projectType": "website",
   "allowUsageTracking": false,
   "engines": {
-    "node": "@latest"
+    "node": ">=24.3.0"
   },
   "dependencies": {},
   "devDependencies": {}
