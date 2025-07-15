@@ -1,0 +1,10 @@
+{
+  "name": "catalogo-gift-cards",
+  "srcDir": "src",
+  "platformVersion": "v4",
+  "projectType": "website",
+  "allowUsageTracking": false,
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

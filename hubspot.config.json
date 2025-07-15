@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "id": "catalogo-gift-cards",
+    "label": "Catálogo de Gift Cards",
+    "description": "Catálogo de presentación de Gift Cards para LATAM"
+  },
+  "modules": [
+    {
+      "id": "catalog",
+      "label": "Gift Card Catalog",
+      "fields": [
+        {
+          "name": "country",
+          "label": "País",
+          "type": "choice",
+          "choices": [
+            ["all", "Todos los países"],
+            ["chile", "Chile"],
+            ["peru", "Perú"],
+            ["colombia", "Colombia"],
+            ["ecuador", "Ecuador"],
+            ["mexico", "México"]
+          ]
+        },
+        {
+          "name": "category",
+          "label": "Categoría",
+          "type": "choice",
+          "choices": [
+            ["all", "Todas las categorías"],
+            ["supermercados", "Supermercados y Minimarket"],
+            ["grandes-tiendas", "Grandes Tiendas"],
+            ["gastronomia", "Gastronomía"],
+            ["vuelos", "Vuelos y Experiencias"],
+            ["deportes", "Deportes"],
+            ["moda", "Moda"],
+            ["entretenimiento", "Entretenimiento"],
+            ["gaming", "Gaming"],
+            ["tecnologia", "Tecnología"],
+            ["servicios", "Servicios"],
+            ["otros", "Otros"]
+          ]
+        }
+      ]
+    }
+  ]
+}
