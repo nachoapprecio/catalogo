@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
@@ -41,6 +41,56 @@ export const GiftCardCatalog = () => {
   const [selectedCountry, setSelectedCountry] = useState<string>("all");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const isMobile = useIsMobile();
+
+  // Función para actualizar URL con parámetros de consulta
+  const updateURLParams = (country: string, category: string | null, search: string) => {
+    const url = new URL(window.location.href);
+    const params = new URLSearchParams();
+    
+    if (country !== "all") params.set("country", country);
+    if (category) params.set("category", category);
+    if (search.trim()) params.set("search", search.trim());
+    
+    // Actualizar la URL sin recargar la página
+    const newUrl = params.toString() ? `${url.pathname}?${params.toString()}` : url.pathname;
+    window.history.replaceState({}, "", newUrl);
+  };
+
+  // Función para leer parámetros de URL al cargar la página
+  const loadFromURLParams = () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const country = urlParams.get("country") || "all";
+    const category = urlParams.get("category");
+    const search = urlParams.get("search") || "";
+    
+    setSelectedCountry(country);
+    setSelectedCategory(category);
+    setSearchTerm(search);
+  };
+
+  // Cargar filtros desde URL al montar el componente
+  useEffect(() => {
+    loadFromURLParams();
+  }, []);
+
+  // Actualizar URL cuando cambien los filtros
+  useEffect(() => {
+    updateURLParams(selectedCountry, selectedCategory, searchTerm);
+  }, [selectedCountry, selectedCategory, searchTerm]);
+
+  // Funciones para manejar cambios de filtros
+  const handleCountryChange = (country: string) => {
+    setSelectedCountry(country);
+    setSelectedCategory(null); // Reset category when changing country
+  };
+
+  const handleCategoryChange = (category: string | null) => {
+    setSelectedCategory(category);
+  };
+
+  const handleSearchChange = (search: string) => {
+    setSearchTerm(search);
+  };
 
   // Agrupa todas las categorías de todos los países (sin duplicados por nombre)
   const allCategories = useMemo(() => {
@@ -111,7 +161,7 @@ export const GiftCardCatalog = () => {
             <Input
               placeholder="Buscar gift cards..."
               value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
+              onChange={(e) => handleSearchChange(e.target.value)}
               className="pl-10 bg-card border-0 shadow-lg"
             />
           </div>
@@ -128,8 +178,7 @@ export const GiftCardCatalog = () => {
               image={country.image}
               selected={selectedCountry === country.code}
               onClick={() => {
-                setSelectedCountry(country.code);
-                setSelectedCategory(null);
+                handleCountryChange(country.code);
               }}
             />
           ))}
@@ -140,15 +189,29 @@ export const GiftCardCatalog = () => {
           <div className="mb-8 max-w-xs mx-auto">
             <Select
               value={selectedCategory || "all"}
-              onValueChange={(value) => setSelectedCategory(value === "all" ? null : value)}
+              onValueChange={(value) => handleCategoryChange(value === "all" ? null : value)}
             >
-              <SelectTrigger className="w-full">
+              <SelectTrigger 
+                className={`
+                  w-full font-montserrat font-semibold border-[3px] border-black rounded-2xl
+                  ${selectedCategory ? 'bg-[#fa345e] text-white' : 'bg-white text-black'}
+                `}
+              >
                 <SelectValue placeholder="Selecciona una categoría" />
               </SelectTrigger>
-              <SelectContent className="bg-white border shadow-lg">
-                <SelectItem value="all">Todas las categorías</SelectItem>
+              <SelectContent className="bg-white border-[3px] border-black shadow-lg font-montserrat">
+                <SelectItem 
+                  value="all"
+                  className={`font-montserrat ${selectedCategory === null ? 'bg-[#fa345e] text-white' : 'text-black hover:bg-gray-100'}`}
+                >
+                  Todas las categorías
+                </SelectItem>
                 {allCategoryList.map((category) => (
-                  <SelectItem key={category.id} value={category.id}>
+                  <SelectItem 
+                    key={category.id} 
+                    value={category.id}
+                    className={`font-montserrat ${selectedCategory === category.id ? 'bg-[#fa345e] text-white' : 'text-black hover:bg-gray-100'}`}
+                  >
                     {category.name}
                   </SelectItem>
                 ))}
@@ -157,23 +220,33 @@ export const GiftCardCatalog = () => {
           </div>
         ) : (
           // Vista desktop - Badges
-          <div className="flex flex-wrap gap-2 justify-center mb-8">
-            <Badge
-              variant={selectedCategory === null ? "default" : "secondary"}
-              className="cursor-pointer px-4 py-2 transition-smooth hover:scale-105"
-              onClick={() => setSelectedCategory(null)}
+          <div className="flex flex-wrap gap-3 justify-center mb-8">
+            <button
+              className={`
+                px-4 py-2 rounded-2xl border-[3px] border-black font-montserrat font-semibold transition-all hover:scale-105 text-xs
+                ${selectedCategory === null 
+                  ? 'bg-[#fa345e] text-white' 
+                  : 'bg-white text-black hover:bg-gray-50'
+                }
+              `}
+              onClick={() => handleCategoryChange(null)}
             >
               Todas las categorías
-            </Badge>
+            </button>
             {allCategoryList.map((category) => (
-              <Badge
+              <button
                 key={category.id}
-                variant={selectedCategory === category.id ? "default" : "secondary"}
-                className="cursor-pointer px-4 py-2 transition-smooth hover:scale-105"
-                onClick={() => setSelectedCategory(category.id)}
+                className={`
+                  px-4 py-2 rounded-2xl border-[3px] border-black font-montserrat font-semibold transition-all hover:scale-105 text-xs
+                  ${selectedCategory === category.id 
+                    ? 'bg-[#fa345e] text-white' 
+                    : 'bg-white text-black hover:bg-gray-50'
+                  }
+                `}
+                onClick={() => handleCategoryChange(category.id)}
               >
                 {category.name}
-              </Badge>
+              </button>
             ))}
           </div>
         )}

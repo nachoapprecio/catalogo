@@ -34,12 +34,18 @@ function formatCategoryName(name: string): string {
     "VUELOS Y EXPERIENCIAS": "Vuelos y Experiencias",
     "DEPORTES": "Deportes",
     "MODA Y ACCESORIOS": "Moda y Accesorios",
+    "MODA": "Moda",
     "SALUD Y BELLEZA": "Salud y Belleza",
     "ENTRETENIMIENTO Y TIEMPO LIBRE": "Entretenimiento y Tiempo Libre",
     "ENTRETENCIÓN Y TIEMPO LIBRE": "Entretenimiento y Tiempo Libre",
+    "ENTRETENIMIENTO": "Entretenimiento",
+    "GAMING": "Gaming",
+    "TECNOLOGIA": "Tecnología",
+    "TECNOLOGÍA": "Tecnología",
     "SERVICIOS": "Servicios",
     "E-COMMERCE": "E-commerce",
     "ECOMMERCE": "E-commerce",
+    "OTROS": "Otros",
     "Recargas Celulares": "Recargas Celulares"
   };
   
