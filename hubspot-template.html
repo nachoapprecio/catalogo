@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page_meta.html_title %}{{ page_meta.html_title }}{% else %}Catálogo de Gift Cards{% endif %}</title>
+    <meta name="description" content="{% if page_meta.meta_description %}{{ page_meta.meta_description }}{% else %}Explora nuestro catálogo completo de gift cards para países de LATAM. Filtra por país y categoría.{% endif %}">
+    
+    <!-- HubSpot Meta Tags -->
+    {{ standard_header_includes }}
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- CSS Assets - ACTUALIZAR ESTAS URLS CON TUS ARCHIVOS EN FILE MANAGER -->
+    <link rel="stylesheet" href="{{ get_asset_url('./css/catalogo-gift-cards.css') }}">
+    <link rel="stylesheet" href="{{ get_asset_url('./css/index-D9dCSfc7.css') }}">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Catálogo de Gift Cards">
+    <meta property="og:description" content="Explora nuestro catálogo completo de gift cards para países de LATAM">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ request.full_url }}">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Catálogo de Gift Cards",
+      "description": "Catálogo interactivo de gift cards para LATAM",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web"
+    }
+    </script>
+</head>
+<body>
+    <!-- Loading State -->
+    <div id="loading-state" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; z-index: 9999;">
+        <div style="text-align: center; color: white; font-family: 'Montserrat', sans-serif;">
+            <div style="width: 50px; height: 50px; border: 3px solid rgba(255,255,255,0.3); border-top: 3px solid white; border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 20px;"></div>
+            <h2>Cargando Catálogo...</h2>
+        </div>
+    </div>
+    
+    <style>
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+    
+    <!-- React App Container -->
+    <div id="root"></div>
+    
+    <!-- JavaScript Assets - ACTUALIZAR ESTA URL CON TU ARCHIVO EN FILE MANAGER -->
+    <script src="{{ get_asset_url('./js/index-C6qJ8fcH.js') }}"></script>
+    
+    <!-- Remove Loading State -->
+    <script>
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                const loadingState = document.getElementById('loading-state');
+                if (loadingState) {
+                    loadingState.style.opacity = '0';
+                    setTimeout(function() {
+                        loadingState.remove();
+                    }, 500);
+                }
+            }, 1000);
+        });
+    </script>
+    
+    <!-- HubSpot Tracking -->
+    {{ standard_footer_includes }}
+</body>
+</html>

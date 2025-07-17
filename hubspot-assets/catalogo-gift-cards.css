@@ -1,0 +1,72 @@
+/* HubSpot CMS - Catálogo Gift Cards CSS */
+/* Archivo: catalogo-gift-cards.css */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Variables CSS para HubSpot */
+:root {
+  --primary-color: #667eea;
+  --secondary-color: #764ba2;
+  --accent-color: #fa345e;
+  --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+/* Clases base */
+.font-montserrat { 
+  font-family: 'Montserrat', sans-serif !important; 
+}
+
+.bg-gradient-primary { 
+  background: var(--gradient-primary); 
+}
+
+.bg-gradient-secondary { 
+  background: var(--gradient-secondary); 
+}
+
+/* Animaciones */
+.animate-fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+  from { 
+    opacity: 0; 
+    transform: translateY(20px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+@keyframes scaleIn {
+  from { 
+    opacity: 0; 
+    transform: scale(0.9); 
+  }
+  to { 
+    opacity: 1; 
+    transform: scale(1); 
+  }
+}
+
+/* Contenedor principal */
+#gift-card-catalog-root {
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

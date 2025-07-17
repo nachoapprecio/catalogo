@@ -139,9 +139,7 @@ export const GiftCardCatalog = () => {
   }, [allCategories]);
 
   // Mensaje si no hay resultados
-  const showEmpty =
-    selectedCategory &&
-    (!countryCategories.find((cat) => cat.id === selectedCategory) || filteredCategories.length === 0);
+  const showEmpty = filteredCategories.length === 0;
 
   return (
     <div className="min-h-screen bg-gradient-secondary">
