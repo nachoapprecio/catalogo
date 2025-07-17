@@ -9,6 +9,15 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  preview: {
+    host: "::",
+    port: 4173,
+    allowedHosts: [
+      "catalogo-production-38fc.up.railway.app",
+      "localhost",
+      "127.0.0.1"
+    ]
+  },
   plugins: [
     react(),
     mode === 'development' &&
