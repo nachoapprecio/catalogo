@@ -1,0 +1,12 @@
+{
+  "label": "Catálogo Gift Cards",
+  "css_assets": [],
+  "external_js": [],
+  "global": false,
+  "help_text": "Módulo para mostrar el catálogo interactivo de gift cards con filtros por país y categoría. Incluye funcionalidad de URL parameters para compartir filtros específicos.",
+  "host_template_types": ["PAGE", "BLOG_POST", "LANDING_PAGE"],
+  "no_wrapper": false,
+  "smart_type": "NOT_SMART",
+  "tags": ["catalogo", "gift-cards", "ecommerce", "filtros"],
+  "is_available_for_new_content": true
+}

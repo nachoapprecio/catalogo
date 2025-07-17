@@ -1,0 +1,39 @@
+<!-- Catálogo Gift Cards Module -->
+<div class="catalogo-gift-cards-module">
+  {% if module.mostrar_titulo %}
+    <h2 class="catalogo-title">{{ module.titulo }}</h2>
+  {% endif %}
+  
+  <div id="root" style="max-height: {{ module.altura_maxima }}px; overflow-y: auto;"></div>
+</div>
+
+<!-- CSS - Cargar estilos del catálogo -->
+<link rel="stylesheet" href="https://estudios.apprecio.com/hubfs/catalogo-gift-cards/css/catalogo-gift-cards.css">
+<link rel="stylesheet" href="https://estudios.apprecio.com/hubfs/catalogo-gift-cards/css/index-CR-atBO3.css">
+
+<!-- Estilos específicos del módulo -->
+<style>
+  .catalogo-gift-cards-module {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .catalogo-title {
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #1a1a1a;
+  }
+  
+  @media (max-width: 768px) {
+    .catalogo-title {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+</style>
+
+<!-- JavaScript - Cargar aplicación React -->
+<script src="https://estudios.apprecio.com/hubfs/catalogo-gift-cards/js/index-hhtijjlH.js" defer></script>

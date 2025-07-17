@@ -1,6 +1,24 @@
 # 🚀 Instrucciones Específicas para HubSpot Setup
 
-## ✅ Archivos que Necesitas Subir Ahora
+## 🎯 Opciones de Implementación
+
+**Tienes 2 opciones para implementar el catálogo:**
+
+### 📄 **Opción 1: Template Completo** (implementación actual)
+- ✅ Control total de la página
+- ✅ Página dedicada solo al catálogo
+- ❌ No se puede insertar en páginas existentes
+
+### 🧩 **Opción 2: Módulo Personalizado** (⭐ RECOMENDADO)
+- ✅ Se puede insertar en cualquier página existente
+- ✅ Reutilizable en múltiples páginas
+- ✅ Configurable por instancia
+- ✅ Combinar con otros contenidos
+- 📁 **Archivos:** Ver carpeta `hubspot-module/` y guía `HUBSPOT-MODULE-SETUP.md`
+
+---
+
+## ✅ Archivos que Necesitas Subir Ahora (Para ambas opciones)
 
 Basado en tu estructura de URLs `https://estudios.apprecio.com/hubfs/catalogo-gift-cards/`, necesitas subir estos archivos:
 

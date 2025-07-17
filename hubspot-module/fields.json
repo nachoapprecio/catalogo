@@ -1,0 +1,46 @@
+[
+  {
+    "id": "titulo",
+    "name": "titulo",
+    "label": "Título del catálogo",
+    "required": false,
+    "locked": false,
+    "type": "text",
+    "default": "Catálogo de Gift Cards"
+  },
+  {
+    "id": "mostrar_titulo",
+    "name": "mostrar_titulo", 
+    "label": "Mostrar título",
+    "required": false,
+    "locked": false,
+    "type": "boolean",
+    "default": true
+  },
+  {
+    "id": "pais_por_defecto",
+    "name": "pais_por_defecto",
+    "label": "País por defecto",
+    "required": false,
+    "locked": false,
+    "type": "choice",
+    "choices": [
+      ["all", "Todos los países"],
+      ["chile", "Chile"],
+      ["peru", "Perú"],
+      ["colombia", "Colombia"],
+      ["mexico", "México"],
+      ["ecuador", "Ecuador"]
+    ],
+    "default": "all"
+  },
+  {
+    "id": "altura_maxima",
+    "name": "altura_maxima",
+    "label": "Altura máxima (px)",
+    "required": false,
+    "locked": false,
+    "type": "number",
+    "default": 800
+  }
+]
