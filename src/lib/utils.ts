@@ -97,7 +97,7 @@ export function mapGiftCardsJsonToCategories(
     const formattedCatName = formatCategoryName(catName || "");
     
     return {
-      id: catName ? catName.toLowerCase().replace(/\s+/g, "-") : "unknown",
+      id: formattedCatName ? formattedCatName.toLowerCase().replace(/\s+/g, "-") : "unknown",
       name: formattedCatName,
       cards: cardsArr.map((card: GiftCardItem) => ({
         id: card["posición"] || card["position"] || card["nombre"] || card["name"] || "",
