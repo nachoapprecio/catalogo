@@ -1,0 +1,13 @@
+{
+  "label": "Catálogo Gift Cards (Avanzado)",
+  "css_assets": [],
+  "external_js": [],
+  "global": false,
+  "help_text": "Módulo avanzado del catálogo de gift cards con control completo de estilos, colores, tipografía, animaciones y tracking desde el editor de HubSpot. Incluye funcionalidad de URL parameters y personalización total.",
+  "host_template_types": ["PAGE", "BLOG_POST", "LANDING_PAGE", "EMAIL"],
+  "no_wrapper": false,
+  "smart_type": "NOT_SMART",
+  "tags": ["catalogo", "gift-cards", "ecommerce", "filtros", "personalizable", "avanzado"],
+  "is_available_for_new_content": true,
+  "module_id": "catalogo_gift_cards_advanced"
+}

@@ -1,0 +1,577 @@
+[
+  {
+    "id": "configuracion_general",
+    "name": "configuracion_general",
+    "label": "📋 CONFIGURACIÓN GENERAL",
+    "type": "group",
+    "expanded": true,
+    "children": [
+      {
+        "id": "titulo",
+        "name": "titulo",
+        "label": "Título del catálogo",
+        "required": false,
+        "type": "text",
+        "default": "Catálogo de Gift Cards"
+      },
+      {
+        "id": "mostrar_titulo",
+        "name": "mostrar_titulo",
+        "label": "Mostrar título",
+        "required": false,
+        "type": "boolean",
+        "default": true
+      },
+      {
+        "id": "titulo_tag",
+        "name": "titulo_tag",
+        "label": "Etiqueta HTML del título",
+        "required": false,
+        "type": "choice",
+        "choices": [
+          ["h1", "H1"],
+          ["h2", "H2"],
+          ["h3", "H3"],
+          ["h4", "H4"]
+        ],
+        "default": "h2"
+      },
+      {
+        "id": "subtitulo",
+        "name": "subtitulo",
+        "label": "Subtítulo",
+        "required": false,
+        "type": "text",
+        "default": ""
+      },
+      {
+        "id": "mostrar_subtitulo",
+        "name": "mostrar_subtitulo",
+        "label": "Mostrar subtítulo",
+        "required": false,
+        "type": "boolean",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "configuracion_funcional",
+    "name": "configuracion_funcional",
+    "label": "⚙️ CONFIGURACIÓN FUNCIONAL",
+    "type": "group",
+    "expanded": true,
+    "children": [
+      {
+        "id": "pais_por_defecto",
+        "name": "pais_por_defecto",
+        "label": "País por defecto",
+        "required": false,
+        "type": "choice",
+        "choices": [
+          ["all", "Todos los países"],
+          ["chile", "Chile"],
+          ["peru", "Perú"],
+          ["colombia", "Colombia"],
+          ["mexico", "México"],
+          ["ecuador", "Ecuador"]
+        ],
+        "default": "all"
+      },
+      {
+        "id": "categoria_por_defecto",
+        "name": "categoria_por_defecto",
+        "label": "Categoría por defecto",
+        "required": false,
+        "type": "choice",
+        "choices": [
+          ["all", "Todas las categorías"],
+          ["e-commerce", "E-commerce"],
+          ["gastronomia", "Gastronomía"],
+          ["supermercados-y-minimarket", "Supermercados"],
+          ["grandes-tiendas", "Grandes Tiendas"],
+          ["servicios", "Servicios"]
+        ],
+        "default": "all"
+      },
+      {
+        "id": "mostrar_busqueda",
+        "name": "mostrar_busqueda",
+        "label": "Mostrar barra de búsqueda",
+        "required": false,
+        "type": "boolean",
+        "default": true
+      },
+      {
+        "id": "mostrar_filtros",
+        "name": "mostrar_filtros",
+        "label": "Mostrar filtros",
+        "required": false,
+        "type": "boolean",
+        "default": true
+      }
+    ]
+  },
+  {
+    "id": "estilos_generales",
+    "name": "estilos_generales", 
+    "label": "🎨 ESTILOS GENERALES",
+    "type": "group",
+    "expanded": false,
+    "children": [
+      {
+        "id": "ancho_maximo",
+        "name": "ancho_maximo",
+        "label": "Ancho máximo (px)",
+        "required": false,
+        "type": "number",
+        "default": 1200
+      },
+      {
+        "id": "altura_minima",
+        "name": "altura_minima",
+        "label": "Altura mínima (px)",
+        "required": false,
+        "type": "number",
+        "default": 400
+      },
+      {
+        "id": "altura_maxima",
+        "name": "altura_maxima",
+        "label": "Altura máxima (px)",
+        "required": false,
+        "type": "number",
+        "default": 800
+      },
+      {
+        "id": "padding",
+        "name": "padding",
+        "label": "Padding interno (px)",
+        "required": false,
+        "type": "number",
+        "default": 24
+      },
+      {
+        "id": "margen_vertical",
+        "name": "margen_vertical",
+        "label": "Margen vertical (px)",
+        "required": false,
+        "type": "number",
+        "default": 32
+      }
+    ]
+  },
+  {
+    "id": "colores",
+    "name": "colores",
+    "label": "🌈 COLORES",
+    "type": "group",
+    "expanded": false,
+    "children": [
+      {
+        "id": "color_fondo",
+        "name": "color_fondo",
+        "label": "Color de fondo principal",
+        "required": false,
+        "type": "color",
+        "default": {
+          "color": "#ffffff"
+        }
+      },
+      {
+        "id": "color_fondo_catalogo",
+        "name": "color_fondo_catalogo",
+        "label": "Color de fondo del catálogo",
+        "required": false,
+        "type": "color",
+        "default": {
+          "color": "#fafafa"
+        }
+      },
+      {
+        "id": "color_titulo",
+        "name": "color_titulo",
+        "label": "Color del título",
+        "required": false,
+        "type": "color",
+        "default": {
+          "color": "#1a1a1a"
+        }
+      },
+      {
+        "id": "color_subtitulo",
+        "name": "color_subtitulo",
+        "label": "Color del subtítulo",
+        "required": false,
+        "type": "color",
+        "default": {
+          "color": "#666666"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tipografia",
+    "name": "tipografia",
+    "label": "📝 TIPOGRAFÍA",
+    "type": "group",
+    "expanded": false,
+    "children": [
+      {
+        "id": "fuente_titulo",
+        "name": "fuente_titulo",
+        "label": "Fuente del título",
+        "required": false,
+        "type": "font",
+        "default": {
+          "font": "Montserrat"
+        }
+      },
+      {
+        "id": "titulo_tamano",
+        "name": "titulo_tamano",
+        "label": "Tamaño título (px)",
+        "required": false,
+        "type": "number",
+        "default": 40
+      },
+      {
+        "id": "titulo_peso",
+        "name": "titulo_peso",
+        "label": "Peso del título",
+        "required": false,
+        "type": "choice",
+        "choices": [
+          ["300", "Light (300)"],
+          ["400", "Normal (400)"],
+          ["500", "Medium (500)"],
+          ["600", "SemiBold (600)"],
+          ["700", "Bold (700)"],
+          ["800", "ExtraBold (800)"]
+        ],
+        "default": "700"
+      },
+      {
+        "id": "titulo_alineacion",
+        "name": "titulo_alineacion",
+        "label": "Alineación del título",
+        "required": false,
+        "type": "choice",
+        "choices": [
+          ["left", "Izquierda"],
+          ["center", "Centro"],
+          ["right", "Derecha"]
+        ],
+        "default": "center"
+      },
+      {
+        "id": "titulo_margen_inferior",
+        "name": "titulo_margen_inferior",
+        "label": "Margen inferior título (px)",
+        "required": false,
+        "type": "number",
+        "default": 24
+      }
+    ]
+  },
+  {
+    "id": "botones_personalizacion",
+    "name": "botones_personalizacion",
+    "label": "🔘 PERSONALIZACIÓN BOTONES",
+    "type": "group",
+    "expanded": false,
+    "children": [
+      {
+        "id": "personalizar_botones",
+        "name": "personalizar_botones",
+        "label": "Personalizar colores de botones",
+        "required": false,
+        "type": "boolean",
+        "default": false
+      },
+      {
+        "id": "color_boton_primario",
+        "name": "color_boton_primario",
+        "label": "Color botón primario",
+        "required": false,
+        "type": "color",
+        "default": {
+          "color": "#8b5cf6"
+        }
+      },
+      {
+        "id": "color_boton_hover",
+        "name": "color_boton_hover",
+        "label": "Color botón hover",
+        "required": false,
+        "type": "color",
+        "default": {
+          "color": "#7c3aed"
+        }
+      },
+      {
+        "id": "color_texto_boton",
+        "name": "color_texto_boton",
+        "label": "Color texto botón",
+        "required": false,
+        "type": "color",
+        "default": {
+          "color": "#ffffff"
+        }
+      },
+      {
+        "id": "boton_efecto_hover",
+        "name": "boton_efecto_hover",
+        "label": "Efecto hover",
+        "required": false,
+        "type": "choice",
+        "choices": [
+          ["none", "Sin efecto"],
+          ["scale(1.05)", "Agrandar"],
+          ["translateY(-2px)", "Elevar"],
+          ["scale(0.95)", "Reducir"]
+        ],
+        "default": "translateY(-2px)"
+      }
+    ]
+  },
+  {
+    "id": "bordes_sombras",
+    "name": "bordes_sombras",
+    "label": "🎭 BORDES Y SOMBRAS",
+    "type": "group",
+    "expanded": false,
+    "children": [
+      {
+        "id": "border_radius",
+        "name": "border_radius",
+        "label": "Radio del borde (px)",
+        "required": false,
+        "type": "number",
+        "default": 12
+      },
+      {
+        "id": "mostrar_borde",
+        "name": "mostrar_borde",
+        "label": "Mostrar borde",
+        "required": false,
+        "type": "boolean",
+        "default": false
+      },
+      {
+        "id": "borde_ancho",
+        "name": "borde_ancho",
+        "label": "Ancho del borde (px)",
+        "required": false,
+        "type": "number",
+        "default": 1
+      },
+      {
+        "id": "color_borde",
+        "name": "color_borde",
+        "label": "Color del borde",
+        "required": false,
+        "type": "color",
+        "default": {
+          "color": "#e5e7eb"
+        }
+      },
+      {
+        "id": "mostrar_sombra",
+        "name": "mostrar_sombra",
+        "label": "Mostrar sombra",
+        "required": false,
+        "type": "boolean",
+        "default": true
+      },
+      {
+        "id": "sombra_offset_y",
+        "name": "sombra_offset_y",
+        "label": "Desplazamiento Y sombra (px)",
+        "required": false,
+        "type": "number",
+        "default": 4
+      },
+      {
+        "id": "sombra_blur",
+        "name": "sombra_blur",
+        "label": "Difuminado sombra (px)",
+        "required": false,
+        "type": "number",
+        "default": 15
+      },
+      {
+        "id": "color_sombra",
+        "name": "color_sombra",
+        "label": "Color de la sombra",
+        "required": false,
+        "type": "color",
+        "default": {
+          "color": "rgba(0, 0, 0, 0.1)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "animaciones",
+    "name": "animaciones",
+    "label": "✨ ANIMACIONES",
+    "type": "group",
+    "expanded": false,
+    "children": [
+      {
+        "id": "activar_animaciones",
+        "name": "activar_animaciones",
+        "label": "Activar animaciones",
+        "required": false,
+        "type": "boolean",
+        "default": true
+      },
+      {
+        "id": "animacion_entrada",
+        "name": "animacion_entrada",
+        "label": "Animación de entrada",
+        "required": false,
+        "type": "choice",
+        "choices": [
+          ["fadeInUp", "Fade In Up"],
+          ["slideInLeft", "Slide In Left"],
+          ["zoomIn", "Zoom In"],
+          ["none", "Sin animación"]
+        ],
+        "default": "fadeInUp"
+      },
+      {
+        "id": "duracion_animacion",
+        "name": "duracion_animacion",
+        "label": "Duración animación (segundos)",
+        "required": false,
+        "type": "number",
+        "default": 0.6
+      }
+    ]
+  },
+  {
+    "id": "responsive",
+    "name": "responsive",
+    "label": "📱 RESPONSIVE",
+    "type": "group",
+    "expanded": false,
+    "children": [
+      {
+        "id": "padding_mobile",
+        "name": "padding_mobile",
+        "label": "Padding móvil (px)",
+        "required": false,
+        "type": "number",
+        "default": 16
+      },
+      {
+        "id": "titulo_tamano_mobile",
+        "name": "titulo_tamano_mobile",
+        "label": "Tamaño título móvil (px)",
+        "required": false,
+        "type": "number",
+        "default": 28
+      },
+      {
+        "id": "ocultar_filtros_mobile",
+        "name": "ocultar_filtros_mobile",
+        "label": "Ocultar filtros en móvil",
+        "required": false,
+        "type": "boolean",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "tracking_analytics",
+    "name": "tracking_analytics",
+    "label": "📊 TRACKING Y ANALYTICS",
+    "type": "group",
+    "expanded": false,
+    "children": [
+      {
+        "id": "activar_tracking",
+        "name": "activar_tracking",
+        "label": "Activar tracking Google Analytics",
+        "required": false,
+        "type": "boolean",
+        "default": true
+      },
+      {
+        "id": "activar_tracking_hubspot",
+        "name": "activar_tracking_hubspot",
+        "label": "Activar tracking HubSpot",
+        "required": false,
+        "type": "boolean",
+        "default": true
+      },
+      {
+        "id": "activar_lead_tracking",
+        "name": "activar_lead_tracking",
+        "label": "Activar lead tracking",
+        "required": false,
+        "type": "boolean",
+        "default": false
+      }
+    ]
+  },
+  {
+    "id": "contenido_adicional",
+    "name": "contenido_adicional",
+    "label": "📄 CONTENIDO ADICIONAL",
+    "type": "group",
+    "expanded": false,
+    "children": [
+      {
+        "id": "mostrar_texto_pie",
+        "name": "mostrar_texto_pie",
+        "label": "Mostrar texto del pie",
+        "required": false,
+        "type": "boolean",
+        "default": false
+      },
+      {
+        "id": "texto_pie",
+        "name": "texto_pie",
+        "label": "Texto del pie",
+        "required": false,
+        "type": "richtext",
+        "default": "<p>¿Necesitas ayuda? <a href='/contacto'>Contáctanos</a></p>"
+      }
+    ]
+  },
+  {
+    "id": "configuracion_avanzada",
+    "name": "configuracion_avanzada",
+    "label": "⚡ CONFIGURACIÓN AVANZADA",
+    "type": "group",
+    "expanded": false,
+    "children": [
+      {
+        "id": "debug_mode",
+        "name": "debug_mode",
+        "label": "Modo debug (solo desarrollo)",
+        "required": false,
+        "type": "boolean",
+        "default": false
+      },
+      {
+        "id": "callback_filtro_cambio",
+        "name": "callback_filtro_cambio",
+        "label": "Callback cambio filtro (función JS)",
+        "required": false,
+        "type": "text",
+        "default": ""
+      },
+      {
+        "id": "callback_card_click",
+        "name": "callback_card_click",
+        "label": "Callback click tarjeta (función JS)",
+        "required": false,
+        "type": "text",
+        "default": ""
+      }
+    ]
+  }
+]

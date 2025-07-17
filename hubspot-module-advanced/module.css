@@ -1,0 +1,144 @@
+/* Estilos del módulo Catálogo Gift Cards */
+/* Se pueden personalizar desde el editor de HubSpot */
+
+.catalogo-gift-cards-advanced {
+  width: 100%;
+  max-width: {{ module.ancho_maximo }}px;
+  margin: {{ module.margen_vertical }}px auto;
+  padding: {{ module.padding }}px;
+  background-color: {{ module.color_fondo.color }};
+  border-radius: {{ module.border_radius }}px;
+  {% if module.mostrar_sombra %}
+  box-shadow: 0 {{ module.sombra_offset_y }}px {{ module.sombra_blur }}px {{ module.sombra_spread }}px {{ module.color_sombra.color }};
+  {% endif %}
+  {% if module.mostrar_borde %}
+  border: {{ module.borde_ancho }}px {{ module.borde_estilo }} {{ module.color_borde.color }};
+  {% endif %}
+}
+
+/* Título personalizable */
+.catalogo-title {
+  font-family: {{ module.fuente_titulo.font }}, 'Montserrat', sans-serif;
+  font-size: {{ module.titulo_tamano }}px;
+  font-weight: {{ module.titulo_peso }};
+  color: {{ module.color_titulo.color }};
+  text-align: {{ module.titulo_alineacion }};
+  margin-bottom: {{ module.titulo_margen_inferior }}px;
+  {% if module.titulo_texto_sombra %}
+  text-shadow: 2px 2px 4px {{ module.color_titulo_sombra.color }};
+  {% endif %}
+}
+
+/* Subtítulo */
+.catalogo-subtitle {
+  font-family: {{ module.fuente_subtitulo.font }}, 'Montserrat', sans-serif;
+  font-size: {{ module.subtitulo_tamano }}px;
+  font-weight: {{ module.subtitulo_peso }};
+  color: {{ module.color_subtitulo.color }};
+  text-align: {{ module.subtitulo_alineacion }};
+  margin-bottom: {{ module.subtitulo_margen_inferior }}px;
+  line-height: 1.6;
+}
+
+/* Contenedor principal */
+.catalogo-container {
+  min-height: {{ module.altura_minima }}px;
+  max-height: {{ module.altura_maxima }}px;
+  overflow-y: auto;
+  background-color: {{ module.color_fondo_catalogo.color }};
+  border-radius: {{ module.contenedor_border_radius }}px;
+  {% if module.contenedor_mostrar_borde %}
+  border: {{ module.contenedor_borde_ancho }}px solid {{ module.color_contenedor_borde.color }};
+  {% endif %}
+}
+
+/* Texto del pie */
+.catalogo-footer {
+  margin-top: {{ module.pie_margen_superior }}px;
+  padding: {{ module.pie_padding }}px;
+  background-color: {{ module.color_fondo_pie.color }};
+  color: {{ module.color_texto_pie.color }};
+  text-align: {{ module.pie_alineacion }};
+  font-size: {{ module.pie_tamano }}px;
+  border-radius: {{ module.pie_border_radius }}px;
+}
+
+/* Personalización de botones del catálogo */
+.catalogo-gift-cards-advanced .catalogo-container button {
+  {% if module.personalizar_botones %}
+  background-color: {{ module.color_boton_primario.color }} !important;
+  color: {{ module.color_texto_boton.color }} !important;
+  border-color: {{ module.color_borde_boton.color }} !important;
+  {% endif %}
+}
+
+.catalogo-gift-cards-advanced .catalogo-container button:hover {
+  {% if module.personalizar_botones %}
+  background-color: {{ module.color_boton_hover.color }} !important;
+  transform: {{ module.boton_efecto_hover }};
+  {% endif %}
+}
+
+/* Personalización de badges/etiquetas */
+.catalogo-gift-cards-advanced .catalogo-container .badge {
+  {% if module.personalizar_badges %}
+  background-color: {{ module.color_badge.color }} !important;
+  color: {{ module.color_texto_badge.color }} !important;
+  {% endif %}
+}
+
+/* Responsive personalizable */
+@media (max-width: 768px) {
+  .catalogo-gift-cards-advanced {
+    padding: {{ module.padding_mobile }}px;
+    margin: {{ module.margen_vertical_mobile }}px auto;
+  }
+  
+  .catalogo-title {
+    font-size: {{ module.titulo_tamano_mobile }}px;
+  }
+  
+  .catalogo-subtitle {
+    font-size: {{ module.subtitulo_tamano_mobile }}px;
+  }
+}
+
+/* Animaciones personalizables */
+{% if module.activar_animaciones %}
+.catalogo-gift-cards-advanced {
+  animation: {{ module.animacion_entrada }} {{ module.duracion_animacion }}s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+{% endif %}
