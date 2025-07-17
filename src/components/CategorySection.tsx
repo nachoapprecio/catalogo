@@ -6,6 +6,8 @@ interface GiftCardData {
   name: string;
   image: string;
   alt: string;
+  countryCode?: string;
+  countryFlag?: string;
 }
 
 interface Category {
@@ -60,6 +62,8 @@ export const CategorySection = ({ category, searchTerm, delay }: CategorySection
             key={category.id + '-' + card.id + '-' + index}
             card={card}
             delay={delay + (index * 50)}
+            countryCode={card.countryCode}
+            countryFlag={card.countryFlag}
           />
         ))}
       </div>

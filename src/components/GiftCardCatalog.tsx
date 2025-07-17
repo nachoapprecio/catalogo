@@ -94,14 +94,37 @@ export const GiftCardCatalog = () => {
 
   // Agrupa todas las categorías de todos los países (sin duplicados por nombre)
   const allCategories = useMemo(() => {
-    const all = Object.values(giftcardsByCountry).flatMap(mapGiftCardsJsonToCategories);
-    const unique: Record<string, Category> = {};
-    all.forEach((cat) => {
-      if (!unique[cat.name]) unique[cat.name] = { ...cat, cards: [...cat.cards] };
-      else unique[cat.name].cards.push(...cat.cards);
+    const all = Object.entries(giftcardsByCountry).flatMap(([countryCode, countryData]) => {
+      const countryInfo = countryList.find(c => c.code === countryCode);
+      return mapGiftCardsJsonToCategories(countryData).map(cat => ({
+        ...cat,
+        countryCode,
+        countryFlag: countryInfo?.image
+      }));
     });
+    
+    const unique: Record<string, any> = {};
+    all.forEach((cat) => {
+      if (!unique[cat.name]) {
+        unique[cat.name] = { 
+          ...cat, 
+          cards: cat.cards.map((card: any) => ({
+            ...card,
+            countryCode: cat.countryCode,
+            countryFlag: cat.countryFlag
+          }))
+        };
+      } else {
+        unique[cat.name].cards.push(...cat.cards.map((card: any) => ({
+          ...card,
+          countryCode: cat.countryCode,
+          countryFlag: cat.countryFlag
+        })));
+      }
+    });
+    
     // Asigna icono si existe
-    return Object.values(unique).map((cat: Category) => ({
+    return Object.values(unique).map((cat: any) => ({
       ...cat,
       icon: iconMap[cat.name] || undefined,
     }));
@@ -112,9 +135,16 @@ export const GiftCardCatalog = () => {
     if (selectedCountry === "all") return allCategories;
     const json = giftcardsByCountry[selectedCountry as keyof typeof giftcardsByCountry];
     const mapped = json ? mapGiftCardsJsonToCategories(json) : [];
+    const countryInfo = countryList.find(c => c.code === selectedCountry);
+    
     return mapped.map((cat) => ({
       ...cat,
       icon: iconMap[cat.name] || undefined,
+      cards: cat.cards.map(card => ({
+        ...card,
+        countryCode: selectedCountry,
+        countryFlag: countryInfo?.image
+      }))
     }));
   }, [selectedCountry, allCategories]);
 

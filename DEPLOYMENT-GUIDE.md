@@ -3,8 +3,8 @@
 ## 📁 Archivos Necesarios
 
 ### 1. **Archivos del Build** (ya generados)
-- `dist/assets/index-D9dCSfc7.css` → CSS compilado
-- `dist/assets/index-C6qJ8fcH.js` → JavaScript compilado (ACTUALIZADO)
+- `dist/assets/index-CR-atBO3.css` → CSS compilado (ACTUALIZADO)
+- `dist/assets/index-hdJtNkDO.js` → JavaScript compilado (ACTUALIZADO)
 - `dist/index.html` → Referencia de estructura
 
 ### 2. **Archivos HubSpot** (creados)
@@ -28,10 +28,10 @@
    ```
    /catalogo-gift-cards/
    ├── css/
-   │   ├── index-D9dCSfc7.css
+   │   ├── index-CR-atBO3.css
    │   └── catalogo-gift-cards.css
    ├── js/
-   │   └── index-B3yQ0gro.js
+   │   └── index-hdJtNkDO.js
    └── images/
        ├── empty-state.svg
        ├── favicon.ico
@@ -39,8 +39,8 @@
    ```
 
 3. **Subir archivos:**
-   - Sube `dist/assets/index-D9dCSfc7.css` a `/catalogo-gift-cards/css/`
-   - Sube `dist/assets/index-C6qJ8fcH.js` a `/catalogo-gift-cards/js/` (ACTUALIZADO)
+   - Sube `dist/assets/index-CR-atBO3.css` a `/catalogo-gift-cards/css/` (ACTUALIZADO)
+   - Sube `dist/assets/index-hdJtNkDO.js` a `/catalogo-gift-cards/js/` (ACTUALIZADO)
    - Sube `hubspot-assets/catalogo-gift-cards.css` a `/catalogo-gift-cards/css/`
    - Sube todas las imágenes de `public/` a `/catalogo-gift-cards/images/`
 
@@ -64,13 +64,13 @@ Reemplaza estas líneas en tu template con las URLs correctas:
 ```html
 <!-- Antes -->
 <link rel="stylesheet" href="{{ get_asset_url('./css/catalogo-gift-cards.css') }}">
-<link rel="stylesheet" href="{{ get_asset_url('./css/index-D9dCSfc7.css') }}">
-<script src="{{ get_asset_url('./js/index-C6qJ8fcH.js') }}"></script>
+<link rel="stylesheet" href="{{ get_asset_url('./css/index-CR-atBO3.css') }}">
+<script src="{{ get_asset_url('./js/index-hdJtNkDO.js') }}"></script>
 
 <!-- Después (ejemplo con tus URLs reales) -->
 <link rel="stylesheet" href="https://your-portal.hs-sites.com/hubfs/catalogo-gift-cards/css/catalogo-gift-cards.css">
-<link rel="stylesheet" href="https://your-portal.hs-sites.com/hubfs/catalogo-gift-cards/css/index-D9dCSfc7.css">
-<script src="https://your-portal.hs-sites.com/hubfs/catalogo-gift-cards/js/index-C6qJ8fcH.js"></script>
+<link rel="stylesheet" href="https://your-portal.hs-sites.com/hubfs/catalogo-gift-cards/css/index-CR-atBO3.css">
+<script src="https://your-portal.hs-sites.com/hubfs/catalogo-gift-cards/js/index-hdJtNkDO.js"></script>
 ```
 
 ### **Paso 4: Crear Página**

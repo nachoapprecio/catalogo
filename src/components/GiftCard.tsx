@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 
 interface GiftCardData {
   id: string;
@@ -10,9 +11,11 @@ interface GiftCardData {
 interface GiftCardProps {
   card: GiftCardData;
   delay: number;
+  countryCode?: string;
+  countryFlag?: string;
 }
 
-export const GiftCard = ({ card, delay }: GiftCardProps) => {
+export const GiftCard = ({ card, delay, countryCode, countryFlag }: GiftCardProps) => {
   return (
     <div
       className="animate-scale-in group cursor-pointer"
@@ -34,6 +37,23 @@ export const GiftCard = ({ card, delay }: GiftCardProps) => {
             
             {/* Overlay */}
             <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
+            
+            {/* Country Flag Badge */}
+            {countryFlag && (
+              <div className="absolute top-3 left-3">
+                <Badge 
+                  variant="secondary" 
+                  className="bg-white/90 hover:bg-white text-gray-800 border-0 shadow-md px-2 py-1 font-montserrat font-medium text-xs flex items-center gap-1.5"
+                >
+                  <img 
+                    src={countryFlag} 
+                    alt={`Bandera ${countryCode}`}
+                    className="w-4 h-4 rounded-sm object-cover"
+                  />
+                  <span className="hidden sm:inline">Gift Card</span>
+                </Badge>
+              </div>
+            )}
           </div>
           
           {/* Content */}
