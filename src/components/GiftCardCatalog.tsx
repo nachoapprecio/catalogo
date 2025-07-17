@@ -44,28 +44,52 @@ export const GiftCardCatalog = () => {
 
   // Función para actualizar URL con parámetros de consulta
   const updateURLParams = (country: string, category: string | null, search: string) => {
-    const url = new URL(window.location.href);
-    const params = new URLSearchParams();
+    // Solo actualizar URL en el navegador, no en SSR
+    if (typeof window === 'undefined') return;
     
-    if (country !== "all") params.set("country", country);
-    if (category) params.set("category", category);
-    if (search.trim()) params.set("search", search.trim());
-    
-    // Actualizar la URL sin recargar la página
-    const newUrl = params.toString() ? `${url.pathname}?${params.toString()}` : url.pathname;
-    window.history.replaceState({}, "", newUrl);
+    try {
+      const url = new URL(window.location.href);
+      const params = new URLSearchParams();
+      
+      if (country !== "all") params.set("country", country);
+      if (category) params.set("category", category);
+      if (search.trim()) params.set("search", search.trim());
+      
+      // Usar pushState en lugar de replaceState para mejor compatibilidad
+      const newUrl = params.toString() ? `${url.pathname}?${params.toString()}` : url.pathname;
+      
+      // Verificar si la URL realmente cambió para evitar loops
+      if (newUrl !== window.location.pathname + window.location.search) {
+        window.history.replaceState({}, "", newUrl);
+      }
+    } catch (error) {
+      console.warn('Error updating URL params:', error);
+    }
   };
 
   // Función para leer parámetros de URL al cargar la página
   const loadFromURLParams = () => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const country = urlParams.get("country") || "all";
-    const category = urlParams.get("category");
-    const search = urlParams.get("search") || "";
+    // Solo leer URL en el navegador, no en SSR
+    if (typeof window === 'undefined') return;
     
-    setSelectedCountry(country);
-    setSelectedCategory(category);
-    setSearchTerm(search);
+    try {
+      const urlParams = new URLSearchParams(window.location.search);
+      const country = urlParams.get("country") || "all";
+      const category = urlParams.get("category");
+      const search = urlParams.get("search") || "";
+      
+      console.log('🔍 Loading from URL params:', { country, category, search });
+      
+      setSelectedCountry(country);
+      setSelectedCategory(category);
+      setSearchTerm(search);
+    } catch (error) {
+      console.warn('Error loading URL params:', error);
+      // Fallback a valores por defecto
+      setSelectedCountry("all");
+      setSelectedCategory(null);
+      setSearchTerm("");
+    }
   };
 
   // Cargar filtros desde URL al montar el componente
