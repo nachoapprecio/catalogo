@@ -22,3 +22,14 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local env/config
+.env
+.env.*
+
+# Local automation data and snapshots
+automation/
+selenium_extraction_results/
+src/data/*.backup
+temp-module-clean/
+catalogo/

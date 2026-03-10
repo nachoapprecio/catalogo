@@ -28,4 +28,16 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    rollupOptions: {
+      output: {
+        inlineDynamicImports: true,
+        format: 'iife',
+        name: 'CatalogoGiftCardsBundle',
+        entryFileNames: 'assets/catalogo-giftcards.js',
+        chunkFileNames: 'assets/[name]-catalogo-giftcards.js',
+        assetFileNames: 'assets/[name]-catalogo-giftcards.[ext]'
+      }
+    }
+  }
 }));

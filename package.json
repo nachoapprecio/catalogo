@@ -9,8 +9,7 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "serve": "node server.js",
-    "start": "node server.js"
+    "weekly-json-commit": "bash scripts/weekly_json_commit.sh"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
