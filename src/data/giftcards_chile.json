@@ -83,14 +83,6 @@
         "sort": 349
       },
       {
-        "id": 414,
-        "name": "Jumbo Santa Isabel",
-        "company": "Jumbo Santa Isabel",
-        "giftcard_name": "EXCLUSIVO_EASY_JUMBO",
-        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/414.png",
-        "sort": 414
-      },
-      {
         "id": 423,
         "name": "Membresía Jumbo",
         "company": "Membresía Jumbo",
@@ -779,14 +771,6 @@
         "giftcard_name": "SF_BLACK300",
         "image": "https://cdn.dcanje.com/dcanje.com/giftcards/422.png",
         "sort": 422
-      },
-      {
-        "id": 428,
-        "name": "Getaway Deluxe",
-        "company": "Getaway Deluxe",
-        "giftcard_name": "BOX_DELUXE",
-        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/428.png",
-        "sort": 428
       }
     ]
   },

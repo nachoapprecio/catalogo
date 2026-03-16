@@ -172,8 +172,16 @@
         "name": "Falabella Todo",
         "company": "Falabella Todo",
         "giftcard_name": "FALABELLA",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/279.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/279.png",
         "sort": 279
+      },
+      {
+        "id": 284,
+        "name": "Falabella Eventos",
+        "company": "Falabella Eventos",
+        "giftcard_name": "FALABELLA_EVENTO",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/284.png",
+        "sort": 284
       }
     ]
   },
@@ -541,7 +549,7 @@
         "name": "Desigual",
         "company": "Desigual",
         "giftcard_name": "UB_DESIGUAL",
-        "image": "https://cdn.dcanje.com/apprecio.co/giftcards/Desigual_06-08_id245.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/giftcards/Desigual_06-08_id245.png",
         "sort": 245
       },
       {
@@ -557,7 +565,7 @@
         "name": "Derek",
         "company": "Derek",
         "giftcard_name": "BAGUER",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/270.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/270.png",
         "sort": 270
       },
       {
@@ -565,7 +573,7 @@
         "name": "Travel",
         "company": "Travel",
         "giftcard_name": "BAGUER",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/271.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/271.png",
         "sort": 271
       },
       {
@@ -573,7 +581,7 @@
         "name": "Stirpe Tendencias",
         "company": "Stirpe Tendencias",
         "giftcard_name": "BAGUER",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/273.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/273.png",
         "sort": 273
       },
       {
@@ -581,7 +589,7 @@
         "name": "Sportline",
         "company": "Sportline",
         "giftcard_name": "SPORT_LINE",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/274.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/274.png",
         "sort": 274
       }
     ]
@@ -618,7 +626,7 @@
         "name": "Cabify",
         "company": "Cabify",
         "giftcard_name": "CABIFY_GC",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/251.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/251.png",
         "sort": 251
       },
       {
@@ -626,7 +634,7 @@
         "name": "parking 15",
         "company": "parking 15",
         "giftcard_name": "PARKING_15",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/253.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/253.png",
         "sort": 253
       },
       {
@@ -634,7 +642,7 @@
         "name": "parking 30",
         "company": "parking 30",
         "giftcard_name": "PARKING_30",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/254.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/254.png",
         "sort": 254
       },
       {
@@ -642,7 +650,7 @@
         "name": "parking 60",
         "company": "parking 60",
         "giftcard_name": "PARKING_60",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/255.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/255.png",
         "sort": 255
       }
     ]
@@ -860,7 +868,7 @@
         "name": "Presto",
         "company": "Presto",
         "giftcard_name": "PRESTO_GC",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/249_24Septiembre.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/giftcards/249_24Septiembre.png",
         "sort": 249
       },
       {
@@ -876,7 +884,7 @@
         "name": "Buffalo Wings",
         "company": "Buffalo Wings",
         "giftcard_name": "BUFFALO_WINGS",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/259.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/259.png",
         "sort": 259
       }
     ]
@@ -907,14 +915,6 @@
         "giftcard_name": "HOME_SENTRY",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/158.png",
         "sort": 158
-      },
-      {
-        "id": 281,
-        "name": "Panamericana Papeleria",
-        "company": "Panamericana Papeleria",
-        "giftcard_name": "PANAMERICANA_RETAIL",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/281.png",
-        "sort": 281
       }
     ]
   }
