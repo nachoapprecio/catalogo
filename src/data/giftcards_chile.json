@@ -11,22 +11,6 @@
         "sort": 11
       },
       {
-        "id": 29,
-        "name": "Mayorista10",
-        "company": "Mayorista10",
-        "giftcard_name": "SMU",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/_29.png",
-        "sort": 10
-      },
-      {
-        "id": 31,
-        "name": "Unimarc",
-        "company": "Unimarc",
-        "giftcard_name": "SMU",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/_31.png",
-        "sort": 9
-      },
-      {
         "id": 35,
         "name": "Santa Isabel",
         "company": "Santa Isabel",
@@ -43,28 +27,12 @@
         "sort": 151
       },
       {
-        "id": 230,
-        "name": "Alvi",
-        "company": "Alvi",
-        "giftcard_name": "SMU",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/_230.png",
-        "sort": 230
-      },
-      {
         "id": 256,
         "name": "La Barra",
         "company": "La Barra",
         "giftcard_name": "LABARRA",
         "image": "https://cdn.dcanje.com/dcanje.com/giftcards/256.png",
         "sort": 256
-      },
-      {
-        "id": 269,
-        "name": "Super 10",
-        "company": "Super 10",
-        "giftcard_name": "SMU",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/_269.png",
-        "sort": 269
       },
       {
         "id": 286,
@@ -89,6 +57,38 @@
         "giftcard_name": "JUMBO_PRIME",
         "image": "https://cdn.dcanje.com/dcanje.com/giftcards/423.png",
         "sort": 423
+      },
+      {
+        "id": 429,
+        "name": "Unimarc SMU",
+        "company": "Unimarc SMU",
+        "giftcard_name": "SMU_API",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/_31.png",
+        "sort": 429
+      },
+      {
+        "id": 431,
+        "name": "Mayorista_10",
+        "company": "Mayorista_10",
+        "giftcard_name": "MAYORISTA10_API",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/_29.png",
+        "sort": 431
+      },
+      {
+        "id": 432,
+        "name": "Alvi SMU",
+        "company": "Alvi SMU",
+        "giftcard_name": "ALVI_API",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/_230.png",
+        "sort": 432
+      },
+      {
+        "id": 433,
+        "name": "Super_10",
+        "company": "Super_10",
+        "giftcard_name": "SUPER_10_API",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/_269.png",
+        "sort": 433
       }
     ]
   },
@@ -134,6 +134,14 @@
         "giftcard_name": "CASA_IDEAS",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/246.png",
         "sort": 246
+      },
+      {
+        "id": 354,
+        "name": "Ripley Cashback",
+        "company": "Ripley Cashback",
+        "giftcard_name": "RIPLEY_CASHBACK",
+        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/354.png",
+        "sort": 1
       }
     ]
   },
@@ -206,14 +214,6 @@
   {
     "category": "GASTRONOMÍA",
     "giftcards": [
-      {
-        "id": 156,
-        "name": "Juan Valdez",
-        "company": "Juan Valdez",
-        "giftcard_name": "FALABELLA",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/156.png",
-        "sort": 156
-      },
       {
         "id": 320,
         "name": "Varsovienne",
@@ -572,30 +572,6 @@
         "giftcard_name": "CASANOVA",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/326.png",
         "sort": 326
-      },
-      {
-        "id": 362,
-        "name": "FC24 520 Points Mobile",
-        "company": "FC24 520 Points Mobile",
-        "giftcard_name": "FC24_520_POINTS",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/362.png",
-        "sort": 362
-      },
-      {
-        "id": 363,
-        "name": "FC24 1.070 Points Mobile",
-        "company": "FC24 1.070 Points Mobile",
-        "giftcard_name": "FC24_1.070_POINTS",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/363.png",
-        "sort": 363
-      },
-      {
-        "id": 364,
-        "name": "FC24 2.200 Points Mobile",
-        "company": "FC24 2.200 Points Mobile",
-        "giftcard_name": "FC24_2.200_POINTS",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/364.png",
-        "sort": 364
       },
       {
         "id": 365,

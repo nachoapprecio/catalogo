@@ -223,12 +223,28 @@
         "giftcard_name": "BH_SEPHORA",
         "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/89.png",
         "sort": 89
+      },
+      {
+        "id": 90,
+        "name": "GLITZI",
+        "company": "GLITZI",
+        "giftcard_name": "GLITZI_GC",
+        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/90.png",
+        "sort": 90
       }
     ]
   },
   {
     "category": "ENTRETENIMIENTO Y TIEMPO LIBRE",
     "giftcards": [
+      {
+        "id": 15,
+        "name": "Cinepolis Vip",
+        "company": "Cinepolis Vip",
+        "giftcard_name": "CINEPOLIS_VIP",
+        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/15.png",
+        "sort": 15
+      },
       {
         "id": 22,
         "name": "Spotify P 1m",
