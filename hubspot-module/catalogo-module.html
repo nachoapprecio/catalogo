@@ -1,0 +1,70 @@
+  <div
+    id="root-catalogo-{{ module.pais|default('todos')|lower }}-{{ name }}"
+    class="giftcards_{{ module.pais|default('todos')|lower }}"
+    style="--catalogo-shadow: 0 14px 36px rgba({{ module.style.shadow.color|default('#111111')|convert_rgb }}, {{ (module.style.shadow.opacity|default(10)) / 100 }});"
+    data-module-country="{{ module.pais|default('todos')|lower }}"
+  data-module-categories='{{ module.categories|default([])|tojson|escape_attr }}'
+  data-bg-opt='{{ module.style.background.bg_opt|default(["color"])|tojson|escape_attr }}'
+  data-bg-color="{{ module.style.background.selected_opt.color_field.color|default('#ffffff') }}"
+  data-bg-opacity="{{ module.style.background.selected_opt.color_field.opacity|default(100) }}"
+  data-bg-image="{{ module.style.background.selected_opt.backgroundimage_field.src|default('')|escape_attr }}"
+  data-bg-size="{{ module.style.background.selected_opt.backgroundimage_field.background_size|default('cover')|lower }}"
+  data-bg-position="{{ module.style.background.selected_opt.backgroundimage_field.background_position|default('MIDDLE_CENTER')|lower }}"
+  data-bg-gradient='{{ module.style.background.selected_opt.gradient_field|default({})|tojson|escape_attr }}'
+  data-load-bg-color="{{ module.style.load_bg.color|default('#ffffff') }}"
+  data-load-bg-opacity="{{ module.style.load_bg.opacity|default(100) }}"
+  data-cache-today="{{ local_dt|datetimeformat('%d-%m-%Y') }}"
+>
+  <div class="catalogo-shell" data-catalogo-shell>
+    <div class="catalogo-loader" data-catalogo-loader>
+      <div class="catalogo-loader__spinner" aria-hidden="true"></div>
+      <p class="catalogo-loader__text">Cargando catalogo...</p>
+    </div>
+
+    <header class="catalogo-header">
+      <h2 class="catalogo-title">{{ module.catalog_title }}</h2>
+      <p class="catalogo-subtitle">{{ module.catalog_subtitle }}</p>
+    </header>
+
+    <section class="catalogo-filters" aria-label="Filtros del catalogo">
+      <div class="catalogo-country-filter" data-country-filter hidden>
+        <p class="catalogo-filter-label">Pais</p>
+        <div class="catalogo-pill-group" data-country-buttons></div>
+      </div>
+
+      <div class="catalogo-category-filter">
+        <p class="catalogo-filter-label">Categorias</p>
+        <select class="catalogo-category-select" data-category-select aria-label="Filtrar por categoria">
+          <option value="all">Todas las categorias</option>
+        </select>
+        <div class="catalogo-pill-group" data-category-buttons></div>
+      </div>
+    </section>
+
+    <section class="catalogo-content" data-catalogo-content></section>
+
+    <template data-template-empty>
+      <div class="catalogo-empty">
+        <p>No hay gift cards para los filtros seleccionados.</p>
+      </div>
+    </template>
+
+    <template data-template-category>
+      <article class="catalogo-category-block">
+        <h3 class="catalogo-category-title"></h3>
+        <div class="catalogo-grid"></div>
+      </article>
+    </template>
+
+    <template data-template-card>
+      <article class="catalogo-card">
+        <figure class="catalogo-card-media">
+          <img class="catalogo-card-image" loading="lazy" decoding="async" alt="" />
+        </figure>
+        <div class="catalogo-card-body">
+          <p class="catalogo-card-title"></p>
+          <span class="catalogo-card-country" hidden></span>
+        </div>
+      </article>
+    </template>
+  </div>
