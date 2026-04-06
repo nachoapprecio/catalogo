@@ -41,6 +41,14 @@
         "giftcard_name": "TAMBO_CC2",
         "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/209.png",
         "sort": 209
+      },
+      {
+        "id": 213,
+        "name": "Tambo",
+        "company": "Tambo",
+        "giftcard_name": "TAMBO_MONTOS",
+        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/213.png",
+        "sort": 213
       }
     ]
   },
@@ -503,6 +511,19 @@
         "giftcard_name": "TOPITOP",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/201.png",
         "sort": 201
+      }
+    ]
+  },
+  {
+    "category": "TIENDAS ESPECIALIZADAS",
+    "giftcards": [
+      {
+        "id": 215,
+        "name": "Botica y Salud",
+        "company": "Botica y Salud",
+        "giftcard_name": "BOTICA_SALUD",
+        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/215.png",
+        "sort": 215
       }
     ]
   },

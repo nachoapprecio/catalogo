@@ -19,14 +19,6 @@
         "sort": 158
       },
       {
-        "id": 198,
-        "name": "El Corral",
-        "company": "El Corral",
-        "giftcard_name": "EL_CORRAL",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/198.png",
-        "sort": 198
-      },
-      {
         "id": 240,
         "name": "Beer Station",
         "company": "Beer Station",
@@ -55,7 +47,7 @@
         "name": "Falabella Eventos",
         "company": "Falabella Eventos",
         "giftcard_name": "FALABELLA_EVENTO",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/284.png",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/284.png",
         "sort": 284
       },
       {
@@ -944,6 +936,14 @@
         "giftcard_name": "CENCOSUD",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/12.png",
         "sort": 12
+      },
+      {
+        "id": 281,
+        "name": "Panamericana Papeleria",
+        "company": "Panamericana Papeleria",
+        "giftcard_name": "PANAMERICANA_RETAIL",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/281.png",
+        "sort": 281
       }
     ]
   }

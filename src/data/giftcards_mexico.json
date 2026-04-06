@@ -238,14 +238,6 @@
     "category": "ENTRETENIMIENTO Y TIEMPO LIBRE",
     "giftcards": [
       {
-        "id": 15,
-        "name": "Cinepolis Vip",
-        "company": "Cinepolis Vip",
-        "giftcard_name": "CINEPOLIS_VIP",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/15.png",
-        "sort": 15
-      },
-      {
         "id": 22,
         "name": "Spotify P 1m",
         "company": "Spotify P 1m",
