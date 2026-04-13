@@ -515,19 +515,6 @@
     ]
   },
   {
-    "category": "TIENDAS ESPECIALIZADAS",
-    "giftcards": [
-      {
-        "id": 215,
-        "name": "Botica y Salud",
-        "company": "Botica y Salud",
-        "giftcard_name": "BOTICA_SALUD",
-        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/215.png",
-        "sort": 215
-      }
-    ]
-  },
-  {
     "category": "ENTRETENIMIENTO Y TIEMPO LIBRE",
     "giftcards": [
       {
@@ -577,6 +564,14 @@
         "giftcard_name": "CONEY_B",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/170.png",
         "sort": 170
+      },
+      {
+        "id": 218,
+        "name": "Direc TV",
+        "company": "Direc TV",
+        "giftcard_name": "DIREC_TV_PLANTV",
+        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/218.png",
+        "sort": 218
       }
     ]
   }

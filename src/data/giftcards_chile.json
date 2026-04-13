@@ -142,14 +142,6 @@
         "giftcard_name": "CASA_IDEAS",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/246.png",
         "sort": 246
-      },
-      {
-        "id": 354,
-        "name": "Ripley Cashback",
-        "company": "Ripley Cashback",
-        "giftcard_name": "RIPLEY_CASHBACK",
-        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/354.png",
-        "sort": 1
       }
     ]
   },

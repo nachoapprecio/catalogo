@@ -19,6 +19,14 @@
         "sort": 158
       },
       {
+        "id": 198,
+        "name": "El Corral",
+        "company": "El Corral",
+        "giftcard_name": "EL_CORRAL",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/198.png",
+        "sort": 198
+      },
+      {
         "id": 240,
         "name": "Beer Station",
         "company": "Beer Station",
@@ -915,6 +923,14 @@
         "giftcard_name": "IRISH",
         "image": "https://cdn.dcanje.com/dcanje.co/giftcards/280.png",
         "sort": 280
+      },
+      {
+        "id": 286,
+        "name": "Leños Carbón",
+        "company": "Leños Carbón",
+        "giftcard_name": "LEÑOS_CARBON",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/286.png",
+        "sort": 286
       }
     ]
   },
