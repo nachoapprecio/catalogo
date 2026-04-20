@@ -65,6 +65,14 @@
         "giftcard_name": "DIREC_TV",
         "image": "https://cdn.dcanje.com/dcanje.co/giftcards/287.png",
         "sort": 287
+      },
+      {
+        "id": 291,
+        "name": "Direc TV MKP",
+        "company": "Direc TV MKP",
+        "giftcard_name": "DIRECTV_MKP",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/291.png",
+        "sort": 291
       }
     ]
   },
@@ -897,7 +905,7 @@
         "name": "Presto",
         "company": "Presto",
         "giftcard_name": "PRESTO_GC",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/giftcards/249_24Septiembre.png",
+        "image": "https://cdn.dcanje.com/apprecio.co/giftcards/Presto_1304_id249.png",
         "sort": 249
       },
       {
@@ -921,7 +929,7 @@
         "name": "Irish Pub",
         "company": "Irish Pub",
         "giftcard_name": "IRISH",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/280.png",
+        "image": "https://cdn.dcanje.com/apprecio.co/giftcards/Irish_1504_id280.png",
         "sort": 280
       },
       {

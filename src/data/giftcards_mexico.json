@@ -54,14 +54,6 @@
         "giftcard_name": "COPPEL_GC",
         "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/81.png",
         "sort": 81
-      },
-      {
-        "id": 91,
-        "name": "Cashi",
-        "company": "Cashi",
-        "giftcard_name": "CASHI_GC",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/91.png",
-        "sort": 91
       }
     ]
   },
@@ -292,14 +284,6 @@
         "giftcard_name": "XBOX_12M",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/29.png",
         "sort": 29
-      },
-      {
-        "id": 39,
-        "name": "Voucher Cinépolis",
-        "company": "Voucher Cinépolis",
-        "giftcard_name": "CINEPOLIS_VOUCHER",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/39.png",
-        "sort": 39
       },
       {
         "id": 40,
