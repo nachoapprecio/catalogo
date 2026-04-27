@@ -170,43 +170,6 @@
     ]
   },
   {
-    "category": "VUELOS Y EXPERIENCIAS",
-    "giftcards": [
-      {
-        "id": 48,
-        "name": "BM Tours Vuelos",
-        "company": "BM Tours Vuelos",
-        "giftcard_name": "BMTOURS_VUELOS",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/ec.dcanje.com/giftcards/48.png",
-        "sort": 48
-      },
-      {
-        "id": 49,
-        "name": "BM Tours Hoteles",
-        "company": "BM Tours Hoteles",
-        "giftcard_name": "BMTOURS_HOTELES",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/ec.dcanje.com/giftcards/49.png",
-        "sort": 49
-      },
-      {
-        "id": 50,
-        "name": "BM Tours",
-        "company": "BM Tours",
-        "giftcard_name": "BMTOURS_TOURS",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/ec.dcanje.com/giftcards/50.png",
-        "sort": 50
-      },
-      {
-        "id": 51,
-        "name": "BM Tours Actividades",
-        "company": "BM Tours Actividades",
-        "giftcard_name": "BMTOURS_ACTIVIDADES",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/ec.dcanje.com/giftcards/51.png",
-        "sort": 51
-      }
-    ]
-  },
-  {
     "category": "GASTRONOMÍA",
     "giftcards": [
       {
@@ -348,19 +311,6 @@
         "giftcard_name": "EL_ROSADO",
         "image": "https://storage.googleapis.com/cdnbw/cdn/ec.dcanje.com/giftcards/63.png",
         "sort": 63
-      }
-    ]
-  },
-  {
-    "category": "EDUCACION",
-    "giftcards": [
-      {
-        "id": 46,
-        "name": "Letz Curso Inglés",
-        "company": "Letz Curso Inglés",
-        "giftcard_name": "LETZ",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/ec.dcanje.com/giftcards/46.png",
-        "sort": 46
       }
     ]
   }

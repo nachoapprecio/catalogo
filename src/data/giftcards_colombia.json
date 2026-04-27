@@ -15,7 +15,7 @@
         "name": "HOME SENTRY",
         "company": "HOME SENTRY",
         "giftcard_name": "HOME_SENTRY",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/158.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/158.png",
         "sort": 158
       },
       {
@@ -55,7 +55,7 @@
         "name": "Falabella Eventos",
         "company": "Falabella Eventos",
         "giftcard_name": "FALABELLA_EVENTO",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/284.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/284.png",
         "sort": 284
       },
       {
@@ -63,16 +63,8 @@
         "name": "DirecTV",
         "company": "DirecTV",
         "giftcard_name": "DIREC_TV",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/287.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/287.png",
         "sort": 287
-      },
-      {
-        "id": 291,
-        "name": "Direc TV MKP",
-        "company": "Direc TV MKP",
-        "giftcard_name": "DIRECTV_MKP",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/291.png",
-        "sort": 291
       }
     ]
   },
@@ -132,7 +124,7 @@
         "name": "Surtimayorista",
         "company": "Surtimayorista",
         "giftcard_name": "SURTIMAYORISTA",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/102.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/102.jpg",
         "sort": 102
       },
       {
@@ -172,7 +164,7 @@
         "name": "ARA",
         "company": "ARA",
         "giftcard_name": "ARA",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/229.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/229.png",
         "sort": 229
       },
       {
@@ -180,7 +172,7 @@
         "name": "ISIMO",
         "company": "ISIMO",
         "giftcard_name": "ISIMO",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/230.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/230.png",
         "sort": 230
       },
       {
@@ -408,7 +400,7 @@
         "name": "Cinemark 3D",
         "company": "Cinemark 3D",
         "giftcard_name": "CINEMARK_ENT3D",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/173.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/173.png",
         "sort": 173
       },
       {
@@ -695,7 +687,7 @@
         "name": "TP_COMBUSTIBLE",
         "company": "TP_COMBUSTIBLE",
         "giftcard_name": "TERPEL",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/235.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/235.png",
         "sort": 235
       },
       {
@@ -929,15 +921,23 @@
         "name": "Irish Pub",
         "company": "Irish Pub",
         "giftcard_name": "IRISH",
-        "image": "https://cdn.dcanje.com/apprecio.co/giftcards/Irish_1504_id280.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/280.jpg",
         "sort": 280
+      },
+      {
+        "id": 285,
+        "name": "Papa Johns",
+        "company": "Papa Johns",
+        "giftcard_name": "PAPA_JOHNS",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/285.png",
+        "sort": 285
       },
       {
         "id": 286,
         "name": "Leños Carbón",
         "company": "Leños Carbón",
         "giftcard_name": "LEÑOS_CARBON",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/286.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/286.png",
         "sort": 286
       }
     ]
@@ -966,7 +966,7 @@
         "name": "Panamericana Papeleria",
         "company": "Panamericana Papeleria",
         "giftcard_name": "PANAMERICANA_RETAIL",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/281.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/281.png",
         "sort": 281
       }
     ]

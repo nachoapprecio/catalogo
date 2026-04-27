@@ -39,7 +39,7 @@
         "name": "Mi Club Lider",
         "company": "Mi Club Lider",
         "giftcard_name": "MICLUBLIDER",
-        "image": "https://cdn.dcanje.com/apprecio.cl/giftcards/Lider_03-09_id286.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/286.png",
         "sort": 11
       },
       {
@@ -766,7 +766,7 @@
         "name": "Buho Veterinario",
         "company": "Buho Veterinario",
         "giftcard_name": "BUHO_API",
-        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/434.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/appDcanje2/wallet/logos/CL_VetBuho_220426_id434.png",
         "sort": 434
       },
       {
@@ -774,7 +774,7 @@
         "name": "Buho Farmacia",
         "company": "Buho Farmacia",
         "giftcard_name": "BUHO_FARMACIA",
-        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/435.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/appDcanje2/wallet/logos/CL_FarmaciaBuho_220426_id435.png",
         "sort": 435
       }
     ]

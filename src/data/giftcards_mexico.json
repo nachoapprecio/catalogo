@@ -202,6 +202,59 @@
         "giftcard_name": "H_M",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/19.png",
         "sort": 19
+      },
+      {
+        "id": 97,
+        "name": "GAP",
+        "company": "GAP",
+        "giftcard_name": "LIVERPOOL 2",
+        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/97.png",
+        "sort": 97
+      },
+      {
+        "id": 98,
+        "name": "Banana Republic",
+        "company": "Banana Republic",
+        "giftcard_name": "LIVERPOOL 2",
+        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/98.png",
+        "sort": 98
+      }
+    ]
+  },
+  {
+    "category": "DISEÑO Y DECORACION",
+    "giftcards": [
+      {
+        "id": 93,
+        "name": "William Sonoma",
+        "company": "William Sonoma",
+        "giftcard_name": "LIVERPOOL 2",
+        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/93.png",
+        "sort": 93
+      },
+      {
+        "id": 94,
+        "name": "Potery Barn",
+        "company": "Potery Barn",
+        "giftcard_name": "LIVERPOOL 2",
+        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/94.png",
+        "sort": 94
+      },
+      {
+        "id": 95,
+        "name": "West Elm",
+        "company": "West Elm",
+        "giftcard_name": "LIVERPOOL 2",
+        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/95.png",
+        "sort": 95
+      },
+      {
+        "id": 96,
+        "name": "Pottery Barn Kids",
+        "company": "Pottery Barn Kids",
+        "giftcard_name": "LIVERPOOL 2",
+        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/96.png",
+        "sort": 96
       }
     ]
   },
