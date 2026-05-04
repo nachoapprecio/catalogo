@@ -33,6 +33,14 @@
         "giftcard_name": "HEB_TAH",
         "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/84.png",
         "sort": 84
+      },
+      {
+        "id": 91,
+        "name": "Cashi",
+        "company": "Cashi",
+        "giftcard_name": "CASHI_GC",
+        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/91.png",
+        "sort": 91
       }
     ]
   },

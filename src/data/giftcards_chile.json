@@ -759,27 +759,6 @@
     ]
   },
   {
-    "category": "FARMACIA Y SALUD",
-    "giftcards": [
-      {
-        "id": 434,
-        "name": "Buho Veterinario",
-        "company": "Buho Veterinario",
-        "giftcard_name": "BUHO_API",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/appDcanje2/wallet/logos/CL_VetBuho_220426_id434.png",
-        "sort": 434
-      },
-      {
-        "id": 435,
-        "name": "Buho Farmacia",
-        "company": "Buho Farmacia",
-        "giftcard_name": "BUHO_FARMACIA",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/appDcanje2/wallet/logos/CL_FarmaciaBuho_220426_id435.png",
-        "sort": 435
-      }
-    ]
-  },
-  {
     "category": "JUGUETERIA",
     "giftcards": [
       {

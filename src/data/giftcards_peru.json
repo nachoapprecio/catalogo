@@ -27,6 +27,22 @@
         "sort": 206
       },
       {
+        "id": 208,
+        "name": "Tambo Combo 1",
+        "company": "Tambo Combo 1",
+        "giftcard_name": "TAMBO_CC1",
+        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/208.png",
+        "sort": 208
+      },
+      {
+        "id": 209,
+        "name": "Tambo Combo 2",
+        "company": "Tambo Combo 2",
+        "giftcard_name": "TAMBO_CC2",
+        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/209.png",
+        "sort": 209
+      },
+      {
         "id": 213,
         "name": "Tambo",
         "company": "Tambo",
@@ -94,6 +110,14 @@
         "giftcard_name": "RIPLEY",
         "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/212.png",
         "sort": 212
+      },
+      {
+        "id": 215,
+        "name": "Botica y Salud",
+        "company": "Botica y Salud",
+        "giftcard_name": "BOTICA_SALUD",
+        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/215.png",
+        "sort": 215
       }
     ]
   },
