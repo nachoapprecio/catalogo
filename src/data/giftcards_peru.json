@@ -484,6 +484,14 @@
     "category": "SERVICIOS",
     "giftcards": [
       {
+        "id": 88,
+        "name": "SOHOCOLOR",
+        "company": "SOHOCOLOR",
+        "giftcard_name": "SOHO",
+        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/88.png",
+        "sort": 88
+      },
+      {
         "id": 104,
         "name": "Cineplanet",
         "company": "Cineplanet",
