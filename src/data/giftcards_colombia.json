@@ -660,6 +660,14 @@
         "giftcard_name": "SPORT_LINE",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/274.png",
         "sort": 274
+      },
+      {
+        "id": 304,
+        "name": "Nike_1",
+        "company": "Nike_1",
+        "giftcard_name": "NIKE_OGLOBA",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/304.png",
+        "sort": 304
       }
     ]
   },

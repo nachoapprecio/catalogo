@@ -173,14 +173,6 @@
     "category": "GASTRONOMÍA",
     "giftcards": [
       {
-        "id": 24,
-        "name": "SUBWAY",
-        "company": "SUBWAY",
-        "giftcard_name": "SUBWAY",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/ec.dcanje.com/giftcards/24.png",
-        "sort": 24
-      },
-      {
         "id": 38,
         "name": "Sweet and coffee",
         "company": "Sweet and coffee",

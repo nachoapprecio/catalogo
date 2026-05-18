@@ -56,22 +56,6 @@
     "category": "GRANDES TIENDAS",
     "giftcards": [
       {
-        "id": 6,
-        "name": "SAGA FALABELLA Vestuario",
-        "company": "SAGA FALABELLA Vestuario",
-        "giftcard_name": "SAGAFALABELLAVESTUARIO",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/6.png",
-        "sort": 6
-      },
-      {
-        "id": 7,
-        "name": "SAGA FALABELLA Hogar",
-        "company": "SAGA FALABELLA Hogar",
-        "giftcard_name": "SAGAFALABELLAHOGAR",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/7.png",
-        "sort": 7
-      },
-      {
         "id": 33,
         "name": "Tai Loy",
         "company": "Tai Loy",

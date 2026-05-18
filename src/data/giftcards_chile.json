@@ -134,14 +134,6 @@
         "giftcard_name": "CASA_IDEAS",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/246.png",
         "sort": 246
-      },
-      {
-        "id": 354,
-        "name": "Ripley Cashback",
-        "company": "Ripley Cashback",
-        "giftcard_name": "RIPLEY_CASHBACK",
-        "image": "https://cdn.dcanje.com/apprecio.cl/giftcards/RipleyCash_1604_id354.png",
-        "sort": 1
       }
     ]
   },
@@ -588,14 +580,6 @@
         "giftcard_name": "HAPPYLAND",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/369.png",
         "sort": 369
-      },
-      {
-        "id": 376,
-        "name": "CINE Entrada 2D",
-        "company": "CINE Entrada 2D",
-        "giftcard_name": "CINEPOLIS_ENT2D",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/376.png",
-        "sort": 376
       },
       {
         "id": 377,

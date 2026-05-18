@@ -233,6 +233,14 @@
     "category": "DISEÑO Y DECORACION",
     "giftcards": [
       {
+        "id": 92,
+        "name": "Bed Bath Beyond",
+        "company": "Bed Bath Beyond",
+        "giftcard_name": "BED_BATH_BEYOND",
+        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/92.png",
+        "sort": 92
+      },
+      {
         "id": 93,
         "name": "William Sonoma",
         "company": "William Sonoma",
