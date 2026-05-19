@@ -7,7 +7,9 @@ import { CountryButton } from "./CountryButton";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { giftcardsByCountry, countryList } from "@/data/giftcardsByCountry";
 import { mapGiftCardsJsonToCategories } from "@/lib/utils";
-import { ShoppingCart, Utensils, Plane, Dumbbell, Shirt, Heart, Gamepad2, Wrench, Globe, Smartphone, Store, LucideIcon } from "lucide-react";
+import { ShoppingCart, Utensils, Plane, Dumbbell, Shirt, Heart, Gamepad2, Wrench, Globe, Smartphone, Store, LucideIcon, 
+  Building2, Palette, Stethoscope, Car, Sparkles, Trophy, GraduationCap, Home, PaintBucket, Music, 
+  Glasses, Zap, Gem, Sandwich, Book, Phone, Scissors, Baby, FileText, Wine } from "lucide-react";
 
 interface Category {
   id: string;
@@ -29,18 +31,193 @@ const iconMap: Record<string, LucideIcon> = {
   "Vuelos y Experiencias": Plane,
   "Deportes": Dumbbell,
   "Moda y Accesorios": Shirt,
+  "Moda": Shirt,
   "Salud y Belleza": Heart,
+  "Salud Belleza y Bienestar": Heart,
   "Entretenimiento y Tiempo Libre": Gamepad2,
+  "Entretenimiento": Gamepad2,
   "Servicios": Wrench,
   "E-commerce": Globe,
+  "Ecommerce": Globe,
   "Recargas Celulares": Smartphone,
+  "Juguetería": Baby,
+  "Ferretería": Wrench,
+  "Educación": GraduationCap,
+  "Farmacia": Stethoscope,
+  "Diseño y Decoración": Palette,
+  "Diseño": Palette,
+  "Decoración": Home,
+  "Música": Music,
+  "Óptica": Glasses,
+  "Electrónica": Zap,
+  "Joyería": Gem,
+  "Panadería": Sandwich,
+  "Librería": Book,
+  "Librerías": Book,
+  "Telefonía": Phone,
+  "Peluquería": Scissors,
+  "Veterinaria": Heart,
+  "Papelería": FileText,
+  "Automotriz": Car,
+  "Vestuario, Calzado y Accesorios": Shirt,
+  "Tiendas Especializadas": Store,
+  "Mascotas": Heart,
+  "Vinos": Wine,
+  "Otros": Sparkles,
+  "Gaming": Gamepad2,
 };
 
-export const GiftCardCatalog = () => {
+interface GiftCardCatalogProps {
+  country?: string;
+  hideCountryFilters?: boolean;
+  singleCountryMode?: boolean;
+  customTitle?: string;
+  customSubtitle?: string;
+  language?: "spanish" | "english";
+}
+
+type CatalogLanguage = "spanish" | "english";
+
+const countryNameByLanguage: Record<CatalogLanguage, Record<string, string>> = {
+  spanish: {
+    all: "Todos los paises",
+    chile: "Chile",
+    peru: "Peru",
+    colombia: "Colombia",
+    ecuador: "Ecuador",
+    mexico: "Mexico",
+    spain: "España",
+  },
+  english: {
+    all: "All countries",
+    chile: "Chile",
+    peru: "Peru",
+    colombia: "Colombia",
+    ecuador: "Ecuador",
+    mexico: "Mexico",
+    spain: "Spain",
+  },
+};
+
+const categoryNameByLanguage: Record<string, string> = {
+  "supermercados y minimarket": "Supermarkets and Mini-markets",
+  "grandes tiendas": "Department Stores",
+  gastronomia: "Food and Dining",
+  "vuelos y experiencias": "Flights and Experiences",
+  deportes: "Sports",
+  "moda y accesorios": "Fashion and Accessories",
+  moda: "Fashion",
+  "salud y belleza": "Health and Beauty",
+  "salud belleza y bienestar": "Health, Beauty and Wellness",
+  "entretenimiento y tiempo libre": "Entertainment and Leisure",
+  entretenimiento: "Entertainment",
+  servicios: "Services",
+  "e-commerce": "E-commerce",
+  ecommerce: "E-commerce",
+  "recargas celulares": "Mobile Top-ups",
+  jugueteria: "Toys",
+  ferreteria: "Hardware",
+  educacion: "Education",
+  farmacia: "Pharmacy",
+  "diseno y decoracion": "Design and Decor",
+  diseno: "Design",
+  decoracion: "Decor",
+  musica: "Music",
+  optica: "Optics",
+  electronica: "Electronics",
+  joyeria: "Jewelry",
+  panaderia: "Bakery",
+  libreria: "Bookstore",
+  librerias: "Bookstores",
+  telefonia: "Telephony",
+  peluqueria: "Hair Salon",
+  veterinaria: "Veterinary",
+  papeleria: "Stationery",
+  automotriz: "Automotive",
+  "vestuario, calzado y accesorios": "Fashion, Footwear and Accessories",
+  "tiendas especializadas": "Specialty Stores",
+  mascotas: "Pets",
+  vinos: "Wines",
+  otros: "Others",
+  gaming: "Gaming",
+};
+
+const uiTextByLanguage: Record<CatalogLanguage, {
+  defaultTitle: string;
+  defaultSubtitleSingleCountry: string;
+  defaultSubtitleMultiCountry: string;
+  searchPlaceholder: string;
+  allCategoriesLabel: string;
+  categorySelectPlaceholder: string;
+  emptyStateLine1: string;
+  emptyStateLine2: string;
+  emptyStateLine3: string;
+}> = {
+  spanish: {
+    defaultTitle: "Catalogo de Gift Cards",
+    defaultSubtitleSingleCountry: "Descubre las mejores gift cards disponibles",
+    defaultSubtitleMultiCountry: "Explora y filtra por pais y categoria",
+    searchPlaceholder: "Buscar gift cards...",
+    allCategoriesLabel: "Todas las categorias",
+    categorySelectPlaceholder: "Selecciona una categoria",
+    emptyStateLine1: "Ups! Parece que aqui no hay nada...",
+    emptyStateLine2: "No te preocupes.",
+    emptyStateLine3: "Cada mes nuevas Gift Cards para ti!",
+  },
+  english: {
+    defaultTitle: "Gift Card Catalog",
+    defaultSubtitleSingleCountry: "Discover the best gift cards available",
+    defaultSubtitleMultiCountry: "Browse and filter by country and category",
+    searchPlaceholder: "Search gift cards...",
+    allCategoriesLabel: "All categories",
+    categorySelectPlaceholder: "Select a category",
+    emptyStateLine1: "Oops! There is nothing here yet...",
+    emptyStateLine2: "No worries.",
+    emptyStateLine3: "New Gift Cards are added every month!",
+  },
+};
+
+function normalizeCategoryKey(value: string): string {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim();
+}
+
+export const GiftCardCatalog = ({ 
+  country = "all", 
+  hideCountryFilters = false, 
+  singleCountryMode = false,
+  customTitle,
+  language = "spanish",
+  customSubtitle
+}: GiftCardCatalogProps = {}) => {
+  const safeLanguage: CatalogLanguage = language === "english" ? "english" : "spanish";
+  const uiText = uiTextByLanguage[safeLanguage];
+  const effectiveSingleCountryMode = singleCountryMode && hideCountryFilters;
+  const defaultCountry = country || "all";
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedCountry, setSelectedCountry] = useState<string>("all");
+  const [selectedCountry, setSelectedCountry] = useState<string>(defaultCountry);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const isMobile = useIsMobile();
+
+  const getCountryLabel = (countryCode: string, fallback: string): string => {
+    return countryNameByLanguage[safeLanguage][countryCode] || fallback;
+  };
+
+  const getCategoryLabel = (categoryName: string): string => {
+    if (safeLanguage === "spanish") return categoryName;
+    const key = normalizeCategoryKey(categoryName);
+    return categoryNameByLanguage[key] || categoryName;
+  };
+
+  const localizedCountryList = useMemo(() => {
+    return countryList.map((entry) => ({
+      ...entry,
+      name: getCountryLabel(entry.code, entry.name),
+    }));
+  }, [safeLanguage]);
 
   // Función para actualizar URL con parámetros de consulta
   const updateURLParams = (country: string, category: string | null, search: string) => {
@@ -73,20 +250,35 @@ export const GiftCardCatalog = () => {
     if (typeof window === 'undefined') return;
     
     try {
+      // En modo de país único, usar el país pasado como prop
+      if (effectiveSingleCountryMode) {
+        const urlParams = new URLSearchParams(window.location.search);
+        const category = urlParams.get("category");
+        const search = urlParams.get("search") || "";
+        
+        console.log('🔍 Loading from URL params (single country mode):', { country, category, search });
+        
+        setSelectedCountry(defaultCountry);
+        setSelectedCategory(category);
+        setSearchTerm(search);
+        return;
+      }
+      
+      // Modo normal - leer país desde URL
       const urlParams = new URLSearchParams(window.location.search);
-      const country = urlParams.get("country") || "all";
+      const urlCountry = urlParams.get("country") || defaultCountry;
       const category = urlParams.get("category");
       const search = urlParams.get("search") || "";
       
-      console.log('🔍 Loading from URL params:', { country, category, search });
+      console.log('🔍 Loading from URL params:', { country: urlCountry, category, search });
       
-      setSelectedCountry(country);
+      setSelectedCountry(urlCountry);
       setSelectedCategory(category);
       setSearchTerm(search);
     } catch (error) {
       console.warn('Error loading URL params:', error);
       // Fallback a valores por defecto
-      setSelectedCountry("all");
+      setSelectedCountry(defaultCountry);
       setSelectedCategory(null);
       setSearchTerm("");
     }
@@ -104,6 +296,9 @@ export const GiftCardCatalog = () => {
 
   // Funciones para manejar cambios de filtros
   const handleCountryChange = (country: string) => {
+    // En modo de país único, no permitir cambios de país
+    if (effectiveSingleCountryMode) return;
+    
     setSelectedCountry(country);
     setSelectedCategory(null); // Reset category when changing country
   };
@@ -119,7 +314,7 @@ export const GiftCardCatalog = () => {
   // Agrupa todas las categorías de todos los países (sin duplicados por nombre)
   const allCategories = useMemo(() => {
     const all = Object.entries(giftcardsByCountry).flatMap(([countryCode, countryData]) => {
-      const countryInfo = countryList.find(c => c.code === countryCode);
+      const countryInfo = localizedCountryList.find(c => c.code === countryCode);
       return mapGiftCardsJsonToCategories(countryData).map(cat => ({
         ...cat,
         countryCode,
@@ -152,14 +347,14 @@ export const GiftCardCatalog = () => {
       ...cat,
       icon: iconMap[cat.name] || undefined,
     }));
-  }, []);
+  }, [localizedCountryList]);
 
   // Categorías del país seleccionado
   const countryCategories = useMemo(() => {
     if (selectedCountry === "all") return allCategories;
     const json = giftcardsByCountry[selectedCountry as keyof typeof giftcardsByCountry];
     const mapped = json ? mapGiftCardsJsonToCategories(json) : [];
-    const countryInfo = countryList.find(c => c.code === selectedCountry);
+    const countryInfo = localizedCountryList.find(c => c.code === selectedCountry);
     
     return mapped.map((cat) => ({
       ...cat,
@@ -170,7 +365,7 @@ export const GiftCardCatalog = () => {
         countryFlag: countryInfo?.image
       }))
     }));
-  }, [selectedCountry, allCategories]);
+  }, [selectedCountry, allCategories, localizedCountryList]);
 
   // Categorías a mostrar según filtro
   const categories = countryCategories.filter((cat) =>
@@ -189,29 +384,39 @@ export const GiftCardCatalog = () => {
 
   // Todas las categorías únicas para los botones de filtro
   const allCategoryList = useMemo(() => {
-    return allCategories.map((cat) => ({ id: cat.id, name: cat.name }));
-  }, [allCategories]);
+    return allCategories.map((cat) => ({ id: cat.id, name: getCategoryLabel(cat.name) }));
+  }, [allCategories, safeLanguage]);
+
+  const localizedFilteredCategories = useMemo(() => {
+    return filteredCategories.map((cat) => ({
+      ...cat,
+      name: getCategoryLabel(cat.name),
+    }));
+  }, [filteredCategories, safeLanguage]);
 
   // Mensaje si no hay resultados
   const showEmpty = filteredCategories.length === 0;
 
   return (
-    <div className="min-h-screen bg-gradient-secondary">
+    <div className="min-h-screen bg-white">
       {/* Header */}
       <div className="bg-gradient-primary text-primary-foreground py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8">
-            <h1 className="text-5xl font-bold mb-4 animate-fade-in">
-              Catálogo de Gift Cards
-            </h1>
-            <p className="text-xl opacity-90 animate-fade-in">
-              Explora y filtra por país y categoría
+            <h2 className="catalogo-title text-5xl font-bold mb-4 animate-fade-in">
+              {customTitle || uiText.defaultTitle}
+            </h2>
+            <p className="catalogo-subtitle text-xl opacity-90 animate-fade-in">
+              {customSubtitle || (effectiveSingleCountryMode 
+                ? uiText.defaultSubtitleSingleCountry 
+                : uiText.defaultSubtitleMultiCountry)
+              }
             </p>
           </div>
           {/* Search */}
           <div className="max-w-md mx-auto relative animate-scale-in">
             <Input
-              placeholder="Buscar gift cards..."
+              placeholder={uiText.searchPlaceholder}
               value={searchTerm}
               onChange={(e) => handleSearchChange(e.target.value)}
               className="pl-10 bg-card border-0 shadow-lg"
@@ -219,22 +424,27 @@ export const GiftCardCatalog = () => {
           </div>
         </div>
       </div>
-      {/* Country Filters */}
-      <div className="container mx-auto px-4 pt-8">
-        <div className="flex flex-wrap gap-3 justify-center mb-8">
-          {countryList.map((country) => (
-            <CountryButton
-              key={country.code}
-              code={country.code}
-              name={country.name}
-              image={country.image}
-              selected={selectedCountry === country.code}
-              onClick={() => {
-                handleCountryChange(country.code);
-              }}
-            />
-          ))}
+      {/* Country Filters - Solo mostrar si no está en modo oculto */}
+      {!hideCountryFilters && (
+        <div className="container mx-auto px-4 pt-8">
+          <div className="flex flex-wrap gap-3 justify-center mb-8">
+            {localizedCountryList.map((country) => (
+              <CountryButton
+                key={country.code}
+                code={country.code}
+                name={country.name}
+                image={country.image}
+                selected={selectedCountry === country.code}
+                onClick={() => {
+                  handleCountryChange(country.code);
+                }}
+              />
+            ))}
+          </div>
         </div>
+      )}
+      {/* Container para el resto del contenido */}
+      <div className="container mx-auto px-4 pt-8">
         {/* Category Filters */}
         {isMobile ? (
           // Vista móvil - Select dropdown
@@ -249,14 +459,14 @@ export const GiftCardCatalog = () => {
                   ${selectedCategory ? 'bg-[#fa345e] text-white' : 'bg-white text-black'}
                 `}
               >
-                <SelectValue placeholder="Selecciona una categoría" />
+                <SelectValue placeholder={uiText.categorySelectPlaceholder} />
               </SelectTrigger>
               <SelectContent className="bg-white border-[3px] border-black shadow-lg font-montserrat">
                 <SelectItem 
                   value="all"
                   className={`font-montserrat ${selectedCategory === null ? 'bg-[#fa345e] text-white' : 'text-black hover:bg-gray-100'}`}
                 >
-                  Todas las categorías
+                  {uiText.allCategoriesLabel}
                 </SelectItem>
                 {allCategoryList.map((category) => (
                   <SelectItem 
@@ -283,7 +493,7 @@ export const GiftCardCatalog = () => {
               `}
               onClick={() => handleCategoryChange(null)}
             >
-              Todas las categorías
+              {uiText.allCategoriesLabel}
             </button>
             {allCategoryList.map((category) => (
               <button
@@ -306,11 +516,11 @@ export const GiftCardCatalog = () => {
         <div className="space-y-12">
           {showEmpty ? (
             <div className="text-center py-24 text-xl text-muted-foreground animate-fade-in">
-              <img src="/empty-state.svg" alt="No hay resultados" className="mx-auto mb-6 w-24 h-24 opacity-70" />
-              <p>¡Ups! Parece que aquí no hay nada...<br />No te preocupes.<br />¡Cada mes nuevas Gift Cards para ti!</p>
+              <img src="/empty-state.svg" alt={uiText.emptyStateLine1} className="mx-auto mb-6 w-24 h-24 opacity-70" />
+              <p>{uiText.emptyStateLine1}<br />{uiText.emptyStateLine2}<br />{uiText.emptyStateLine3}</p>
             </div>
           ) : (
-            filteredCategories.map((category, index) => (
+            localizedFilteredCategories.map((category, index) => (
               <CategorySection
                 key={category.id}
                 category={category}

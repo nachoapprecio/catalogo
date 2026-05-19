@@ -1,0 +1,305 @@
+[ {
+  "id" : "18d49d75-b101-4a3a-ccf8-f932908e475c",
+  "name" : "pais",
+  "label" : "Pais",
+  "required" : false,
+  "locked" : false,
+  "display" : "select",
+  "choices" : [ [ "todos", "todos" ], [ "chile", "chile" ], [ "peru", "peru" ], [ "colombia", "colombia" ], [ "mexico", "mexico" ], [ "ecuador", "ecuador" ] ],
+  "multiple" : false,
+  "reordering_enabled" : true,
+  "preset" : null,
+  "display_width" : null,
+  "type" : "choice",
+  "default" : "todos"
+}, {
+  "id" : "47bad5f6-f3a3-5f4b-7677-318c5a46021f",
+  "name" : "style",
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "4c758c2a-69d8-7cff-4d0c-4d48524959da",
+    "name" : "background",
+    "label" : "Background",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "dcffb8d1-af5e-7a81-fb96-e2247723b8d2",
+      "name" : "bg_opt",
+      "label" : "bg_opt",
+      "required" : false,
+      "locked" : false,
+      "display" : "select",
+      "choices" : [ [ "color", "Color" ], [ "img", "Imagen" ], [ "Gradient", "Gradient" ] ],
+      "multiple" : true,
+      "reordering_enabled" : true,
+      "preset" : null,
+      "display_width" : null,
+      "type" : "choice",
+      "default" : [ "color" ]
+    }, {
+      "id" : "d75bb989-9fff-abd3-7240-6ea1a44edeb8",
+      "name" : "selected_opt",
+      "label" : "Selected opt",
+      "required" : false,
+      "locked" : false,
+      "children" : [ {
+        "id" : "af76108a-805c-777b-229c-aa8036d8fd81",
+        "name" : "gradient_field",
+        "label" : "Degradado",
+        "required" : false,
+        "locked" : false,
+        "visibility" : {
+          "controlling_field" : null,
+          "controlling_field_path" : "style.background.bg_opt",
+          "controlling_value_regex" : "gradient",
+          "property" : null,
+          "operator" : "EQUAL",
+          "access" : null
+        },
+        "display_width" : null,
+        "type" : "gradient",
+        "default" : {
+          "side_or_corner" : {
+            "verticalSide" : "BOTTOM",
+            "horizontalSide" : null
+          },
+          "colors" : [ {
+            "color" : {
+              "r" : 255,
+              "g" : 255,
+              "b" : 255,
+              "a" : 1
+            }
+          }, {
+            "color" : {
+              "r" : 250,
+              "g" : 52,
+              "b" : 94,
+              "a" : 1
+            }
+          }, {
+            "color" : {
+              "r" : 255,
+              "g" : 255,
+              "b" : 255,
+              "a" : 1
+            }
+          } ]
+        }
+      }, {
+        "id" : "d8d35ec8-31ed-bd42-6ad2-06eeff48205e",
+        "name" : "backgroundimage_field",
+        "label" : "Imagen de fondo",
+        "required" : false,
+        "locked" : false,
+        "visibility" : {
+          "controlling_field" : null,
+          "controlling_field_path" : "style.background.bg_opt",
+          "controlling_value_regex" : "img",
+          "property" : null,
+          "operator" : "EQUAL",
+          "access" : null
+        },
+        "display_width" : null,
+        "type" : "backgroundimage",
+        "default" : {
+          "background_position" : "MIDDLE_CENTER",
+          "background_size" : "cover",
+          "src" : "https://7357268.fs1.hubspotusercontent-na1.net/hubfs/7357268/sitio%20web/global/home/imagenes/landing-seccion2.svg"
+        }
+      }, {
+        "id" : "ee440424-c8e4-0f55-c5a5-97f34355622f",
+        "name" : "color_field",
+        "label" : "Color",
+        "required" : false,
+        "locked" : false,
+        "visibility" : {
+          "controlling_field" : null,
+          "controlling_field_path" : "style.background.bg_opt",
+          "controlling_value_regex" : "color",
+          "property" : null,
+          "operator" : "EQUAL",
+          "access" : null
+        },
+        "display_width" : null,
+        "type" : "color",
+        "default" : {
+          "color" : "#ffffff",
+          "opacity" : 100
+        }
+      } ],
+      "tab" : "STYLE",
+      "expanded" : false,
+      "group_occurrence_meta" : null,
+      "display_width" : null,
+      "type" : "group",
+      "default" : {
+        "gradient_field" : {
+          "side_or_corner" : {
+            "verticalSide" : "BOTTOM",
+            "horizontalSide" : null
+          },
+          "colors" : [ {
+            "color" : {
+              "r" : 255,
+              "g" : 255,
+              "b" : 255,
+              "a" : 1
+            }
+          }, {
+            "color" : {
+              "r" : 250,
+              "g" : 52,
+              "b" : 94,
+              "a" : 1
+            }
+          }, {
+            "color" : {
+              "r" : 255,
+              "g" : 255,
+              "b" : 255,
+              "a" : 1
+            }
+          } ]
+        },
+        "backgroundimage_field" : {
+          "background_position" : "MIDDLE_CENTER",
+          "background_size" : "cover",
+          "src" : "https://7357268.fs1.hubspotusercontent-na1.net/hubfs/7357268/sitio%20web/global/home/imagenes/landing-seccion2.svg"
+        },
+        "color_field" : {
+          "color" : "#ffffff",
+          "opacity" : 100
+        }
+      }
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "group_occurrence_meta" : null,
+    "display_width" : null,
+    "type" : "group",
+    "default" : {
+      "bg_opt" : [ "color" ],
+      "selected_opt" : {
+        "gradient_field" : {
+          "side_or_corner" : {
+            "verticalSide" : "BOTTOM",
+            "horizontalSide" : null
+          },
+          "colors" : [ {
+            "color" : {
+              "r" : 255,
+              "g" : 255,
+              "b" : 255,
+              "a" : 1
+            }
+          }, {
+            "color" : {
+              "r" : 250,
+              "g" : 52,
+              "b" : 94,
+              "a" : 1
+            }
+          }, {
+            "color" : {
+              "r" : 255,
+              "g" : 255,
+              "b" : 255,
+              "a" : 1
+            }
+          } ]
+        },
+        "backgroundimage_field" : {
+          "background_position" : "MIDDLE_CENTER",
+          "background_size" : "cover",
+          "src" : "https://7357268.fs1.hubspotusercontent-na1.net/hubfs/7357268/sitio%20web/global/home/imagenes/landing-seccion2.svg"
+        },
+        "color_field" : {
+          "color" : "#ffffff",
+          "opacity" : 100
+        }
+      }
+    }
+  }, {
+    "id" : "ba1987d5-f874-4c94-5186-9af95d209bfe",
+    "name" : "load_bg",
+    "label" : "Color",
+    "required" : false,
+    "locked" : false,
+    "display_width" : null,
+    "type" : "color",
+    "default" : {
+      "color" : "#ffffff",
+      "opacity" : 100
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "display_width" : null,
+  "type" : "group",
+  "default" : {
+    "background" : {
+      "bg_opt" : [ "color" ],
+      "selected_opt" : {
+        "gradient_field" : {
+          "side_or_corner" : {
+            "verticalSide" : "BOTTOM",
+            "horizontalSide" : null
+          },
+          "colors" : [ {
+            "color" : {
+              "r" : 255,
+              "g" : 255,
+              "b" : 255,
+              "a" : 1
+            }
+          }, {
+            "color" : {
+              "r" : 250,
+              "g" : 52,
+              "b" : 94,
+              "a" : 1
+            }
+          }, {
+            "color" : {
+              "r" : 255,
+              "g" : 255,
+              "b" : 255,
+              "a" : 1
+            }
+          } ]
+        },
+        "backgroundimage_field" : {
+          "background_position" : "MIDDLE_CENTER",
+          "background_size" : "cover",
+          "src" : "https://7357268.fs1.hubspotusercontent-na1.net/hubfs/7357268/sitio%20web/global/home/imagenes/landing-seccion2.svg"
+        },
+        "color_field" : {
+          "color" : "#ffffff",
+          "opacity" : 100
+        }
+      }
+    },
+    "load_bg" : {
+      "color" : "#ffffff",
+      "opacity" : 100
+    }
+  }
+}, {
+  "id" : "88dcfbc4-2175-aafe-52e3-57699c96c057",
+  "name" : "categories",
+  "label" : "Categories",
+  "required" : false,
+  "locked" : false,
+  "display" : "select",
+  "choices" : [ [ "todas_las_categorías", "Todas las categorías" ], [ "supermercados_y_minimarket", "Supermercados y Minimarket" ], [ "grandes_tiendas", "Grandes Tiendas" ], [ "e_commerce", "E-commerce" ], [ "deporte", "Deporte" ], [ "gastronomia", "Gastronomía" ], [ "salud_belleza_y_bienestar", "Salud, Belleza y Bienestar" ], [ "moda_y_accesorios", "Moda y Accesorios" ], [ "entretenimiento_y_tiempo_libre", "Entretenimiento y Tiempo Libre" ], [ "automotriz", "Automotriz" ], [ "servicios", "Servicios" ], [ "vuelos_y_experiencias", "Vuelos y Experiencias" ], [ "farmacia_y_salud", "Farmacia y Salud" ], [ "jugueteria", "Juguetería" ], [ "online", "Online" ], [ "movilidad", "Movilidad" ], [ "mascotas", "Mascotas" ], [ "diseno_y_decoracion", "Diseño y Decoración" ], [ "tiendas_especializadas", "Tiendas Especializadas" ], [ "educacion", "Educación" ], [ "deportes", "Deportes" ], [ "recargas_celulares", "Recargas Celulares" ] ],
+  "multiple" : true,
+  "reordering_enabled" : true,
+  "preset" : null,
+  "display_width" : null,
+  "type" : "choice",
+  "default" : [ "todas_las_categorías" ]
+} ]

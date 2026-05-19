@@ -22,6 +22,7 @@ TARGETS=(
   "src/data/giftcards_ecuador.json"
   "src/data/giftcards_mexico.json"
   "src/data/giftcards_peru.json"
+  "src/data/giftcards_spain.json"
   "hubspot-module/catalogo-module.css"
   "hubspot-module/catalogo-module.html"
   "hubspot-module/catalogo-module.js"

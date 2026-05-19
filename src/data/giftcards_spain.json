@@ -1,0 +1,28 @@
+[
+  {
+    "category": "GRANDES TIENDAS",
+    "giftcards": [
+      {
+        "id": 2,
+        "name": "IKEA TEST-ES",
+        "company": "IKEA TEST-ES",
+        "giftcard_name": "PRUEBA_RETAIL",
+        "image": "https://cdn.apprecio.es/dashboard/cdn/apprecio.es/giftcards/test/ikea-es.png",
+        "sort": 2
+      }
+    ]
+  },
+  {
+    "category": "SUPERMERCADOS Y MINIMARKET",
+    "giftcards": [
+      {
+        "id": 3,
+        "name": "DECATHLON TEST-ES",
+        "company": "DECATHLON TEST-ES",
+        "giftcard_name": "PRUEBA_PROPIA",
+        "image": "https://cdn.apprecio.es/dashboard/cdn/apprecio.es/giftcards/test/decathlon-es.png",
+        "sort": 3
+      }
+    ]
+  }
+]

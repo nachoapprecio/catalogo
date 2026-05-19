@@ -12,6 +12,7 @@ interface GiftCardItem {
   name?: string;
   "Fuente imagen"?: string;
   image_url?: string;
+  image?: string;
 }
 
 interface CategoryData {
@@ -29,23 +30,58 @@ function formatCategoryName(name: string): string {
   const categoryMapping: Record<string, string> = {
     "SUPERMERCADOS Y MINIMARKET": "Supermercados y Minimarket",
     "GRANDES TIENDAS": "Grandes Tiendas", 
-    "GASTRONOMIA": "Gastronomía",
     "GASTRONOMÍA": "Gastronomía",
     "VUELOS Y EXPERIENCIAS": "Vuelos y Experiencias",
     "DEPORTES": "Deportes",
     "MODA Y ACCESORIOS": "Moda y Accesorios",
-    "MODA": "Moda",
-    "SALUD Y BELLEZA": "Salud y Belleza",
+    "VESTUARIO, CALZADO Y ACCESORIOS": "Moda y Accesorios",
+    "MODA": "Moda y Accesorios",
+    "SALUD Y BELLEZA": "Salud, Belleza y Bienestar",
+    "SALUD BELLEZA Y BIENESTAR": "Salud, Belleza y Bienestar",
     "ENTRETENIMIENTO Y TIEMPO LIBRE": "Entretenimiento y Tiempo Libre",
     "ENTRETENCIÓN Y TIEMPO LIBRE": "Entretenimiento y Tiempo Libre",
     "ENTRETENIMIENTO": "Entretenimiento",
     "GAMING": "Gaming",
-    "TECNOLOGIA": "Tecnología",
     "TECNOLOGÍA": "Tecnología",
     "SERVICIOS": "Servicios",
     "E-COMMERCE": "E-commerce",
     "ECOMMERCE": "E-commerce",
     "OTROS": "Otros",
+    "JUGUETERÍA": "Juguetería",
+    "JUGUETERIA": "Juguetería",
+    "FERRETERÍA": "Ferretería",
+    "FERRETERIA": "Ferretería",
+    "EDUCACIÓN": "Educación",
+    "EDUCACION": "Educación",
+    "FARMACIA": "Farmacia",
+    "LIBRERÍAS": "Librerías",
+    "LIBRERIAS": "Librerías",
+    "DISEÑO Y DECORACIÓN": "Diseño y Decoración",
+    "DISEÑO Y DECORACION": "Diseño y Decoración",
+    "DISENO Y DECORACION": "Diseño y Decoración",
+    "DISEÑO": "Diseño",
+    "DISENO": "Diseño",
+    "DECORACIÓN": "Decoración",
+    "DECORACION": "Decoración",
+    "MÚSICA": "Música",
+    "MUSICA": "Música",
+    "ÓPTICA": "Óptica",
+    "OPTICA": "Óptica",
+    "ELECTRÓNICA": "Electrónica",
+    "ELECTRONICA": "Electrónica",
+    "JOYERÍA": "Joyería",
+    "JOYERIA": "Joyería",
+    "PANADERÍA": "Panadería",
+    "PANADERIA": "Panadería",
+    "LIBRERÍA": "Librería",
+    "LIBRERIA": "Librería",
+    "TELEFONÍA": "Telefonía",
+    "TELEFONIA": "Telefonía",
+    "PELUQUERÍA": "Peluquería",
+    "PELUQUERIA": "Peluquería",
+    "VETERINARIA": "Veterinaria",
+    "PAPELERÍA": "Papelería",
+    "PAPELERIA": "Papelería",
     "Recargas Celulares": "Recargas Celulares"
   };
   
@@ -90,6 +126,21 @@ export function mapGiftCardsJsonToCategories(
     alt: string;
   }>;
 }> {
+  // URLs de imagen a filtrar (no mostrar estas gift cards)
+  const EXCLUDED_IMAGE_URLS = [
+    "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/30.png",
+    "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/30.jpg"
+  ];
+  
+  // Nombres de gift cards problemáticas por país
+  const EXCLUDED_GIFT_CARDS_BY_COUNTRY = {
+    colombia: ["Via Uno Chile", "VIAUNOCHILE"],
+    chile: [],
+    peru: [],
+    ecuador: [],
+    mexico: []
+  };
+  
   return json.map((cat) => {
     // Compatibilidad: acepta claves en español o inglés
     const catName = cat.Categoria || cat.category;
@@ -99,12 +150,34 @@ export function mapGiftCardsJsonToCategories(
     return {
       id: formattedCatName ? formattedCatName.toLowerCase().replace(/\s+/g, "-") : "unknown",
       name: formattedCatName,
-      cards: cardsArr.map((card: GiftCardItem) => ({
-        id: card["posición"] || card["position"] || card["nombre"] || card["name"] || "",
-        name: formatGiftCardName(card["nombre"] || card["name"] || ""),
-        image: card["Fuente imagen"] || card["image_url"] || "",
-        alt: formatGiftCardName(card["nombre"] || card["name"] || "Gift card"),
-      })),
+      cards: cardsArr
+        .filter((card: GiftCardItem) => {
+          // Filtrar gift cards con imagen específica que no debe mostrarse
+          const imageUrl = card["Fuente imagen"] || card["image_url"] || (card as any)["image"] || "";
+          const cardName = card["nombre"] || card["name"] || "";
+          const giftCardCode = card["giftcard_name"] || "";
+          
+          // Filtrar por URL de imagen
+          if (EXCLUDED_IMAGE_URLS.includes(imageUrl)) {
+            return false;
+          }
+          
+          // Filtrar gift cards problemáticas (Como Via Uno Chile en Colombia)
+          const problematicNames = ["Via Uno Chile", "VIAUNOCHILE"];
+          if (problematicNames.some(name => 
+            cardName.includes(name) || giftCardCode.includes(name)
+          )) {
+            return false;
+          }
+          
+          return true;
+        })
+        .map((card: GiftCardItem) => ({
+          id: card["posición"] || card["position"] || card["nombre"] || card["name"] || "",
+          name: formatGiftCardName(card["nombre"] || card["name"] || ""),
+          image: card["Fuente imagen"] || card["image_url"] || (card as any)["image"] || "",
+          alt: formatGiftCardName(card["nombre"] || card["name"] || "Gift card"),
+        })),
     };
   });
 }

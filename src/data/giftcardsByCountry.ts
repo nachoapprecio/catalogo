@@ -3,6 +3,7 @@ import peru from './giftcards_peru.json';
 import colombia from './giftcards_colombia.json';
 import ecuador from './giftcards_ecuador.json';
 import mexico from './giftcards_mexico.json';
+import spain from './giftcards_spain.json';
 import planet from '../assets/planet.svg';
 
 export const giftcardsByCountry = {
@@ -11,6 +12,7 @@ export const giftcardsByCountry = {
   colombia,
   ecuador,
   mexico,
+  spain,
 };
 
 export const countryList = [
@@ -22,26 +24,31 @@ export const countryList = [
   {
     code: 'chile',
     name: 'Chile',
-    image: 'https://cdn.apprecio.cl/2/emojione_flag_for_chile_20x20_1_c558d689f1.svg',
+    image: 'https://estudios.apprecio.com/hubfs/sitio%20web/global/header-footer/imagenes/chile.svg',
   },
   {
     code: 'peru',
     name: 'Perú',
-    image: 'https://cdn.apprecio.cl/2/emojione_flag_for_peru_20x20_1_912e03823c.svg',
+    image: 'https://estudios.apprecio.com/hubfs/sitio%20web/global/header-footer/imagenes/peru.svg',
   },
   {
     code: 'colombia',
     name: 'Colombia',
-    image: 'https://cdn.apprecio.cl/2/emojione_flag_for_colombia_20x20_1_8feeca2646.svg',
+    image: 'https://estudios.apprecio.com/hubfs/sitio%20web/global/header-footer/imagenes/colombia.svg',
   },
   {
     code: 'ecuador',
     name: 'Ecuador',
-    image: 'https://cdn.apprecio.cl/2/emojione_flag_for_ecuador_20x20_1_664ac2bfb2.svg',
+    image: 'https://estudios.apprecio.com/hubfs/sitio%20web/global/header-footer/imagenes/ecuador.svg',
   },
   {
     code: 'mexico',
     name: 'México',
-    image: 'https://cdn.apprecio.cl/2/mx_flag_8e28f130bf.svg',
+    image: 'https://estudios.apprecio.com/hubfs/sitio%20web/global/header-footer/imagenes/mexico.svg',
+  },
+  {
+    code: 'spain',
+    name: 'España',
+    image: 'https://estudios.apprecio.com/hubfs/sitio%20web/global/header-footer/imagenes/espana.svg',
   },
 ];

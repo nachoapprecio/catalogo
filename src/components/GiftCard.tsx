@@ -29,9 +29,13 @@ export const GiftCard = ({ card, delay, countryCode, countryFlag }: GiftCardProp
               src={card.image}
               alt={card.alt}
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              loading="lazy"
+              onLoad={() => {
+                console.log(`✅ Imagen cargada: ${card.name}`);
+              }}
               onError={(e) => {
-                const target = e.target as HTMLImageElement;
-                target.src = "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=300&h=200&fit=crop";
+                console.error(`❌ Error cargando imagen: ${card.name}`, card.image);
+                // No hacer nada - dejar que la imagen se maneje naturalmente
               }}
             />
             

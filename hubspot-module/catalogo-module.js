@@ -21,10 +21,14 @@
     mexico: {
       label: "Mexico",
       url: "https://estudios.apprecio.com/hubfs/catalogo-gift-cards/json/giftcards_mexico.json"
+    },
+    spain: {
+      label: "España",
+      url: "https://estudios.apprecio.com/hubfs/catalogo-gift-cards/json/giftcards_spain.json"
     }
   };
 
-  var COUNTRY_ORDER = ["chile", "peru", "colombia", "mexico", "ecuador"];
+  var COUNTRY_ORDER = ["chile", "peru", "colombia", "ecuador", "mexico", "spain"];
 
   var CATEGORY_DEFINITIONS = [
     { slug: "todas_las_categorias", label: "Todas las categorias" },
