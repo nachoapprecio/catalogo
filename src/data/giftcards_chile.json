@@ -582,6 +582,14 @@
         "sort": 369
       },
       {
+        "id": 376,
+        "name": "CINE Entrada 2D",
+        "company": "CINE Entrada 2D",
+        "giftcard_name": "CINEPOLIS_ENT2D",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/376.png",
+        "sort": 376
+      },
+      {
         "id": 377,
         "name": "CINE Snack Mediano ",
         "company": "CINE Snack Mediano ",

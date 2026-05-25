@@ -24,5 +24,55 @@
         "sort": 3
       }
     ]
+  },
+  {
+    "category": "MODA Y ACCESORIOS",
+    "giftcards": [
+      {
+        "id": 12,
+        "name": "MANGO",
+        "company": "MANGO",
+        "giftcard_name": "TR_MANGO",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/12.png",
+        "sort": 12
+      }
+    ]
+  },
+  {
+    "category": "ENTRETENIMIENTO Y TIEMPO LIBRE",
+    "giftcards": [
+      {
+        "id": 5,
+        "name": "Casa del Libro",
+        "company": "Casa del Libro",
+        "giftcard_name": "TR_CASA_DEL_LIBRO",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/5.png",
+        "sort": 5
+      },
+      {
+        "id": 8,
+        "name": "Nintendo Switch",
+        "company": "Nintendo Switch",
+        "giftcard_name": "TR_NINTENDO_SWITCH",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/8.png",
+        "sort": 8
+      },
+      {
+        "id": 11,
+        "name": "Xbox",
+        "company": "Xbox",
+        "giftcard_name": "TR_XBOX",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/11.png",
+        "sort": 11
+      },
+      {
+        "id": 42,
+        "name": "Yelmo",
+        "company": "Yelmo",
+        "giftcard_name": "TR_YELMO",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/42.png",
+        "sort": 42
+      }
+    ]
   }
 ]
