@@ -75,6 +75,19 @@
     "viaunochile": true
   };
 
+  function isTestVariantGiftCardName(value) {
+    if (!value) return false;
+    var normalized = String(value)
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[_]+/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+
+    return /(^|[\s-])test(?:$|[\s-])/.test(normalized);
+  }
+
   function normalizeSlug(value) {
     if (!value) return "";
     return String(value)
@@ -192,6 +205,7 @@
     if (!safeName || !image) return null;
     if (EXCLUDED_IMAGE_URLS[image]) return null;
     if (EXCLUDED_CARD_NAMES[normalizedName]) return null;
+    if (isTestVariantGiftCardName(safeName) || isTestVariantGiftCardName(rawCard.giftcard_name)) return null;
 
     return {
       id: rawCard.posicion || rawCard["posicion"] || rawCard["posición"] || safeName,

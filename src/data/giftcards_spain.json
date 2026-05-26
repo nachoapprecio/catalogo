@@ -4,10 +4,10 @@
     "giftcards": [
       {
         "id": 2,
-        "name": "IKEA TEST-ES",
-        "company": "IKEA TEST-ES",
+        "name": "APPRECIO TEST-ES",
+        "company": "APPRECIO TEST-ES",
         "giftcard_name": "PRUEBA_RETAIL",
-        "image": "https://cdn.apprecio.es/dashboard/cdn/apprecio.es/giftcards/test/ikea-es.png",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/30.png",
         "sort": 2
       }
     ]
