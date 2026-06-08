@@ -1,27 +1,162 @@
 [
   {
-    "category": "GRANDES TIENDAS",
+    "category": "SUPERMERCADOS Y MINIMARKET",
     "giftcards": [
       {
-        "id": 2,
-        "name": "APPRECIO TEST-ES",
-        "company": "APPRECIO TEST-ES",
-        "giftcard_name": "PRUEBA_RETAIL",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/30.png",
-        "sort": 2
+        "id": 43,
+        "name": "Carrefour",
+        "company": "Carrefour",
+        "giftcard_name": "TR_CARREFOUR",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/43.png",
+        "sort": 43
       }
     ]
   },
   {
-    "category": "SUPERMERCADOS Y MINIMARKET",
+    "category": "VUELOS Y EXPERIENCIAS",
     "giftcards": [
       {
-        "id": 3,
-        "name": "DECATHLON TEST-ES",
-        "company": "DECATHLON TEST-ES",
-        "giftcard_name": "PRUEBA_PROPIA",
-        "image": "https://cdn.apprecio.es/dashboard/cdn/apprecio.es/giftcards/test/decathlon-es.png",
-        "sort": 3
+        "id": 7,
+        "name": "Global Experience",
+        "company": "Global Experience",
+        "giftcard_name": "TR_GLOBAL_EXPERIENC",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/7.png",
+        "sort": 7
+      },
+      {
+        "id": 14,
+        "name": "TripGift",
+        "company": "TripGift",
+        "giftcard_name": "TR_TRIPGIFT",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/14.png",
+        "sort": 14
+      },
+      {
+        "id": 15,
+        "name": "HotelsGift",
+        "company": "HotelsGift",
+        "giftcard_name": "TR_HOTELSGIFT",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/15.png",
+        "sort": 15
+      },
+      {
+        "id": 17,
+        "name": "ToursGift",
+        "company": "ToursGift",
+        "giftcard_name": "TR_TOURSGIFT",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/17.png",
+        "sort": 17
+      },
+      {
+        "id": 18,
+        "name": "BucketlistGift",
+        "company": "BucketlistGift",
+        "giftcard_name": "TR_BUCKETLISTGIFT",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/18.png",
+        "sort": 18
+      },
+      {
+        "id": 31,
+        "name": "Iberia",
+        "company": "Iberia",
+        "giftcard_name": "TR_IBERIA",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/31.png",
+        "sort": 31
+      },
+      {
+        "id": 32,
+        "name": "Atrapalo",
+        "company": "Atrapalo",
+        "giftcard_name": "TR_ATRAPALO",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/32.png",
+        "sort": 32
+      }
+    ]
+  },
+  {
+    "category": "GASTRONOMÍA",
+    "giftcards": [
+      {
+        "id": 23,
+        "name": "TheFork",
+        "company": "TheFork",
+        "giftcard_name": "TR_THEFORK",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/23.png",
+        "sort": 23
+      }
+    ]
+  },
+  {
+    "category": "AUTOMOTRIZ",
+    "giftcards": [
+      {
+        "id": 16,
+        "name": "RentacarGift",
+        "company": "RentacarGift",
+        "giftcard_name": "TR_RENTACARGIFT",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/16.png",
+        "sort": 16
+      }
+    ]
+  },
+  {
+    "category": "SERVICIOS",
+    "giftcards": [
+      {
+        "id": 27,
+        "name": "Bolt",
+        "company": "Bolt",
+        "giftcard_name": "TR_BOLT",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/27.png",
+        "sort": 27
+      },
+      {
+        "id": 29,
+        "name": "Airbnb",
+        "company": "Airbnb",
+        "giftcard_name": "TR_AIRBNB",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/29.png",
+        "sort": 29
+      },
+      {
+        "id": 30,
+        "name": "Uber",
+        "company": "Uber",
+        "giftcard_name": "TR_UBER",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/30.png",
+        "sort": 30
+      },
+      {
+        "id": 34,
+        "name": "Uber Eats Spain",
+        "company": "Uber Eats Spain",
+        "giftcard_name": "TR_UBER_EATS_SPAIN",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/34.png",
+        "sort": 34
+      },
+      {
+        "id": 35,
+        "name": "Uber Rid Spain",
+        "company": "Uber Rid Spain",
+        "giftcard_name": "TR_UBER_RID_SPAIN",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/35.png",
+        "sort": 35
+      },
+      {
+        "id": 41,
+        "name": "Glovo",
+        "company": "Glovo",
+        "giftcard_name": "TR_GLOVO",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/41.png",
+        "sort": 41
+      },
+      {
+        "id": 44,
+        "name": "Moeve",
+        "company": "Moeve",
+        "giftcard_name": "TR_MOEVE",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/44.png",
+        "sort": 44
       }
     ]
   },
@@ -29,12 +164,182 @@
     "category": "MODA Y ACCESORIOS",
     "giftcards": [
       {
+        "id": 1,
+        "name": "Adidas",
+        "company": "Adidas",
+        "giftcard_name": "TR_ADIDAS",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/1.png",
+        "sort": 1
+      },
+      {
+        "id": 6,
+        "name": "Foot Locker",
+        "company": "Foot Locker",
+        "giftcard_name": "TR_FOOT_LOCKER",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/6.png",
+        "sort": 6
+      },
+      {
         "id": 12,
         "name": "MANGO",
         "company": "MANGO",
         "giftcard_name": "TR_MANGO",
         "image": "https://cdn.dcanje.com/apprecio.es/giftcards/12.png",
         "sort": 12
+      },
+      {
+        "id": 19,
+        "name": "Calzedonia",
+        "company": "Calzedonia",
+        "giftcard_name": "TR_CALZEDONIA",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/19.png",
+        "sort": 19
+      },
+      {
+        "id": 20,
+        "name": "Intimissimi",
+        "company": "Intimissimi",
+        "giftcard_name": "TR_INTIMISSIMI",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/20.png",
+        "sort": 20
+      },
+      {
+        "id": 21,
+        "name": "Tezenis",
+        "company": "Tezenis",
+        "giftcard_name": "TR_TEZENIS",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/21.png",
+        "sort": 21
+      },
+      {
+        "id": 22,
+        "name": "Falconeri",
+        "company": "Falconeri",
+        "giftcard_name": "TR_FALCONERI",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/22.png",
+        "sort": 22
+      },
+      {
+        "id": 25,
+        "name": "H&M",
+        "company": "H&M",
+        "giftcard_name": "TR_H&M",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/25.png",
+        "sort": 25
+      },
+      {
+        "id": 28,
+        "name": "Nike Spain",
+        "company": "Nike Spain",
+        "giftcard_name": "TR_NIKE_SPAIN",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/28.png",
+        "sort": 28
+      },
+      {
+        "id": 39,
+        "name": "Zara",
+        "company": "Zara",
+        "giftcard_name": "TR_ZARA",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/39.png",
+        "sort": 39
+      },
+      {
+        "id": 45,
+        "name": "PRIMARK",
+        "company": "PRIMARK",
+        "giftcard_name": "TR_PRIMARK",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/45.png",
+        "sort": 45
+      }
+    ]
+  },
+  {
+    "category": "E-COMMERCE",
+    "giftcards": [
+      {
+        "id": 9,
+        "name": "Zalando",
+        "company": "Zalando",
+        "giftcard_name": "TR_ZALANDO",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/9.png",
+        "sort": 9
+      },
+      {
+        "id": 38,
+        "name": "DAZN",
+        "company": "DAZN",
+        "giftcard_name": "TR_DAZN",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/38.png",
+        "sort": 38
+      },
+      {
+        "id": 40,
+        "name": "El Corte Inglés",
+        "company": "El Corte Inglés",
+        "giftcard_name": "TR_EL_CORTE_INGLÉS",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/40.png",
+        "sort": 40
+      },
+      {
+        "id": 46,
+        "name": "Amazon ES",
+        "company": "Amazon ES",
+        "giftcard_name": "TR_AMAZON",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/46.png",
+        "sort": 46
+      }
+    ]
+  },
+  {
+    "category": "TIENDAS ESPECIALIZADAS",
+    "giftcards": [
+      {
+        "id": 4,
+        "name": "Global Hotel",
+        "company": "Global Hotel",
+        "giftcard_name": "TR_GLOBAL_HOTEL",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/4.png",
+        "sort": 4
+      },
+      {
+        "id": 13,
+        "name": "Maisons Du Monde",
+        "company": "Maisons Du Monde",
+        "giftcard_name": "TR_MAISONS_DU_MONDE",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/13.png",
+        "sort": 13
+      },
+      {
+        "id": 26,
+        "name": "Sephora",
+        "company": "Sephora",
+        "giftcard_name": "TR_SEPHORA",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/26.png",
+        "sort": 26
+      },
+      {
+        "id": 33,
+        "name": "Apple",
+        "company": "Apple",
+        "giftcard_name": "TR_APPLE",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/33.png",
+        "sort": 33
+      },
+      {
+        "id": 36,
+        "name": "IKEA",
+        "company": "IKEA",
+        "giftcard_name": "TR_IKEA",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/30.png",
+        "sort": 36
+      },
+      {
+        "id": 37,
+        "name": "Media Markt",
+        "company": "Media Markt",
+        "giftcard_name": "TR_MEDIA_MARKT",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/37.png",
+        "sort": 37
       }
     ]
   },
@@ -58,12 +363,28 @@
         "sort": 8
       },
       {
+        "id": 10,
+        "name": "Roblox",
+        "company": "Roblox",
+        "giftcard_name": "TR_ROBLOX",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/10.png",
+        "sort": 10
+      },
+      {
         "id": 11,
         "name": "Xbox",
         "company": "Xbox",
         "giftcard_name": "TR_XBOX",
         "image": "https://cdn.dcanje.com/apprecio.es/giftcards/11.png",
         "sort": 11
+      },
+      {
+        "id": 24,
+        "name": "PlayStation",
+        "company": "PlayStation",
+        "giftcard_name": "TR_PLAYSTATION",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/24.png",
+        "sort": 24
       },
       {
         "id": 42,

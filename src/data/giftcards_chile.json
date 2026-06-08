@@ -43,20 +43,20 @@
         "sort": 11
       },
       {
+        "id": 348,
+        "name": "Pronto y Punto Copec",
+        "company": "Pronto y Punto Copec",
+        "giftcard_name": "PRONTOPUNTO_COPEC",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/348.jpg",
+        "sort": 348
+      },
+      {
         "id": 349,
         "name": "Ewine.cl",
         "company": "Ewine.cl",
         "giftcard_name": "E_WINE",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/349.png",
         "sort": 349
-      },
-      {
-        "id": 423,
-        "name": "Membresía Jumbo",
-        "company": "Membresía Jumbo",
-        "giftcard_name": "JUMBO_PRIME",
-        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/423.png",
-        "sort": 423
       },
       {
         "id": 429,
