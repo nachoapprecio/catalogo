@@ -101,14 +101,6 @@
         "sort": 35
       },
       {
-        "id": 48,
-        "name": "Starbucks",
-        "company": "Starbucks",
-        "giftcard_name": "STARBUCKS",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/48.png",
-        "sort": 48
-      },
-      {
         "id": 60,
         "name": "Uber Ride",
         "company": "Uber Ride",
@@ -315,14 +307,6 @@
         "sort": 22
       },
       {
-        "id": 25,
-        "name": "Spotify P 12m",
-        "company": "Spotify P 12m",
-        "giftcard_name": "SPOTIFY_12M",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/25.png",
-        "sort": 25
-      },
-      {
         "id": 26,
         "name": "Xbox Live Gold 1m",
         "company": "Xbox Live Gold 1m",
@@ -401,14 +385,6 @@
         "giftcard_name": "ROBLOX",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/49.png",
         "sort": 49
-      },
-      {
-        "id": 50,
-        "name": "Minecraf Coins 1720",
-        "company": "Minecraf Coins 1720",
-        "giftcard_name": "MINECRAFT_COINS1",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/50.png",
-        "sort": 50
       },
       {
         "id": 51,

@@ -348,14 +348,6 @@
     "category": "ENTRETENIMIENTO Y TIEMPO LIBRE",
     "giftcards": [
       {
-        "id": 45,
-        "name": "SPOTIFY_MENSUAL",
-        "company": "SPOTIFY_MENSUAL",
-        "giftcard_name": "SPOTIFY_MENSUAL",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/45.png",
-        "sort": 45
-      },
-      {
         "id": 46,
         "name": "SPOTIFY_3M",
         "company": "SPOTIFY_3M",
@@ -793,7 +785,7 @@
         "name": "Combo 3 Dunkin Donuts",
         "company": "Combo 3 Dunkin Donuts",
         "giftcard_name": "DD_COMBO3DONUTS",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/77.png",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/77.png",
         "sort": 77
       },
       {

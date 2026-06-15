@@ -564,6 +564,14 @@
         "giftcard_name": "DIREC_TV_PLANTV",
         "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/218.png",
         "sort": 218
+      },
+      {
+        "id": 221,
+        "name": "Plan Fútbol",
+        "company": "Plan Fútbol",
+        "giftcard_name": "DIREC_TV_PLANFUTBOL",
+        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/221.png",
+        "sort": 221
       }
     ]
   }
