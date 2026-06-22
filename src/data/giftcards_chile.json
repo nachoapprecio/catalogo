@@ -207,14 +207,6 @@
         "sort": 320
       },
       {
-        "id": 346,
-        "name": "UBER EATS",
-        "company": "UBER EATS",
-        "giftcard_name": "UBER_EATS",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/346.png",
-        "sort": 346
-      },
-      {
         "id": 368,
         "name": "CafeterIa Le Blanc",
         "company": "CafeterIa Le Blanc",
@@ -229,14 +221,6 @@
         "giftcard_name": "BOX_SABORES",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/379.png",
         "sort": 379
-      },
-      {
-        "id": 380,
-        "name": "Getaway Gourmet",
-        "company": "Getaway Gourmet",
-        "giftcard_name": "BOX_EL_GOURMET",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/380.png",
-        "sort": 380
       },
       {
         "id": 391,
@@ -574,14 +558,6 @@
         "sort": 377
       },
       {
-        "id": 381,
-        "name": "Getaway Blend",
-        "company": "Getaway Blend",
-        "giftcard_name": "BOX_BLEND",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/381.png",
-        "sort": 381
-      },
-      {
         "id": 439,
         "name": "DirecTV",
         "company": "DirecTV",
@@ -630,14 +606,6 @@
         "giftcard_name": "RECARGAENLINEA",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/83.png",
         "sort": 83
-      },
-      {
-        "id": 345,
-        "name": "UBER",
-        "company": "UBER",
-        "giftcard_name": "UBER",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/345.png",
-        "sort": 345
       },
       {
         "id": 378,

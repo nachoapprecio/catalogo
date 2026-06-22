@@ -683,14 +683,6 @@
         "sort": 160
       },
       {
-        "id": 203,
-        "name": "UBER RIDE",
-        "company": "UBER RIDE",
-        "giftcard_name": "UBER_RIDE",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/203.png",
-        "sort": 203
-      },
-      {
         "id": 235,
         "name": "TP_COMBUSTIBLE",
         "company": "TP_COMBUSTIBLE",
@@ -1003,6 +995,30 @@
         "giftcard_name": "DD_ICEDLATTE",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/306.png",
         "sort": 306
+      },
+      {
+        "id": 312,
+        "name": "Popsy dos Malteadas",
+        "company": "Popsy dos Malteadas",
+        "giftcard_name": "POPSY_DOSMALTEADAS",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/312.png",
+        "sort": 312
+      },
+      {
+        "id": 313,
+        "name": "Popsy 2 Conos 1 Sabor",
+        "company": "Popsy 2 Conos 1 Sabor",
+        "giftcard_name": "POPSY_DOSCONOSUNABOLA",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/313.png",
+        "sort": 313
+      },
+      {
+        "id": 316,
+        "name": "QBANO",
+        "company": "QBANO",
+        "giftcard_name": "QBANO",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/316.png",
+        "sort": 316
       }
     ]
   },

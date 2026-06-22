@@ -56,6 +56,22 @@
     "category": "GRANDES TIENDAS",
     "giftcards": [
       {
+        "id": 6,
+        "name": "SAGA FALABELLA Vestuario",
+        "company": "SAGA FALABELLA Vestuario",
+        "giftcard_name": "SAGAFALABELLAVESTUARIO",
+        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/6.png",
+        "sort": 6
+      },
+      {
+        "id": 7,
+        "name": "SAGA FALABELLA Hogar",
+        "company": "SAGA FALABELLA Hogar",
+        "giftcard_name": "SAGAFALABELLAHOGAR",
+        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/7.png",
+        "sort": 7
+      },
+      {
         "id": 33,
         "name": "Tai Loy",
         "company": "Tai Loy",
@@ -341,14 +357,6 @@
         "giftcard_name": "BEM_VALECORP20",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/164.png",
         "sort": 164
-      },
-      {
-        "id": 165,
-        "name": "Chilis VC 01",
-        "company": "Chilis VC 01",
-        "giftcard_name": "CH_VALECORP01",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/165.png",
-        "sort": 165
       },
       {
         "id": 166,

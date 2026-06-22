@@ -101,12 +101,12 @@
         "sort": 35
       },
       {
-        "id": 60,
-        "name": "Uber Ride",
-        "company": "Uber Ride",
-        "giftcard_name": "UBER_RIDER",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/60.png",
-        "sort": 60
+        "id": 48,
+        "name": "Starbucks",
+        "company": "Starbucks",
+        "giftcard_name": "STARBUCKS",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/48.png",
+        "sort": 48
       },
       {
         "id": 72,
@@ -299,14 +299,6 @@
     "category": "ENTRETENIMIENTO Y TIEMPO LIBRE",
     "giftcards": [
       {
-        "id": 22,
-        "name": "Spotify P 1m",
-        "company": "Spotify P 1m",
-        "giftcard_name": "SPOTIFY_1M",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/22.png",
-        "sort": 22
-      },
-      {
         "id": 26,
         "name": "Xbox Live Gold 1m",
         "company": "Xbox Live Gold 1m",
@@ -422,19 +414,6 @@
         "giftcard_name": "CLUB_PLATINO",
         "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/78.png",
         "sort": 78
-      }
-    ]
-  },
-  {
-    "category": "SERVICIOS",
-    "giftcards": [
-      {
-        "id": 59,
-        "name": "Uber Eats Mx",
-        "company": "Uber Eats Mx",
-        "giftcard_name": "UBER_EATS_MX",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/59.png",
-        "sort": 59
       }
     ]
   },
