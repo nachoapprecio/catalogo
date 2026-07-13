@@ -518,14 +518,6 @@
     "category": "ENTRETENIMIENTO Y TIEMPO LIBRE",
     "giftcards": [
       {
-        "id": 1,
-        "name": "Apprecio",
-        "company": "Apprecio",
-        "giftcard_name": "DCANJE",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/30.png",
-        "sort": 500
-      },
-      {
         "id": 144,
         "name": "Play Station",
         "company": "Play Station",

@@ -33,14 +33,6 @@
         "giftcard_name": "HEB_TAH",
         "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/84.png",
         "sort": 84
-      },
-      {
-        "id": 91,
-        "name": "Cashi",
-        "company": "Cashi",
-        "giftcard_name": "CASHI_GC",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/91.png",
-        "sort": 91
       }
     ]
   },
@@ -107,6 +99,14 @@
         "giftcard_name": "STARBUCKS",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/48.png",
         "sort": 48
+      },
+      {
+        "id": 60,
+        "name": "Uber Ride",
+        "company": "Uber Ride",
+        "giftcard_name": "UBER_RIDER",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/60.png",
+        "sort": 60
       },
       {
         "id": 72,
@@ -347,14 +347,6 @@
         "sort": 42
       },
       {
-        "id": 43,
-        "name": "Vix Premium",
-        "company": "Vix Premium",
-        "giftcard_name": "VIX_PREMIUM",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/43.png",
-        "sort": 43
-      },
-      {
         "id": 44,
         "name": "Nintendo",
         "company": "Nintendo",
@@ -414,6 +406,19 @@
         "giftcard_name": "CLUB_PLATINO",
         "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/78.png",
         "sort": 78
+      }
+    ]
+  },
+  {
+    "category": "SERVICIOS",
+    "giftcards": [
+      {
+        "id": 59,
+        "name": "Uber Eats Mx",
+        "company": "Uber Eats Mx",
+        "giftcard_name": "UBER_EATS_MX",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/59.png",
+        "sort": 59
       }
     ]
   },

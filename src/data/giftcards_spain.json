@@ -294,6 +294,14 @@
     "category": "TIENDAS ESPECIALIZADAS",
     "giftcards": [
       {
+        "id": 2,
+        "name": "APPRECIO TEST-ES",
+        "company": "APPRECIO TEST-ES",
+        "giftcard_name": "PRUEBA_RETAIL",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/30.png",
+        "sort": 2
+      },
+      {
         "id": 4,
         "name": "Global Hotel",
         "company": "Global Hotel",
@@ -330,7 +338,7 @@
         "name": "IKEA",
         "company": "IKEA",
         "giftcard_name": "TR_IKEA",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/30.png",
+        "image": "https://cdn.dcanje.com/apprecio.es/giftcards/36.png",
         "sort": 36
       },
       {

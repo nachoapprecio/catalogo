@@ -241,16 +241,16 @@
         "name": "Alkosto Digital",
         "company": "Alkosto Digital",
         "giftcard_name": "ALKOSTO_KTRONIX",
-        "image": "https://cdn.dcanje.com/apprecio.co/giftcards/KTronixOnline_1707_id239.png",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/239.png",
         "sort": 239
       },
       {
-        "id": 279,
-        "name": "Falabella Todo",
-        "company": "Falabella Todo",
-        "giftcard_name": "FALABELLA",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/279.png",
-        "sort": 279
+        "id": 321,
+        "name": "FALABELLA_TODO",
+        "company": "FALABELLA_TODO",
+        "giftcard_name": "FALABELLA_TODO2",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/321.png",
+        "sort": 321
       }
     ]
   },
@@ -341,6 +341,14 @@
         "giftcard_name": "CRUZ_VERDE",
         "image": "https://cdn.dcanje.com/dcanje.co/giftcards/195.png",
         "sort": 195
+      },
+      {
+        "id": 320,
+        "name": "Super Wow",
+        "company": "Super Wow",
+        "giftcard_name": "SUPER_WOW_API",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/320.png",
+        "sort": 320
       }
     ]
   },
@@ -458,6 +466,14 @@
         "giftcard_name": "ROYAL_FILMS_COMIDA2",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/231.png",
         "sort": 231
+      },
+      {
+        "id": 317,
+        "name": "Libreria de la U",
+        "company": "Libreria de la U",
+        "giftcard_name": "LIBRERIA_U",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/317.png",
+        "sort": 317
       }
     ]
   },
@@ -668,6 +684,30 @@
         "giftcard_name": "NIKE_OGLOBA",
         "image": "https://cdn.dcanje.com/dcanje.co/giftcards/304.png",
         "sort": 304
+      },
+      {
+        "id": 315,
+        "name": "Bosi",
+        "company": "Bosi",
+        "giftcard_name": "BOSI_API",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/315.png",
+        "sort": 315
+      },
+      {
+        "id": 318,
+        "name": "Xuss",
+        "company": "Xuss",
+        "giftcard_name": "XUSS_API",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/318.png",
+        "sort": 318
+      },
+      {
+        "id": 319,
+        "name": "Bucaramanga",
+        "company": "Bucaramanga",
+        "giftcard_name": "BUCARAMANGA_API",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/319.png",
+        "sort": 319
       }
     ]
   },
