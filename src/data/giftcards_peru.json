@@ -84,7 +84,7 @@
         "name": "RIPLEY",
         "company": "RIPLEY",
         "giftcard_name": "RIPLEY",
-        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/106.png",
+        "image": "https://cdn.dcanje.com/apprecio.pe/giftcards/RipleyPE_1707_id106.png",
         "sort": 1
       },
       {
@@ -124,14 +124,6 @@
   {
     "category": "ONLINE",
     "giftcards": [
-      {
-        "id": 95,
-        "name": "PedidosYA",
-        "company": "PedidosYA",
-        "giftcard_name": "PEDIDOSYA",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/95.png",
-        "sort": 95
-      },
       {
         "id": 115,
         "name": "Ripley.com",
@@ -469,6 +461,14 @@
         "giftcard_name": "PJ_VALECORP6",
         "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/217.png",
         "sort": 217
+      },
+      {
+        "id": 219,
+        "name": "Chilis VC 05",
+        "company": "Chilis VC 05",
+        "giftcard_name": "CH_VALECORP05",
+        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/219.png",
+        "sort": 219
       }
     ]
   },

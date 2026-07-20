@@ -341,14 +341,6 @@
         "giftcard_name": "CRUZ_VERDE",
         "image": "https://cdn.dcanje.com/dcanje.co/giftcards/195.png",
         "sort": 195
-      },
-      {
-        "id": 320,
-        "name": "Super Wow",
-        "company": "Super Wow",
-        "giftcard_name": "SUPER_WOW_API",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/320.png",
-        "sort": 320
       }
     ]
   },
@@ -686,28 +678,12 @@
         "sort": 304
       },
       {
-        "id": 315,
-        "name": "Bosi",
-        "company": "Bosi",
-        "giftcard_name": "BOSI_API",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/315.png",
-        "sort": 315
-      },
-      {
-        "id": 318,
-        "name": "Xuss",
-        "company": "Xuss",
-        "giftcard_name": "XUSS_API",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/318.png",
-        "sort": 318
-      },
-      {
-        "id": 319,
-        "name": "Bucaramanga",
-        "company": "Bucaramanga",
-        "giftcard_name": "BUCARAMANGA_API",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/319.png",
-        "sort": 319
+        "id": 322,
+        "name": "Arturo Calle",
+        "company": "Arturo Calle",
+        "giftcard_name": "ARTURO_CALLE",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/322.png",
+        "sort": 322
       }
     ]
   },
