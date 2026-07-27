@@ -3,22 +3,6 @@
     "category": "SUPERMERCADOS Y MINIMARKET",
     "giftcards": [
       {
-        "id": 3,
-        "name": "Metro",
-        "company": "Metro",
-        "giftcard_name": "METRO-WONG",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/3.png",
-        "sort": 3
-      },
-      {
-        "id": 4,
-        "name": "Wong",
-        "company": "Wong",
-        "giftcard_name": "METRO-WONG",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/4.png",
-        "sort": 4
-      },
-      {
         "id": 206,
         "name": "Vega",
         "company": "Vega",
@@ -461,14 +445,6 @@
         "giftcard_name": "PJ_VALECORP6",
         "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/217.png",
         "sort": 217
-      },
-      {
-        "id": 219,
-        "name": "Chilis VC 05",
-        "company": "Chilis VC 05",
-        "giftcard_name": "CH_VALECORP05",
-        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/219.png",
-        "sort": 219
       }
     ]
   },
