@@ -136,12 +136,49 @@
         "sort": 246
       },
       {
+        "id": 353,
+        "name": "Falabella Calzado",
+        "company": "Falabella Calzado",
+        "giftcard_name": "FALABELLA_CALZADO",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/353.png",
+        "sort": 353
+      },
+      {
         "id": 354,
         "name": "Ripley Cashback",
         "company": "Ripley Cashback",
         "giftcard_name": "RIPLEY_CASHBACK",
         "image": "https://cdn.dcanje.com/apprecio.pe/giftcards/Ripleyddn_1507_id354.png",
         "sort": 1
+      },
+      {
+        "id": 443,
+        "name": "Paris_Cashback",
+        "company": "Paris_Cashback",
+        "giftcard_name": "PARIS-JOHNSON",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/apprecio.pe/giftcards/RipleyCLddn_2907_id443.png",
+        "sort": 3
+      }
+    ]
+  },
+  {
+    "category": "ECOMMERCE",
+    "giftcards": [
+      {
+        "id": 392,
+        "name": "Importclick",
+        "company": "Importclick",
+        "giftcard_name": "IMPORTCLICK",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/392.png",
+        "sort": 392
+      },
+      {
+        "id": 401,
+        "name": "Around",
+        "company": "Around",
+        "giftcard_name": "BC_AROUN",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/401.png",
+        "sort": 401
       }
     ]
   },
@@ -187,19 +224,6 @@
         "giftcard_name": "BC_UF",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/406.png",
         "sort": 406
-      }
-    ]
-  },
-  {
-    "category": "ECOMMERCE",
-    "giftcards": [
-      {
-        "id": 401,
-        "name": "Around",
-        "company": "Around",
-        "giftcard_name": "BC_AROUN",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/401.png",
-        "sort": 401
       }
     ]
   },
@@ -625,14 +649,6 @@
         "giftcard_name": "DCANJE",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/30.png",
         "sort": 500
-      },
-      {
-        "id": 105,
-        "name": "Airlife",
-        "company": "Airlife",
-        "giftcard_name": "AIRLIFE",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/105.png",
-        "sort": 105
       }
     ]
   },

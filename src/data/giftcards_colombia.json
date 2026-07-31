@@ -510,14 +510,6 @@
         "sort": 98
       },
       {
-        "id": 99,
-        "name": "GEF",
-        "company": "GEF",
-        "giftcard_name": "GEF",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/99.png",
-        "sort": 99
-      },
-      {
         "id": 100,
         "name": "Punto Blanco",
         "company": "Punto Blanco",
@@ -697,6 +689,14 @@
         "giftcard_name": "COMBUSTIBLE_EXITO",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/160.png",
         "sort": 160
+      },
+      {
+        "id": 203,
+        "name": "UBER RIDE",
+        "company": "UBER RIDE",
+        "giftcard_name": "UBER_RIDE",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/203.png",
+        "sort": 203
       },
       {
         "id": 235,
