@@ -3,22 +3,6 @@
     "category": "SUPERMERCADOS Y MINIMARKET",
     "giftcards": [
       {
-        "id": 3,
-        "name": "Metro",
-        "company": "Metro",
-        "giftcard_name": "METRO-WONG",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/3.png",
-        "sort": 3
-      },
-      {
-        "id": 4,
-        "name": "Wong",
-        "company": "Wong",
-        "giftcard_name": "METRO-WONG",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/4.png",
-        "sort": 4
-      },
-      {
         "id": 206,
         "name": "Vega",
         "company": "Vega",
@@ -49,6 +33,14 @@
         "giftcard_name": "TAMBO_MONTOS",
         "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/213.png",
         "sort": 213
+      },
+      {
+        "id": 222,
+        "name": "Metro_GC",
+        "company": "Metro_GC",
+        "giftcard_name": "METROWONG2",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/3.png",
+        "sort": 1
       }
     ]
   },

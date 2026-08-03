@@ -341,6 +341,14 @@
         "giftcard_name": "CRUZ_VERDE",
         "image": "https://cdn.dcanje.com/dcanje.co/giftcards/195.png",
         "sort": 195
+      },
+      {
+        "id": 320,
+        "name": "Super Wow",
+        "company": "Super Wow",
+        "giftcard_name": "SUPER_WOW_API",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/320.png",
+        "sort": 320
       }
     ]
   },
@@ -662,12 +670,52 @@
         "sort": 274
       },
       {
+        "id": 278,
+        "name": "Gift Card KOAJ",
+        "company": "Gift Card KOAJ",
+        "giftcard_name": "KOAJ_API",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/278.png",
+        "sort": 278
+      },
+      {
         "id": 304,
         "name": "Nike_1",
         "company": "Nike_1",
         "giftcard_name": "NIKE_OGLOBA",
         "image": "https://cdn.dcanje.com/dcanje.co/giftcards/304.png",
         "sort": 304
+      },
+      {
+        "id": 309,
+        "name": "Nike",
+        "company": "Nike",
+        "giftcard_name": "NIKE_API",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/309.png",
+        "sort": 309
+      },
+      {
+        "id": 315,
+        "name": "Bosi",
+        "company": "Bosi",
+        "giftcard_name": "BOSI_API",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/315.png",
+        "sort": 315
+      },
+      {
+        "id": 318,
+        "name": "Xuss",
+        "company": "Xuss",
+        "giftcard_name": "XUSS_API",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/318.png",
+        "sort": 318
+      },
+      {
+        "id": 319,
+        "name": "Bucaramanga",
+        "company": "Bucaramanga",
+        "giftcard_name": "BUCARAMANGA_API",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/319.png",
+        "sort": 319
       },
       {
         "id": 322,
@@ -931,6 +979,14 @@
         "giftcard_name": "BUFFALO_WINGS",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/259.png",
         "sort": 259
+      },
+      {
+        "id": 276,
+        "name": "La Hamburguesería",
+        "company": "La Hamburguesería",
+        "giftcard_name": "LA_HAMBURGUESERIA",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/276.png",
+        "sort": 276
       },
       {
         "id": 285,
