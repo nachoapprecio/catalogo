@@ -245,6 +245,14 @@
         "sort": 239
       },
       {
+        "id": 279,
+        "name": "Falabella Todo",
+        "company": "Falabella Todo",
+        "giftcard_name": "FALABELLA",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/279.png",
+        "sort": 279
+      },
+      {
         "id": 321,
         "name": "FALABELLA_TODO",
         "company": "FALABELLA_TODO",

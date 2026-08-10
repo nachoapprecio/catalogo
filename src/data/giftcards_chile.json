@@ -136,14 +136,6 @@
         "sort": 246
       },
       {
-        "id": 353,
-        "name": "Falabella Calzado",
-        "company": "Falabella Calzado",
-        "giftcard_name": "FALABELLA_CALZADO",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/353.png",
-        "sort": 353
-      },
-      {
         "id": 354,
         "name": "Ripley Cashback",
         "company": "Ripley Cashback",
@@ -628,6 +620,22 @@
         "giftcard_name": "DIRECTV_PLANTV",
         "image": "https://cdn.dcanje.com/dcanje.com/giftcards/439.png",
         "sort": 439
+      },
+      {
+        "id": 441,
+        "name": "Chuck Cheese 35",
+        "company": "Chuck Cheese 35",
+        "giftcard_name": "CHUCK_CHESSE35",
+        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/441.png",
+        "sort": 441
+      },
+      {
+        "id": 442,
+        "name": "Chuck Cheese 60",
+        "company": "Chuck Cheese 60",
+        "giftcard_name": "CHUCK_CHEESE60",
+        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/442.png",
+        "sort": 442
       }
     ]
   },

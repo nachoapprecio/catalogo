@@ -299,28 +299,12 @@
     "category": "ENTRETENIMIENTO Y TIEMPO LIBRE",
     "giftcards": [
       {
-        "id": 15,
-        "name": "Cinepolis Vip",
-        "company": "Cinepolis Vip",
-        "giftcard_name": "CINEPOLIS_VIP",
-        "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/15.png",
-        "sort": 15
-      },
-      {
         "id": 26,
         "name": "Xbox Live Gold 1m",
         "company": "Xbox Live Gold 1m",
         "giftcard_name": "XBOX_1M",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/26.png",
         "sort": 26
-      },
-      {
-        "id": 27,
-        "name": "Xbox Live Gold 3m",
-        "company": "Xbox Live Gold 3m",
-        "giftcard_name": "XBOX_3M",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/27.png",
-        "sort": 27
       },
       {
         "id": 28,
