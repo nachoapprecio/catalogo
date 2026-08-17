@@ -197,14 +197,6 @@
     "category": "GRANDES TIENDAS",
     "giftcards": [
       {
-        "id": 39,
-        "name": "PEPE_GANGAVIRTUAL",
-        "company": "PEPE_GANGAVIRTUAL",
-        "giftcard_name": "PPGANGA_VIRTUAL",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/39.png",
-        "sort": 39
-      },
-      {
         "id": 125,
         "name": "Dafiti.com",
         "company": "Dafiti.com",
@@ -524,6 +516,14 @@
         "giftcard_name": "GALAX",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/98.png",
         "sort": 98
+      },
+      {
+        "id": 99,
+        "name": "GEF",
+        "company": "GEF",
+        "giftcard_name": "GEF",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/99.png",
+        "sort": 99
       },
       {
         "id": 100,
@@ -987,6 +987,14 @@
         "giftcard_name": "BUFFALO_WINGS",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/259.png",
         "sort": 259
+      },
+      {
+        "id": 275,
+        "name": "Burger_King",
+        "company": "Burger_King",
+        "giftcard_name": "BURGER_KING_API",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/275.png",
+        "sort": 275
       },
       {
         "id": 276,

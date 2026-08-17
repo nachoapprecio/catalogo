@@ -41,6 +41,14 @@
         "giftcard_name": "METROWONG2",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/3.png",
         "sort": 1
+      },
+      {
+        "id": 223,
+        "name": "Wong_GC",
+        "company": "Wong_GC",
+        "giftcard_name": "METROWONG2",
+        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/223.png",
+        "sort": 223
       }
     ]
   },
@@ -207,22 +215,6 @@
         "sort": 9
       },
       {
-        "id": 35,
-        "name": "Tortas Gaby",
-        "company": "Tortas Gaby",
-        "giftcard_name": "TORTASGABY",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/35.png",
-        "sort": 35
-      },
-      {
-        "id": 76,
-        "name": "La Iberica",
-        "company": "La Iberica",
-        "giftcard_name": "LAIBERICA",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/76.png",
-        "sort": 76
-      },
-      {
         "id": 96,
         "name": "Popeyes VC02",
         "company": "Popeyes VC02",
@@ -285,22 +277,6 @@
         "giftcard_name": "SB_VALECORP01",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/113.png",
         "sort": 113
-      },
-      {
-        "id": 117,
-        "name": "Rokys VC70",
-        "company": "Rokys VC70",
-        "giftcard_name": "RK_VALECORP70",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/117.png",
-        "sort": 117
-      },
-      {
-        "id": 118,
-        "name": "Rokys VC75",
-        "company": "Rokys VC75",
-        "giftcard_name": "RK_VALECORP75",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/118.png",
-        "sort": 118
       },
       {
         "id": 122,
@@ -461,6 +437,14 @@
         "giftcard_name": "PJ_VALECORP6",
         "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/217.png",
         "sort": 217
+      },
+      {
+        "id": 219,
+        "name": "Chilis VC 05",
+        "company": "Chilis VC 05",
+        "giftcard_name": "CH_VALECORP05",
+        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/219.png",
+        "sort": 219
       }
     ]
   },

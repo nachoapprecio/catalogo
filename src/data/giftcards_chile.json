@@ -134,22 +134,6 @@
         "giftcard_name": "CASA_IDEAS",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/246.png",
         "sort": 246
-      },
-      {
-        "id": 354,
-        "name": "Ripley Cashback",
-        "company": "Ripley Cashback",
-        "giftcard_name": "RIPLEY_CASHBACK",
-        "image": "https://cdn.dcanje.com/apprecio.pe/giftcards/Ripleyddn_1507_id354.png",
-        "sort": 1
-      },
-      {
-        "id": 443,
-        "name": "Paris_Cashback",
-        "company": "Paris_Cashback",
-        "giftcard_name": "PARIS-JOHNSON",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/apprecio.pe/giftcards/RipleyCLddn_2907_id443.png",
-        "sort": 3
       }
     ]
   },
