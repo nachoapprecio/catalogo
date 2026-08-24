@@ -48,7 +48,7 @@
         "company": "Wong_GC",
         "giftcard_name": "METROWONG2",
         "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/223.png",
-        "sort": 223
+        "sort": 2
       }
     ]
   },
@@ -116,7 +116,7 @@
         "name": "Botica y Salud",
         "company": "Botica y Salud",
         "giftcard_name": "BOTICA_SALUD",
-        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/215.png",
+        "image": "https://cdn.dcanje.com/apprecio.pe/giftcards/Botica_1808_id215.png",
         "sort": 215
       }
     ]
@@ -327,14 +327,6 @@
         "sort": 164
       },
       {
-        "id": 166,
-        "name": "Chilis VC 07",
-        "company": "Chilis VC 07",
-        "giftcard_name": "CH_VALECORP07",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/166.png",
-        "sort": 166
-      },
-      {
         "id": 182,
         "name": "Popeyes VC14",
         "company": "Popeyes VC14",
@@ -391,14 +383,6 @@
         "sort": 198
       },
       {
-        "id": 199,
-        "name": "Madam Tusan VC3",
-        "company": "Madam Tusan VC3",
-        "giftcard_name": "MT_VALECORP3",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/199.png",
-        "sort": 199
-      },
-      {
         "id": 203,
         "name": "La Nacional",
         "company": "La Nacional",
@@ -445,6 +429,14 @@
         "giftcard_name": "CH_VALECORP05",
         "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/219.png",
         "sort": 219
+      },
+      {
+        "id": 220,
+        "name": "Chilis VC 06",
+        "company": "Chilis VC 06",
+        "giftcard_name": "CH_VALECORP06",
+        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/220.png",
+        "sort": 220
       }
     ]
   },

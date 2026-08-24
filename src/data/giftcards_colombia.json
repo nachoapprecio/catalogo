@@ -1,6 +1,6 @@
 [
   {
-    "category": "FIEBRE MUNDIALISTA",
+    "category": "HOT DEALS",
     "giftcards": [
       {
         "id": 67,
@@ -845,14 +845,6 @@
         "sort": 76
       },
       {
-        "id": 77,
-        "name": "Combo 3 Dunkin Donuts",
-        "company": "Combo 3 Dunkin Donuts",
-        "giftcard_name": "DD_COMBO3DONUTS",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/77.png",
-        "sort": 77
-      },
-      {
         "id": 78,
         "name": "Combo 6 Dunkin Donuts",
         "company": "Combo 6 Dunkin Donuts",
@@ -1083,14 +1075,6 @@
         "giftcard_name": "DD_ICEDLATTE",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/306.png",
         "sort": 306
-      },
-      {
-        "id": 312,
-        "name": "Popsy dos Malteadas",
-        "company": "Popsy dos Malteadas",
-        "giftcard_name": "POPSY_DOSMALTEADAS",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/312.png",
-        "sort": 312
       },
       {
         "id": 313,
