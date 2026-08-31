@@ -606,14 +606,6 @@
         "sort": 209
       },
       {
-        "id": 210,
-        "name": "Koaj",
-        "company": "Koaj",
-        "giftcard_name": "KOAJ",
-        "image": "https://cdn.dcanje.com/apprecio.co/giftcards/Koaj_1807_id210.png",
-        "sort": 210
-      },
-      {
         "id": 211,
         "name": "Surtitodo",
         "company": "Surtitodo",
@@ -843,14 +835,6 @@
         "giftcard_name": "GOYURT",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/76.png",
         "sort": 76
-      },
-      {
-        "id": 78,
-        "name": "Combo 6 Dunkin Donuts",
-        "company": "Combo 6 Dunkin Donuts",
-        "giftcard_name": "DD_COMBO6DONUTS",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/78.png",
-        "sort": 78
       },
       {
         "id": 82,

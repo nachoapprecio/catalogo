@@ -279,6 +279,22 @@
         "sort": 113
       },
       {
+        "id": 117,
+        "name": "Rokys VC70",
+        "company": "Rokys VC70",
+        "giftcard_name": "RK_VALECORP70",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/117.png",
+        "sort": 117
+      },
+      {
+        "id": 118,
+        "name": "Rokys VC75",
+        "company": "Rokys VC75",
+        "giftcard_name": "RK_VALECORP75",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/118.png",
+        "sort": 118
+      },
+      {
         "id": 122,
         "name": "K.F.C. VC05",
         "company": "K.F.C. VC05",
@@ -397,14 +413,6 @@
         "giftcard_name": "CIVITANO",
         "image": "https://cdn.dcanje.com/apprecio.pe/giftcards/Pescados_10-09_id204.png",
         "sort": 204
-      },
-      {
-        "id": 205,
-        "name": "Juicy Lucy",
-        "company": "Juicy Lucy",
-        "giftcard_name": "CIVITANO",
-        "image": "https://cdn.dcanje.com/apprecio.pe/giftcards/JuicyLucy_10-09_id205.png",
-        "sort": 205
       },
       {
         "id": 216,

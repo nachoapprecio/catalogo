@@ -89,6 +89,14 @@
         "giftcard_name": "SUPER_10_API",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/_269.png",
         "sort": 433
+      },
+      {
+        "id": 444,
+        "name": "Mi Club Lider Promoción",
+        "company": "Mi Club Lider Promoción",
+        "giftcard_name": "MI_CLUB_LIDER_PROMO",
+        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/444.png",
+        "sort": 1
       }
     ]
   },
