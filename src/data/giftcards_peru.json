@@ -532,22 +532,6 @@
         "giftcard_name": "CONEY_B",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/170.png",
         "sort": 170
-      },
-      {
-        "id": 218,
-        "name": "Direc TV",
-        "company": "Direc TV",
-        "giftcard_name": "DIREC_TV_PLANTV",
-        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/218.png",
-        "sort": 218
-      },
-      {
-        "id": 221,
-        "name": "Plan Fútbol",
-        "company": "Plan Fútbol",
-        "giftcard_name": "DIREC_TV_PLANFUTBOL",
-        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/221.png",
-        "sort": 221
       }
     ]
   }

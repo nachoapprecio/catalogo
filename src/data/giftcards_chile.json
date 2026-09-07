@@ -91,12 +91,20 @@
         "sort": 433
       },
       {
-        "id": 444,
-        "name": "Mi Club Lider Promoción",
-        "company": "Mi Club Lider Promoción",
-        "giftcard_name": "MI_CLUB_LIDER_PROMO",
-        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/444.png",
-        "sort": 1
+        "id": 451,
+        "name": "SPID",
+        "company": "SPID",
+        "giftcard_name": "EASY-JUMBO",
+        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/451.png",
+        "sort": 451
+      },
+      {
+        "id": 452,
+        "name": "Don Salva",
+        "company": "Don Salva",
+        "giftcard_name": "EASY-JUMBO",
+        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/452.png",
+        "sort": 452
       }
     ]
   },
@@ -612,14 +620,6 @@
         "giftcard_name": "BUIN_ZOO_ESTACIONAMIENTO",
         "image": "https://cdn.dcanje.com/dcanje.com/giftcards/425.png",
         "sort": 425
-      },
-      {
-        "id": 439,
-        "name": "DirecTV",
-        "company": "DirecTV",
-        "giftcard_name": "DIRECTV_PLANTV",
-        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/439.png",
-        "sort": 439
       },
       {
         "id": 441,

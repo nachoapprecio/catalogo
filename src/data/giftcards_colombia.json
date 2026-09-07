@@ -65,14 +65,6 @@
         "giftcard_name": "FALABELLA_EVENTO",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/284.png",
         "sort": 284
-      },
-      {
-        "id": 287,
-        "name": "DirecTV",
-        "company": "DirecTV",
-        "giftcard_name": "DIREC_TV",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/287.png",
-        "sort": 287
       }
     ]
   },
@@ -190,6 +182,14 @@
         "giftcard_name": "MAKRO",
         "image": "https://cdn.dcanje.com/apprecio.co/giftcards/Makro_0408_id243.png",
         "sort": 243
+      },
+      {
+        "id": 328,
+        "name": "ARA2",
+        "company": "ARA2",
+        "giftcard_name": "ARA2",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/328.png",
+        "sort": 328
       }
     ]
   },
@@ -251,6 +251,14 @@
         "giftcard_name": "FALABELLA_TODO2",
         "image": "https://cdn.dcanje.com/dcanje.co/giftcards/321.png",
         "sort": 321
+      },
+      {
+        "id": 330,
+        "name": "PPGANGA_2",
+        "company": "PPGANGA_2",
+        "giftcard_name": "PPGANGA_2",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/330.png",
+        "sort": 330
       }
     ]
   },
@@ -686,6 +694,14 @@
         "sort": 304
       },
       {
+        "id": 307,
+        "name": "Surtitodo Ogloba",
+        "company": "Surtitodo Ogloba",
+        "giftcard_name": "SURTITODO_API",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/307.png",
+        "sort": 307
+      },
+      {
         "id": 309,
         "name": "Nike",
         "company": "Nike",
@@ -718,12 +734,12 @@
         "sort": 319
       },
       {
-        "id": 322,
-        "name": "Arturo Calle",
-        "company": "Arturo Calle",
-        "giftcard_name": "ARTURO_CALLE",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/322.png",
-        "sort": 322
+        "id": 329,
+        "name": "Converse",
+        "company": "Converse",
+        "giftcard_name": "CONVERSE_API",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/329.png",
+        "sort": 329
       }
     ]
   },
@@ -941,14 +957,6 @@
         "sort": 248
       },
       {
-        "id": 249,
-        "name": "Presto",
-        "company": "Presto",
-        "giftcard_name": "PRESTO_GC",
-        "image": "https://cdn.dcanje.com/apprecio.co/giftcards/Presto_1304_id249.png",
-        "sort": 249
-      },
-      {
         "id": 250,
         "name": "Oma",
         "company": "Oma",
@@ -1005,28 +1013,12 @@
         "sort": 290
       },
       {
-        "id": 299,
-        "name": "1 Dunkin Donuts",
-        "company": "1 Dunkin Donuts",
-        "giftcard_name": "DD_COMBO1DONUTS",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/299.png",
-        "sort": 299
-      },
-      {
         "id": 300,
         "name": "Combo Sandwich Dunkin Donuts",
         "company": "Combo Sandwich Dunkin Donuts",
         "giftcard_name": "DD_COMBOSANDWICH",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/300.png",
         "sort": 300
-      },
-      {
-        "id": 301,
-        "name": "Combo 12 Dunkin Donuts",
-        "company": "Combo 12 Dunkin Donuts",
-        "giftcard_name": "DD_COMBO12DONUTS",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/301.png",
-        "sort": 301
       },
       {
         "id": 302,
@@ -1059,14 +1051,6 @@
         "giftcard_name": "DD_ICEDLATTE",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/306.png",
         "sort": 306
-      },
-      {
-        "id": 313,
-        "name": "Popsy 2 Conos 1 Sabor",
-        "company": "Popsy 2 Conos 1 Sabor",
-        "giftcard_name": "POPSY_DOSCONOSUNABOLA",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/313.png",
-        "sort": 313
       },
       {
         "id": 316,
