@@ -182,14 +182,6 @@
         "giftcard_name": "MAKRO",
         "image": "https://cdn.dcanje.com/apprecio.co/giftcards/Makro_0408_id243.png",
         "sort": 243
-      },
-      {
-        "id": 328,
-        "name": "ARA2",
-        "company": "ARA2",
-        "giftcard_name": "ARA2",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/328.png",
-        "sort": 328
       }
     ]
   },
@@ -486,19 +478,6 @@
     ]
   },
   {
-    "category": "E-COMMERCE",
-    "giftcards": [
-      {
-        "id": 40,
-        "name": "PEPE_GANGADIGITAL",
-        "company": "PEPE_GANGADIGITAL",
-        "giftcard_name": "PPGANGA_DIGITAL",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/40.png",
-        "sort": 40
-      }
-    ]
-  },
-  {
     "category": "MODA Y ACCESORIOS",
     "giftcards": [
       {
@@ -686,14 +665,6 @@
         "sort": 278
       },
       {
-        "id": 304,
-        "name": "Nike_1",
-        "company": "Nike_1",
-        "giftcard_name": "NIKE_OGLOBA",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/304.png",
-        "sort": 304
-      },
-      {
         "id": 307,
         "name": "Surtitodo Ogloba",
         "company": "Surtitodo Ogloba",
@@ -732,6 +703,14 @@
         "giftcard_name": "BUCARAMANGA_API",
         "image": "https://cdn.dcanje.com/dcanje.co/giftcards/319.png",
         "sort": 319
+      },
+      {
+        "id": 322,
+        "name": "Arturo Calle",
+        "company": "Arturo Calle",
+        "giftcard_name": "ARTURO_CALLE",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/322.png",
+        "sort": 322
       },
       {
         "id": 329,
@@ -801,6 +780,14 @@
         "giftcard_name": "PARKING_60",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/255.png",
         "sort": 255
+      },
+      {
+        "id": 325,
+        "name": "PRIMAX",
+        "company": "PRIMAX",
+        "giftcard_name": "PRIMAX_CAT",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/325.png",
+        "sort": 325
       }
     ]
   },
