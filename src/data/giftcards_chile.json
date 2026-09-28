@@ -59,6 +59,14 @@
         "sort": 349
       },
       {
+        "id": 423,
+        "name": "Membresía Jumbo",
+        "company": "Membresía Jumbo",
+        "giftcard_name": "JUMBO_PRIME",
+        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/423.png",
+        "sort": 423
+      },
+      {
         "id": 429,
         "name": "Unimarc SMU",
         "company": "Unimarc SMU",
@@ -89,14 +97,6 @@
         "giftcard_name": "SUPER_10_API",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/_269.png",
         "sort": 433
-      },
-      {
-        "id": 444,
-        "name": "Mi Club Lider Promoción",
-        "company": "Mi Club Lider Promoción",
-        "giftcard_name": "MI_CLUB_LIDER_PROMO",
-        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/444.png",
-        "sort": 1
       },
       {
         "id": 451,
@@ -158,14 +158,59 @@
         "giftcard_name": "CASA_IDEAS",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/246.png",
         "sort": 246
+      }
+    ]
+  },
+  {
+    "category": "COMBUSTIBLE",
+    "giftcards": [
+      {
+        "id": 445,
+        "name": "Puntos Full Copec 30",
+        "company": "Puntos Full Copec 30",
+        "giftcard_name": "FULL_COPEC_30",
+        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/445.png",
+        "sort": 445
       },
       {
-        "id": 354,
-        "name": "Ripley Cashback",
-        "company": "Ripley Cashback",
-        "giftcard_name": "RIPLEY_CASHBACK",
-        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/354.png",
-        "sort": 1
+        "id": 446,
+        "name": "Puntos Full Copec 10",
+        "company": "Puntos Full Copec 10",
+        "giftcard_name": "FULL_COPEC_10",
+        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/446.png",
+        "sort": 446
+      },
+      {
+        "id": 447,
+        "name": "Puntos Full Copec 20",
+        "company": "Puntos Full Copec 20",
+        "giftcard_name": "FULL_COPEC_20",
+        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/447.png",
+        "sort": 447
+      },
+      {
+        "id": 448,
+        "name": "Puntos Full Copec 5",
+        "company": "Puntos Full Copec 5",
+        "giftcard_name": "FULL_COPEC_5",
+        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/448.png",
+        "sort": 448
+      },
+      {
+        "id": 449,
+        "name": "Puntos Full Copec 50",
+        "company": "Puntos Full Copec 50",
+        "giftcard_name": "FULL_COPEC_50",
+        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/449.png",
+        "sort": 449
+      },
+      {
+        "id": 450,
+        "name": "Puntos Full Copec 100",
+        "company": "Puntos Full Copec 100",
+        "giftcard_name": "FULL_COPEC_100",
+        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/450.png",
+        "sort": 450
       }
     ]
   },
@@ -566,14 +611,6 @@
         "sort": 291
       },
       {
-        "id": 316,
-        "name": "BUIN ZOO Entrada General",
-        "company": "BUIN ZOO Entrada General",
-        "giftcard_name": "BUIN_ZOO_GENERAL",
-        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/316.png",
-        "sort": 316
-      },
-      {
         "id": 326,
         "name": "Casanova",
         "company": "Casanova",
@@ -614,22 +651,6 @@
         "sort": 377
       },
       {
-        "id": 424,
-        "name": "Buin Zoo Entrada + Marino",
-        "company": "Buin Zoo Entrada + Marino",
-        "giftcard_name": "BUIN_ZOO_MARINO",
-        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/424.png",
-        "sort": 424
-      },
-      {
-        "id": 425,
-        "name": "Buin Zoo Estacionamiento",
-        "company": "Buin Zoo Estacionamiento",
-        "giftcard_name": "BUIN_ZOO_ESTACIONAMIENTO",
-        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/425.png",
-        "sort": 425
-      },
-      {
         "id": 441,
         "name": "Chuck Cheese 35",
         "company": "Chuck Cheese 35",
@@ -657,14 +678,6 @@
         "giftcard_name": "PROTEMAX",
         "image": "https://cdn.dcanje.com/dcanje.com/giftcards/10.png",
         "sort": 21
-      },
-      {
-        "id": 60,
-        "name": "Apprecio",
-        "company": "Apprecio",
-        "giftcard_name": "DCANJE",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/30.png",
-        "sort": 500
       }
     ]
   },

@@ -3,6 +3,30 @@
     "category": "SUPERMERCADOS Y MINIMARKET",
     "giftcards": [
       {
+        "id": 77,
+        "name": "Vale de Pavo 7kg",
+        "company": "Vale de Pavo 7kg",
+        "giftcard_name": "7KGDEPAVO",
+        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/77.png",
+        "sort": 77
+      },
+      {
+        "id": 101,
+        "name": "Vale de Pavo 8kg",
+        "company": "Vale de Pavo 8kg",
+        "giftcard_name": "8KGDEPAVO",
+        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/101.png",
+        "sort": 101
+      },
+      {
+        "id": 139,
+        "name": "Vale de Pavo 9kg",
+        "company": "Vale de Pavo 9kg",
+        "giftcard_name": "9KGDEPAVO",
+        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/139.png",
+        "sort": 139
+      },
+      {
         "id": 206,
         "name": "Vega",
         "company": "Vega",
