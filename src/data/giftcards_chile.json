@@ -627,14 +627,6 @@
         "sort": 365
       },
       {
-        "id": 369,
-        "name": "HAPPYLAND",
-        "company": "HAPPYLAND",
-        "giftcard_name": "HAPPYLAND",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/369.png",
-        "sort": 369
-      },
-      {
         "id": 376,
         "name": "CINE Entrada 2D",
         "company": "CINE Entrada 2D",
@@ -678,6 +670,14 @@
         "giftcard_name": "PROTEMAX",
         "image": "https://cdn.dcanje.com/dcanje.com/giftcards/10.png",
         "sort": 21
+      },
+      {
+        "id": 60,
+        "name": "Apprecio",
+        "company": "Apprecio",
+        "giftcard_name": "DCANJE",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/30.png",
+        "sort": 500
       }
     ]
   },
@@ -784,38 +784,6 @@
         "giftcard_name": "ATRAPALO",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/276.png",
         "sort": 276
-      },
-      {
-        "id": 409,
-        "name": "Big Box",
-        "company": "Big Box",
-        "giftcard_name": "BIG_BOX",
-        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/409.png",
-        "sort": 409
-      },
-      {
-        "id": 420,
-        "name": "Safe Silver90",
-        "company": "Safe Silver90",
-        "giftcard_name": "SF_SILVER90",
-        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/420.png",
-        "sort": 420
-      },
-      {
-        "id": 421,
-        "name": "Safe Platinum 160",
-        "company": "Safe Platinum 160",
-        "giftcard_name": "SF_PLATINUM160",
-        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/421.png",
-        "sort": 421
-      },
-      {
-        "id": 422,
-        "name": "Safe Black 300",
-        "company": "Safe Black 300",
-        "giftcard_name": "SF_BLACK300",
-        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/422.png",
-        "sort": 422
       }
     ]
   },

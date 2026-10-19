@@ -287,6 +287,14 @@
         "sort": 110
       },
       {
+        "id": 112,
+        "name": "Pizza Hut VC06",
+        "company": "Pizza Hut VC06",
+        "giftcard_name": "PH_VALECORP6",
+        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/112.png",
+        "sort": 112
+      },
+      {
         "id": 113,
         "name": "Starbucks VC01",
         "company": "Starbucks VC01",
@@ -532,6 +540,30 @@
         "giftcard_name": "CONEY_B",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.pe/giftcards/170.png",
         "sort": 170
+      },
+      {
+        "id": 224,
+        "name": "DGO Disney",
+        "company": "DGO Disney",
+        "giftcard_name": "DIREC_TV_PLANTV",
+        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/224.png",
+        "sort": 224
+      },
+      {
+        "id": 225,
+        "name": "DGO Dsports",
+        "company": "DGO Dsports",
+        "giftcard_name": "DIREC_TV_PLANTV",
+        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/225.png",
+        "sort": 225
+      },
+      {
+        "id": 226,
+        "name": "DGO Prime",
+        "company": "DGO Prime",
+        "giftcard_name": "DIREC_TV_PLANTV",
+        "image": "https://cdn.dcanje.com/dcanje.pe/giftcards/226.png",
+        "sort": 226
       }
     ]
   }
