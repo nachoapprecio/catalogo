@@ -372,14 +372,6 @@
         "sort": 172
       },
       {
-        "id": 173,
-        "name": "Cinemark 3D",
-        "company": "Cinemark 3D",
-        "giftcard_name": "CINEMARK_ENT3D",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/173.png",
-        "sort": 173
-      },
-      {
         "id": 174,
         "name": "Cinemark Combo 1",
         "company": "Cinemark Combo 1",
@@ -420,20 +412,20 @@
         "sort": 221
       },
       {
-        "id": 225,
-        "name": "ROYAL FILMS COMIDA",
-        "company": "ROYAL FILMS COMIDA",
-        "giftcard_name": "ROYAL_FILMS_COMIDA",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/225.png",
-        "sort": 225
-      },
-      {
         "id": 317,
         "name": "Libreria de la U",
         "company": "Libreria de la U",
         "giftcard_name": "LIBRERIA_U",
         "image": "https://cdn.dcanje.com/dcanje.co/giftcards/317.png",
         "sort": 317
+      },
+      {
+        "id": 331,
+        "name": "Rompecabezas",
+        "company": "Rompecabezas",
+        "giftcard_name": "ROMPECABEZAS",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/331.png",
+        "sort": 331
       },
       {
         "id": 336,
@@ -623,6 +615,14 @@
         "giftcard_name": "SURTITODO_API",
         "image": "https://cdn.dcanje.com/dcanje.co/giftcards/307.png",
         "sort": 307
+      },
+      {
+        "id": 308,
+        "name": "Sport Line",
+        "company": "Sport Line",
+        "giftcard_name": "SPORTLINE_API",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/308.png",
+        "sort": 308
       },
       {
         "id": 309,
@@ -1062,6 +1062,14 @@
         "giftcard_name": "QBANO",
         "image": "https://cdn.dcanje.com/dcanje.co/giftcards/316.png",
         "sort": 316
+      },
+      {
+        "id": 335,
+        "name": "PPC",
+        "company": "PPC",
+        "giftcard_name": "PPC",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/335.png",
+        "sort": 335
       }
     ]
   },
@@ -1083,6 +1091,14 @@
         "giftcard_name": "CENCOSUD",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/12.png",
         "sort": 12
+      },
+      {
+        "id": 311,
+        "name": "Panamericana",
+        "company": "Panamericana",
+        "giftcard_name": "PANAMERICANA_API",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/311.png",
+        "sort": 311
       }
     ]
   }

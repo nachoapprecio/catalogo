@@ -67,38 +67,6 @@
         "sort": 423
       },
       {
-        "id": 429,
-        "name": "Unimarc SMU",
-        "company": "Unimarc SMU",
-        "giftcard_name": "SMU_API",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/_31.png",
-        "sort": 429
-      },
-      {
-        "id": 431,
-        "name": "Mayorista_10",
-        "company": "Mayorista_10",
-        "giftcard_name": "MAYORISTA10_API",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/_29.png",
-        "sort": 431
-      },
-      {
-        "id": 432,
-        "name": "Alvi SMU",
-        "company": "Alvi SMU",
-        "giftcard_name": "ALVI_API",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/_230.png",
-        "sort": 432
-      },
-      {
-        "id": 433,
-        "name": "Super_10",
-        "company": "Super_10",
-        "giftcard_name": "SUPER_10_API",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.cl/giftcards/_269.png",
-        "sort": 433
-      },
-      {
         "id": 451,
         "name": "SPID",
         "company": "SPID",
@@ -158,6 +126,14 @@
         "giftcard_name": "CASA_IDEAS",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.com/giftcards/246.png",
         "sort": 246
+      },
+      {
+        "id": 354,
+        "name": "Ripley Cashback",
+        "company": "Ripley Cashback",
+        "giftcard_name": "RIPLEY_CASHBACK",
+        "image": "https://cdn.dcanje.com/dcanje.com/giftcards/354.png",
+        "sort": 1
       }
     ]
   },
