@@ -19,12 +19,28 @@
         "sort": 48
       },
       {
+        "id": 191,
+        "name": "Popsy Maxicono",
+        "company": "Popsy Maxicono",
+        "giftcard_name": "POPSY_MAXICONO",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/191.png",
+        "sort": 191
+      },
+      {
         "id": 197,
         "name": "Decathlon",
         "company": "Decathlon",
         "giftcard_name": "DECATHLON",
         "image": "https://cdn.dcanje.com/dcanje.co/giftcards/197.png",
         "sort": 197
+      },
+      {
+        "id": 206,
+        "name": "Popsy Litro de Helado",
+        "company": "Popsy Litro de Helado",
+        "giftcard_name": "POPSY_1LHELADO",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/206.png",
+        "sort": 206
       },
       {
         "id": 280,
@@ -357,6 +373,14 @@
         "giftcard_name": "SUPER_WOW_API",
         "image": "https://cdn.dcanje.com/dcanje.co/giftcards/320.png",
         "sort": 320
+      },
+      {
+        "id": 349,
+        "name": "Smart Fit Plan Black",
+        "company": "Smart Fit Plan Black",
+        "giftcard_name": "SMART_FIT",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/349.png",
+        "sort": 349
       }
     ]
   },
@@ -378,14 +402,6 @@
         "giftcard_name": "CINEMARK_ENT2D",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/172.png",
         "sort": 172
-      },
-      {
-        "id": 173,
-        "name": "Cinemark 3D",
-        "company": "Cinemark 3D",
-        "giftcard_name": "CINEMARK_ENT3D",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/173.png",
-        "sort": 173
       },
       {
         "id": 174,
@@ -543,14 +559,6 @@
         "giftcard_name": "DOTACION_EXITO",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/159.png",
         "sort": 159
-      },
-      {
-        "id": 189,
-        "name": "Spring Step",
-        "company": "Spring Step",
-        "giftcard_name": "SPRING_STEP",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/189.png",
-        "sort": 189
       },
       {
         "id": 196,
@@ -896,14 +904,6 @@
         "sort": 190
       },
       {
-        "id": 191,
-        "name": "Popsy Maxicono",
-        "company": "Popsy Maxicono",
-        "giftcard_name": "POPSY_MAXICONO",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/191.png",
-        "sort": 191
-      },
-      {
         "id": 192,
         "name": "Popsy Malteada",
         "company": "Popsy Malteada",
@@ -926,14 +926,6 @@
         "giftcard_name": "EL_CORRAL",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/198.png",
         "sort": 198
-      },
-      {
-        "id": 206,
-        "name": "Popsy Litro de Helado",
-        "company": "Popsy Litro de Helado",
-        "giftcard_name": "POPSY_1LHELADO",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/206.png",
-        "sort": 206
       },
       {
         "id": 240,
@@ -966,14 +958,6 @@
         "giftcard_name": "BURGER_KING",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/248.png",
         "sort": 248
-      },
-      {
-        "id": 250,
-        "name": "Oma",
-        "company": "Oma",
-        "giftcard_name": "OMA_GC",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/250.png",
-        "sort": 250
       },
       {
         "id": 259,
