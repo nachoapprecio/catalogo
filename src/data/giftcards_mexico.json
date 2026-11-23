@@ -109,6 +109,14 @@
         "sort": 48
       },
       {
+        "id": 59,
+        "name": "Uber Eats Mx",
+        "company": "Uber Eats Mx",
+        "giftcard_name": "UBER_EATS_MX",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/60.png",
+        "sort": 59
+      },
+      {
         "id": 72,
         "name": "Moyo",
         "company": "Moyo",
@@ -406,6 +414,19 @@
         "giftcard_name": "CLUB_PLATINO",
         "image": "https://cdn.dcanje.com/dcanje.mx/giftcards/78.png",
         "sort": 78
+      }
+    ]
+  },
+  {
+    "category": "SERVICIOS",
+    "giftcards": [
+      {
+        "id": 60,
+        "name": "Uber Ride",
+        "company": "Uber Ride",
+        "giftcard_name": "UBER_RIDER",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.mx/giftcards/59.png",
+        "sort": 60
       }
     ]
   },

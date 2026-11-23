@@ -51,14 +51,6 @@
         "sort": 280
       },
       {
-        "id": 290,
-        "name": "Popsy Cono Fiore",
-        "company": "Popsy Cono Fiore",
-        "giftcard_name": "CONO_FIORE",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/290.png",
-        "sort": 290
-      },
-      {
         "id": 332,
         "name": "DGO Disney",
         "company": "DGO Disney",
@@ -190,14 +182,6 @@
         "giftcard_name": "ISIMO",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/230.png",
         "sort": 230
-      },
-      {
-        "id": 243,
-        "name": "MAKRO",
-        "company": "MAKRO",
-        "giftcard_name": "MAKRO",
-        "image": "https://cdn.dcanje.com/apprecio.co/giftcards/Makro_0408_id243.png",
-        "sort": 243
       }
     ]
   },
@@ -436,14 +420,6 @@
         "sort": 220
       },
       {
-        "id": 221,
-        "name": "ROYAL FILMS E2D",
-        "company": "ROYAL FILMS E2D",
-        "giftcard_name": "ROYAL_FILMS_E2D",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/221.png",
-        "sort": 221
-      },
-      {
         "id": 231,
         "name": "ROYAL_FILMS_COMIDA2",
         "company": "ROYAL_FILMS_COMIDA2",
@@ -561,20 +537,20 @@
         "sort": 159
       },
       {
+        "id": 189,
+        "name": "Spring Step",
+        "company": "Spring Step",
+        "giftcard_name": "SPRING_STEP",
+        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/189.png",
+        "sort": 189
+      },
+      {
         "id": 196,
         "name": "Totto",
         "company": "Totto",
         "giftcard_name": "TOTTO",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/196.png",
         "sort": 196
-      },
-      {
-        "id": 209,
-        "name": "New Balance",
-        "company": "New Balance",
-        "giftcard_name": "NEW_BALANCE",
-        "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/209.png",
-        "sort": 209
       },
       {
         "id": 211,
@@ -633,12 +609,12 @@
         "sort": 273
       },
       {
-        "id": 278,
-        "name": "Gift Card KOAJ",
-        "company": "Gift Card KOAJ",
-        "giftcard_name": "KOAJ_API",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/278.png",
-        "sort": 278
+        "id": 277,
+        "name": "New_Balance",
+        "company": "New_Balance",
+        "giftcard_name": "NEW_BALANCE_API",
+        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/277.png",
+        "sort": 277
       },
       {
         "id": 307,
@@ -889,8 +865,8 @@
       },
       {
         "id": 137,
-        "name": "Domino´s",
-        "company": "Domino´s",
+        "name": "Domino's",
+        "company": "Domino's",
         "giftcard_name": "DOMINOS",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/137.png",
         "sort": 137
@@ -966,14 +942,6 @@
         "giftcard_name": "BUFFALO_WINGS",
         "image": "https://storage.googleapis.com/cdnbw/cdn/dcanje.co/giftcards/259.png",
         "sort": 259
-      },
-      {
-        "id": 275,
-        "name": "Burger_King",
-        "company": "Burger_King",
-        "giftcard_name": "BURGER_KING_API",
-        "image": "https://cdn.dcanje.com/dcanje.co/giftcards/275.png",
-        "sort": 275
       },
       {
         "id": 276,
